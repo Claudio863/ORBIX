@@ -1,0 +1,2 @@
+componente,N,k,gl,chi2,chi2_red,rms_residuo,media_residuo,max_abs_z,run_id,sistema,tipo,esquema,modelo,epoch_format_in,epoch_format_work,epoch_format_out,P_init_fuente
+v1,37,6,31,354.5002259972607,11.43549116120196,5.8351032634547515,0.030516603634015805,10.508520722714245,HD50526_SB1_free,HD50526,SB1,free,sb1_K,HJD,RJD,RJD,lomb-scargle

@@ -1,0 +1,51 @@
+{
+  "condicion": "SB2_e85_cubierto",
+  "tipo": "SB2",
+  "ancla": "HIP20601",
+  "e": 0.85,
+  "cobertura": "cubierto",
+  "bloque": "control_factorial",
+  "repeticion": 6,
+  "caso": "V2_066",
+  "numero": 66,
+  "carpeta": "C:\\Users\\claud\\OneDrive\\Desktop\\info\\Tesis\\code_tesis\\validacion_orbix\\simulaciones_100_v2_20261028\\casos\\V2_066",
+  "archivos": {
+    "v1": "C:\\Users\\claud\\OneDrive\\Desktop\\info\\Tesis\\code_tesis\\validacion_orbix\\simulaciones_100_v2_20261028\\casos\\V2_066\\datos_v1.csv",
+    "v2": "C:\\Users\\claud\\OneDrive\\Desktop\\info\\Tesis\\code_tesis\\validacion_orbix\\simulaciones_100_v2_20261028\\casos\\V2_066\\datos_v2.csv"
+  },
+  "semilla_ruido": [
+    2026102802,
+    1,
+    66
+  ],
+  "semillas_busqueda": [
+    2026103463,
+    2026103464
+  ],
+  "semilla_nuts": 2026112868,
+  "auditoria": [
+    {
+      "componente": "v1",
+      "N": 75,
+      "base_sobre_P": 5.0,
+      "mediana_sigma": 0.843,
+      "K_sobre_sigma": 43.29774614472124,
+      "puntos_periastro_45": 2
+    },
+    {
+      "componente": "v2",
+      "N": 16,
+      "base_sobre_P": 3.8515649955522626,
+      "mediana_sigma": 0.2155,
+      "K_sobre_sigma": 225.05800464037122,
+      "puntos_periastro_45": 2
+    }
+  ],
+  "fuente_verdad": "Escalas P/e/omega/V0/K de config vigente. HIP109951 K=(maxRV-minRV)/2, escala ilustrativa; no medición publicada.",
+  "fuente_tiempos": "data/HIP20601/component_1.csv",
+  "fuente_errores": "Errores individuales originales; en controles se preservan N y errores y se modifican las fechas.",
+  "hashes_datos": {
+    "v1": "fe19a1a93e35c0c039c4dba20c5d7a48c3b85b28b511d1eb99dfe6e9985edefb",
+    "v2": "464f72d12f68a79b2c0968119a4f56053ec4d9e66040c786d57e4d46a4e37471"
+  }
+}

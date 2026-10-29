@@ -1,0 +1,33 @@
+{
+  "caso": "V2_011",
+  "condicion": "OBS_HIP20601",
+  "bloque": "cadencia_observada",
+  "tipo": "SB2",
+  "estado": "ok",
+  "verdad_en_soporte": true,
+  "segundos_ls": 0.02065049999509938,
+  "segundos_preproceso_global": 160.07653259999643,
+  "referencia_lp": -37.38787506579205,
+  "referencia_es_optimo_global_certificado": false,
+  "evaluacion_verdad": {
+    "lp_recalculado": -39.63398064167914,
+    "gradiente_inf": 136869.0005580435
+  },
+  "n_cadenas": 4,
+  "n_muestras": 4000,
+  "divergencias": 0,
+  "treedepth_max": 0,
+  "ebfmi_min": 0.9839015231967968,
+  "R_hat_max": 1.010742930295095,
+  "ESS_bulk_min": 558.5051738557062,
+  "ESS_tail_min": 675.4514991462687,
+  "soporte_ok": true,
+  "flag_rhat": true,
+  "flag_divergencias": false,
+  "flag_ebfmi": false,
+  "convergencia_ok": false,
+  "chi2_red": 0.8064458053601364,
+  "diagnosticos_estrictos_ok": false,
+  "segundos_nuts": 721.0326055000041,
+  "segundos_totales": 1334.3404628999997
+}

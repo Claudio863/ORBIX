@@ -1,0 +1,48 @@
+{
+  "ajustes": {
+    "n_inicios_SB1": 200,
+    "n_inicios_SB2": 300,
+    "algoritmo": "lbfgs",
+    "iter_opt": 4000,
+    "tol_obj": 1e-06,
+    "tol_grad": 1e-06,
+    "tol_param": 1e-06,
+    "history_size": 20,
+    "cadenas": 4,
+    "iter_warmup": 1000,
+    "iter_sampling": 1000,
+    "adapt_delta": 0.95,
+    "max_treedepth": 15,
+    "semilla": 20261005,
+    "umbral_rhat": 1.01,
+    "hdi_prob": 0.95,
+    "siembra_P": "global",
+    "k_picos": 8,
+    "frac_picos": 0.6,
+    "refinar_picos": true,
+    "n_frecuencias_refino": 41,
+    "sig_figs": 18,
+    "umbral_chi2": 5.0,
+    "extra": {
+      "timeout_opt": 60,
+      "timeout_sample": 1800
+    }
+  },
+  "workers": 2,
+  "regla": "No cambiar modelos, datos, priors ni valores fijados para rescatar ajustes. Reusar cuatro corridas corregidas; completar 32. Preservar fallos y alertas.",
+  "fuentes": {
+    "code_tesis\\ORBIX\\app\\src\\Variaciones_stan\\sb1_K.stan": "be1fe41ec705dc70be18f562f8cdfedae8dc5986854a81413027232e69f30f4a",
+    "code_tesis\\ORBIX\\app\\src\\Variaciones_stan\\sb1_K_fix_e.stan": "ecfe0219d649f3618584642685fc0ec6586173ab30b4a79a005924d08a790a2f",
+    "code_tesis\\ORBIX\\app\\src\\Variaciones_stan\\sb1_K_fix_eP.stan": "b4621e8207cd218e923770986f6c9ea76e01558b6c3c6989e3d6a3f785a00693",
+    "code_tesis\\ORBIX\\app\\src\\Variaciones_stan\\sb1_K_fix_P.stan": "facd36a2172fd484ebaeaa169808292e40ca0ed22a46c1be6bfcdb704048b2e1",
+    "code_tesis\\ORBIX\\app\\src\\Variaciones_stan\\sb2_K.stan": "2f68fee1b2fdd51e12146689c5f61a3883430fc32ee0d928cba395a3eebad614",
+    "code_tesis\\ORBIX\\app\\src\\Variaciones_stan\\sb2_K_fix_e.stan": "4a6417dc60402b3520acffca5021770e7251e7c58b776459f46080afd00ca4d0",
+    "code_tesis\\ORBIX\\app\\src\\Variaciones_stan\\sb2_K_fix_eP.stan": "b25d3101f3536df3f642682a3c0000b52a4cfbf7a0d822d289314288657b43b4",
+    "code_tesis\\ORBIX\\app\\src\\Variaciones_stan\\sb2_K_fix_P.stan": "7671b6ad4017422b9d4ca8072e3630a3cd38bf4395568255c0cb6491244485ad",
+    "code_tesis\\ORBIX\\app\\src\\Variaciones_stan\\kepler_eq.hpp": "3daee8187ff238396ca07c9b850aa3a3666bcae19355435e121114c6ab7a295c",
+    "code_tesis\\ORBIX\\corrida_masiva\\orbix\\ajuste.py": "d6d3b36bc8423c24e9867acde5c1672eabe1cfbd1374316af545ee4181598e19",
+    "code_tesis\\ORBIX\\corrida_masiva\\orbix\\config.py": "c10a86b22c79d393d712d6ae487047ea334089f488390d034656650b6d55d25f",
+    "code_tesis\\ORBIX\\corrida_masiva\\resultados\\observados_final_20261029\\config\\sistemas.csv": "9ba53b3167a5951785c68d3235be676071135cbd78cf5110b5638b8e03b8a7af",
+    "code_tesis\\ORBIX\\corrida_masiva\\resultados\\observados_final_20261029\\config\\priors.csv": "bbc450206f9efbefb665488ead0aa97a6a3112eb0eedbc9bbd5346d2825e1acf"
+  }
+}

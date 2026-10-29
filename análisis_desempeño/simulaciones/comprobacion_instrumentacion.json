@@ -1,0 +1,12 @@
+[
+  {
+    "finito": true,
+    "terminacion_normal": true,
+    "terminacion_error": false,
+    "lp": -1.788434181212427,
+    "P_final": 83.21450501249176,
+    "e_final": 0.24925531209027138,
+    "lp_recalculado": -1.7884341812125695,
+    "gradiente_inf": 0.3336976315369321
+  }
+]

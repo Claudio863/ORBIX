@@ -1,0 +1,26 @@
+[
+  {
+    "run_id": "2MASS_J05215658+4359220_SB1_free",
+    "entradas_coinciden": true,
+    "modelo_version": "fase_acotada_tref_ponderado_20261027",
+    "sha256": "ca9d16ba5b60004dd38673b275e7d6bfaf3cbc25b3f0ccb2e48f4588b7a42fe9"
+  },
+  {
+    "run_id": "2MASS_J05215658+4359220_SB1_fix_P",
+    "entradas_coinciden": true,
+    "modelo_version": "fase_acotada_tref_ponderado_20261027",
+    "sha256": "e4d2da86d04adfae863682f8bf231e46af2655c90ec5d4beb7ca711ea4b1efbe"
+  },
+  {
+    "run_id": "HIP20601_SB2_free",
+    "entradas_coinciden": true,
+    "modelo_version": "fase_acotada_tref_ponderado_20261027",
+    "sha256": "55611fb2621dce4cc0e66d9b71b34df31de2f53bca3a5db3d8c4318d3c4473e2"
+  },
+  {
+    "run_id": "HIP14157_SB2_free",
+    "entradas_coinciden": true,
+    "modelo_version": "fase_acotada_tref_ponderado_20261027",
+    "sha256": "4d3169e4c63409f71339811a17abdfc6703eda9133cc879692a905378ed3e1e3"
+  }
+]

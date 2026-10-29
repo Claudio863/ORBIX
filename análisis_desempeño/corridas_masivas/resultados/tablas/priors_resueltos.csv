@@ -1,0 +1,197 @@
+run_id,sistema,tipo,esquema,parametro,familia,p1_config,p2_config,prior_resuelto,regla,fila_origen,fuente,nota
+HIP109951_SB1_free,HIP109951,SB1,free,P,flat,,,"P ~ LogUniform(5.47582, 82.1373) yr_B","ventana LS 2000-30000 d; flat en log_P, sin jacobiano +log_P",*/*,default ORBIX,uniforme en ventana LS amplia derivada de los datos/config; no centrado en literatura
+HIP109951_SB1_free,HIP109951,SB1,free,e,flat,,,e uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en rango fisico [0, 0.999)"
+HIP109951_SB1_free,HIP109951,SB1,free,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HIP109951_SB1_free,HIP109951,SB1,free,V0,flat,,,"V0 ~ Uniform(-35, -10.41) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HIP109951_SB1_free,HIP109951,SB1,free,K,flat,,,"K ~ Uniform(0, 9.18) km/s",Kmax=2*rango_RV de v1,*/SB1,default ORBIX,uniforme positiva con Kmax amplio desde la escala de RV
+HIP109951_SB1_fix_P,HIP109951,SB1,fix_P,e,flat,,,e uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en rango fisico [0, 0.999)"
+HIP109951_SB1_fix_P,HIP109951,SB1,fix_P,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HIP109951_SB1_fix_P,HIP109951,SB1,fix_P,V0,flat,,,"V0 ~ Uniform(-35, -10.41) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HIP109951_SB1_fix_P,HIP109951,SB1,fix_P,K,flat,,,"K ~ Uniform(0, 9.18) km/s",Kmax=2*rango_RV de v1,*/SB1,default ORBIX,uniforme positiva con Kmax amplio desde la escala de RV
+HIP109951_SB1_fix_P,HIP109951,SB1,fix_P,P,fijo,,,P fijo = 54.796 yr_B,P_lit convertido a la unidad de trabajo; esquema fix_*,,"Videla et al. 2022 AJ 163:220, Tabla 6 (p.19), caso SB1 (MAP)",
+HIP109951_SB1_fix_e,HIP109951,SB1,fix_e,P,flat,,,"P ~ LogUniform(5.47582, 82.1373) yr_B","ventana LS 2000-30000 d; flat en log_P, sin jacobiano +log_P",*/*,default ORBIX,uniforme en ventana LS amplia derivada de los datos/config; no centrado en literatura
+HIP109951_SB1_fix_e,HIP109951,SB1,fix_e,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HIP109951_SB1_fix_e,HIP109951,SB1,fix_e,V0,flat,,,"V0 ~ Uniform(-35, -10.41) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HIP109951_SB1_fix_e,HIP109951,SB1,fix_e,K,flat,,,"K ~ Uniform(0, 9.18) km/s",Kmax=2*rango_RV de v1,*/SB1,default ORBIX,uniforme positiva con Kmax amplio desde la escala de RV
+HIP109951_SB1_fix_e,HIP109951,SB1,fix_e,e,fijo,,,e fijo = 0.407,e_lit; esquema fix_*,,"Videla et al. 2022 AJ 163:220, Tabla 6 (p.19), caso SB1 (MAP)",
+HIP109951_SB1_fix_eP,HIP109951,SB1,fix_eP,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HIP109951_SB1_fix_eP,HIP109951,SB1,fix_eP,V0,flat,,,"V0 ~ Uniform(-35, -10.41) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HIP109951_SB1_fix_eP,HIP109951,SB1,fix_eP,K,flat,,,"K ~ Uniform(0, 9.18) km/s",Kmax=2*rango_RV de v1,*/SB1,default ORBIX,uniforme positiva con Kmax amplio desde la escala de RV
+HIP109951_SB1_fix_eP,HIP109951,SB1,fix_eP,P,fijo,,,P fijo = 54.796 yr_B,P_lit convertido a la unidad de trabajo; esquema fix_*,,"Videla et al. 2022 AJ 163:220, Tabla 6 (p.19), caso SB1 (MAP)",
+HIP109951_SB1_fix_eP,HIP109951,SB1,fix_eP,e,fijo,,,e fijo = 0.407,e_lit; esquema fix_*,,"Videla et al. 2022 AJ 163:220, Tabla 6 (p.19), caso SB1 (MAP)",
+HIP89000_SB1_free,HIP89000,SB1,free,P,flat,,,"P ~ LogUniform(0.0821373, 2.73791) yr_B","ventana LS 30-1000 d; flat en log_P, sin jacobiano +log_P",*/*,default ORBIX,uniforme en ventana LS amplia derivada de los datos/config; no centrado en literatura
+HIP89000_SB1_free,HIP89000,SB1,free,e,flat,,,e uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en rango fisico [0, 0.999)"
+HIP89000_SB1_free,HIP89000,SB1,free,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HIP89000_SB1_free,HIP89000,SB1,free,V0,flat,,,"V0 ~ Uniform(-56.9, 29.2) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HIP89000_SB1_free,HIP89000,SB1,free,K,flat,,,"K ~ Uniform(0, 57.4) km/s",Kmax=2*rango_RV de v1,*/SB1,default ORBIX,uniforme positiva con Kmax amplio desde la escala de RV
+HIP89000_SB1_fix_P,HIP89000,SB1,fix_P,e,flat,,,e uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en rango fisico [0, 0.999)"
+HIP89000_SB1_fix_P,HIP89000,SB1,fix_P,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HIP89000_SB1_fix_P,HIP89000,SB1,fix_P,V0,flat,,,"V0 ~ Uniform(-56.9, 29.2) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HIP89000_SB1_fix_P,HIP89000,SB1,fix_P,K,flat,,,"K ~ Uniform(0, 57.4) km/s",Kmax=2*rango_RV de v1,*/SB1,default ORBIX,uniforme positiva con Kmax amplio desde la escala de RV
+HIP89000_SB1_fix_P,HIP89000,SB1,fix_P,P,fijo,,,P fijo = 0.546 yr_B,P_lit convertido a la unidad de trabajo; esquema fix_*,,"Videla et al. 2022 AJ 163:220, Tabla 2 (p.7), caso SB1 (b) MAP",
+HIP89000_SB1_fix_e,HIP89000,SB1,fix_e,P,flat,,,"P ~ LogUniform(0.0821373, 2.73791) yr_B","ventana LS 30-1000 d; flat en log_P, sin jacobiano +log_P",*/*,default ORBIX,uniforme en ventana LS amplia derivada de los datos/config; no centrado en literatura
+HIP89000_SB1_fix_e,HIP89000,SB1,fix_e,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HIP89000_SB1_fix_e,HIP89000,SB1,fix_e,V0,flat,,,"V0 ~ Uniform(-56.9, 29.2) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HIP89000_SB1_fix_e,HIP89000,SB1,fix_e,K,flat,,,"K ~ Uniform(0, 57.4) km/s",Kmax=2*rango_RV de v1,*/SB1,default ORBIX,uniforme positiva con Kmax amplio desde la escala de RV
+HIP89000_SB1_fix_e,HIP89000,SB1,fix_e,e,fijo,,,e fijo = 0.303,e_lit; esquema fix_*,,"Videla et al. 2022 AJ 163:220, Tabla 2 (p.7), caso SB1 (b) MAP",
+HIP89000_SB1_fix_eP,HIP89000,SB1,fix_eP,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HIP89000_SB1_fix_eP,HIP89000,SB1,fix_eP,V0,flat,,,"V0 ~ Uniform(-56.9, 29.2) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HIP89000_SB1_fix_eP,HIP89000,SB1,fix_eP,K,flat,,,"K ~ Uniform(0, 57.4) km/s",Kmax=2*rango_RV de v1,*/SB1,default ORBIX,uniforme positiva con Kmax amplio desde la escala de RV
+HIP89000_SB1_fix_eP,HIP89000,SB1,fix_eP,P,fijo,,,P fijo = 0.546 yr_B,P_lit convertido a la unidad de trabajo; esquema fix_*,,"Videla et al. 2022 AJ 163:220, Tabla 2 (p.7), caso SB1 (b) MAP",
+HIP89000_SB1_fix_eP,HIP89000,SB1,fix_eP,e,fijo,,,e fijo = 0.303,e_lit; esquema fix_*,,"Videla et al. 2022 AJ 163:220, Tabla 2 (p.7), caso SB1 (b) MAP",
+HIP89000_SB2_free,HIP89000,SB2,free,P,flat,,,"P ~ LogUniform(0.0821373, 2.73791) yr_B","ventana LS 30-1000 d; flat en log_P, sin jacobiano +log_P",*/*,default ORBIX,uniforme en ventana LS amplia derivada de los datos/config; no centrado en literatura
+HIP89000_SB2_free,HIP89000,SB2,free,e,flat,,,e uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en rango fisico [0, 0.999)"
+HIP89000_SB2_free,HIP89000,SB2,free,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HIP89000_SB2_free,HIP89000,SB2,free,V0,flat,,,"V0 ~ Uniform(-59.4, 30.9) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HIP89000_SB2_free,HIP89000,SB2,free,K1,flat,,,"K1 ~ Uniform(0, 57.4) km/s",Kmax=2*rango_RV de v1,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v1
+HIP89000_SB2_free,HIP89000,SB2,free,K2,flat,,,"K2 ~ Uniform(0, 60.2) km/s",Kmax=2*rango_RV de v2,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v2
+HIP89000_SB2_fix_P,HIP89000,SB2,fix_P,e,flat,,,e uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en rango fisico [0, 0.999)"
+HIP89000_SB2_fix_P,HIP89000,SB2,fix_P,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HIP89000_SB2_fix_P,HIP89000,SB2,fix_P,V0,flat,,,"V0 ~ Uniform(-59.4, 30.9) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HIP89000_SB2_fix_P,HIP89000,SB2,fix_P,K1,flat,,,"K1 ~ Uniform(0, 57.4) km/s",Kmax=2*rango_RV de v1,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v1
+HIP89000_SB2_fix_P,HIP89000,SB2,fix_P,K2,flat,,,"K2 ~ Uniform(0, 60.2) km/s",Kmax=2*rango_RV de v2,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v2
+HIP89000_SB2_fix_P,HIP89000,SB2,fix_P,P,fijo,,,P fijo = 0.546 yr_B,P_lit convertido a la unidad de trabajo; esquema fix_*,,"Videla et al. 2022 AJ 163:220, Tabla 2 (p.7), caso SB2 (b) MAP",
+HIP89000_SB2_fix_e,HIP89000,SB2,fix_e,P,flat,,,"P ~ LogUniform(0.0821373, 2.73791) yr_B","ventana LS 30-1000 d; flat en log_P, sin jacobiano +log_P",*/*,default ORBIX,uniforme en ventana LS amplia derivada de los datos/config; no centrado en literatura
+HIP89000_SB2_fix_e,HIP89000,SB2,fix_e,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HIP89000_SB2_fix_e,HIP89000,SB2,fix_e,V0,flat,,,"V0 ~ Uniform(-59.4, 30.9) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HIP89000_SB2_fix_e,HIP89000,SB2,fix_e,K1,flat,,,"K1 ~ Uniform(0, 57.4) km/s",Kmax=2*rango_RV de v1,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v1
+HIP89000_SB2_fix_e,HIP89000,SB2,fix_e,K2,flat,,,"K2 ~ Uniform(0, 60.2) km/s",Kmax=2*rango_RV de v2,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v2
+HIP89000_SB2_fix_e,HIP89000,SB2,fix_e,e,fijo,,,e fijo = 0.301,e_lit; esquema fix_*,,"Videla et al. 2022 AJ 163:220, Tabla 2 (p.7), caso SB2 (b) MAP",
+HIP89000_SB2_fix_eP,HIP89000,SB2,fix_eP,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HIP89000_SB2_fix_eP,HIP89000,SB2,fix_eP,V0,flat,,,"V0 ~ Uniform(-59.4, 30.9) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HIP89000_SB2_fix_eP,HIP89000,SB2,fix_eP,K1,flat,,,"K1 ~ Uniform(0, 57.4) km/s",Kmax=2*rango_RV de v1,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v1
+HIP89000_SB2_fix_eP,HIP89000,SB2,fix_eP,K2,flat,,,"K2 ~ Uniform(0, 60.2) km/s",Kmax=2*rango_RV de v2,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v2
+HIP89000_SB2_fix_eP,HIP89000,SB2,fix_eP,P,fijo,,,P fijo = 0.546 yr_B,P_lit convertido a la unidad de trabajo; esquema fix_*,,"Videla et al. 2022 AJ 163:220, Tabla 2 (p.7), caso SB2 (b) MAP",
+HIP89000_SB2_fix_eP,HIP89000,SB2,fix_eP,e,fijo,,,e fijo = 0.301,e_lit; esquema fix_*,,"Videla et al. 2022 AJ 163:220, Tabla 2 (p.7), caso SB2 (b) MAP",
+HIP117186_SB2_free,HIP117186,SB2,free,P,flat,,,"P ~ LogUniform(0.0547582, 1.36895) yr_B","ventana LS 20-500 d; flat en log_P, sin jacobiano +log_P",*/*,default ORBIX,uniforme en ventana LS amplia derivada de los datos/config; no centrado en literatura
+HIP117186_SB2_free,HIP117186,SB2,free,e,flat,,,e uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en rango fisico [0, 0.999)"
+HIP117186_SB2_free,HIP117186,SB2,free,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HIP117186_SB2_free,HIP117186,SB2,free,V0,flat,,,"V0 ~ Uniform(-160.2, 128.3) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HIP117186_SB2_free,HIP117186,SB2,free,K1,flat,,,"K1 ~ Uniform(0, 133.6) km/s",Kmax=2*rango_RV de v1,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v1
+HIP117186_SB2_free,HIP117186,SB2,free,K2,flat,,,"K2 ~ Uniform(0, 161.2) km/s",Kmax=2*rango_RV de v2,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v2
+HIP117186_SB2_fix_P,HIP117186,SB2,fix_P,e,flat,,,e uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en rango fisico [0, 0.999)"
+HIP117186_SB2_fix_P,HIP117186,SB2,fix_P,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HIP117186_SB2_fix_P,HIP117186,SB2,fix_P,V0,flat,,,"V0 ~ Uniform(-160.2, 128.3) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HIP117186_SB2_fix_P,HIP117186,SB2,fix_P,K1,flat,,,"K1 ~ Uniform(0, 133.6) km/s",Kmax=2*rango_RV de v1,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v1
+HIP117186_SB2_fix_P,HIP117186,SB2,fix_P,K2,flat,,,"K2 ~ Uniform(0, 161.2) km/s",Kmax=2*rango_RV de v2,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v2
+HIP117186_SB2_fix_P,HIP117186,SB2,fix_P,P,fijo,,,P fijo = 0.235 yr_B,P_lit convertido a la unidad de trabajo; esquema fix_*,,"Videla et al. 2022 AJ 163:220, Tabla 2 (p.7), caso SB2 (b) MAP",
+HIP117186_SB2_fix_e,HIP117186,SB2,fix_e,P,flat,,,"P ~ LogUniform(0.0547582, 1.36895) yr_B","ventana LS 20-500 d; flat en log_P, sin jacobiano +log_P",*/*,default ORBIX,uniforme en ventana LS amplia derivada de los datos/config; no centrado en literatura
+HIP117186_SB2_fix_e,HIP117186,SB2,fix_e,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HIP117186_SB2_fix_e,HIP117186,SB2,fix_e,V0,flat,,,"V0 ~ Uniform(-160.2, 128.3) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HIP117186_SB2_fix_e,HIP117186,SB2,fix_e,K1,flat,,,"K1 ~ Uniform(0, 133.6) km/s",Kmax=2*rango_RV de v1,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v1
+HIP117186_SB2_fix_e,HIP117186,SB2,fix_e,K2,flat,,,"K2 ~ Uniform(0, 161.2) km/s",Kmax=2*rango_RV de v2,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v2
+HIP117186_SB2_fix_e,HIP117186,SB2,fix_e,e,fijo,,,e fijo = 0.323,e_lit; esquema fix_*,,"Videla et al. 2022 AJ 163:220, Tabla 2 (p.7), caso SB2 (b) MAP",
+HIP117186_SB2_fix_eP,HIP117186,SB2,fix_eP,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HIP117186_SB2_fix_eP,HIP117186,SB2,fix_eP,V0,flat,,,"V0 ~ Uniform(-160.2, 128.3) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HIP117186_SB2_fix_eP,HIP117186,SB2,fix_eP,K1,flat,,,"K1 ~ Uniform(0, 133.6) km/s",Kmax=2*rango_RV de v1,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v1
+HIP117186_SB2_fix_eP,HIP117186,SB2,fix_eP,K2,flat,,,"K2 ~ Uniform(0, 161.2) km/s",Kmax=2*rango_RV de v2,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v2
+HIP117186_SB2_fix_eP,HIP117186,SB2,fix_eP,P,fijo,,,P fijo = 0.235 yr_B,P_lit convertido a la unidad de trabajo; esquema fix_*,,"Videla et al. 2022 AJ 163:220, Tabla 2 (p.7), caso SB2 (b) MAP",
+HIP117186_SB2_fix_eP,HIP117186,SB2,fix_eP,e,fijo,,,e fijo = 0.323,e_lit; esquema fix_*,,"Videla et al. 2022 AJ 163:220, Tabla 2 (p.7), caso SB2 (b) MAP",
+HIP20601_SB2_free,HIP20601,SB2,free,P,flat,,,"P ~ LogUniform(0.136895, 2.73791) yr_B","ventana LS 50-1000 d; flat en log_P, sin jacobiano +log_P",*/*,default ORBIX,uniforme en ventana LS amplia derivada de los datos/config; no centrado en literatura
+HIP20601_SB2_free,HIP20601,SB2,free,e,flat,,,e uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en rango fisico [0, 0.999)"
+HIP20601_SB2_free,HIP20601,SB2,free,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HIP20601_SB2_free,HIP20601,SB2,free,V0,flat,,,"V0 ~ Uniform(-182.5, 289.4) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HIP20601_SB2_free,HIP20601,SB2,free,K1,flat,,,"K1 ~ Uniform(0, 150.8) km/s",Kmax=2*rango_RV de v1,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v1
+HIP20601_SB2_free,HIP20601,SB2,free,K2,flat,,,"K2 ~ Uniform(0, 198) km/s",Kmax=2*rango_RV de v2,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v2
+HIP20601_SB2_fix_P,HIP20601,SB2,fix_P,e,flat,,,e uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en rango fisico [0, 0.999)"
+HIP20601_SB2_fix_P,HIP20601,SB2,fix_P,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HIP20601_SB2_fix_P,HIP20601,SB2,fix_P,V0,flat,,,"V0 ~ Uniform(-182.5, 289.4) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HIP20601_SB2_fix_P,HIP20601,SB2,fix_P,K1,flat,,,"K1 ~ Uniform(0, 150.8) km/s",Kmax=2*rango_RV de v1,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v1
+HIP20601_SB2_fix_P,HIP20601,SB2,fix_P,K2,flat,,,"K2 ~ Uniform(0, 198) km/s",Kmax=2*rango_RV de v2,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v2
+HIP20601_SB2_fix_P,HIP20601,SB2,fix_P,P,fijo,,,P fijo = 0.428 yr_B,P_lit convertido a la unidad de trabajo; esquema fix_*,,"Videla et al. 2022 AJ 163:220, Tabla 2 (p.7), caso SB2 (b) MAP",
+HIP20601_SB2_fix_e,HIP20601,SB2,fix_e,P,flat,,,"P ~ LogUniform(0.136895, 2.73791) yr_B","ventana LS 50-1000 d; flat en log_P, sin jacobiano +log_P",*/*,default ORBIX,uniforme en ventana LS amplia derivada de los datos/config; no centrado en literatura
+HIP20601_SB2_fix_e,HIP20601,SB2,fix_e,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HIP20601_SB2_fix_e,HIP20601,SB2,fix_e,V0,flat,,,"V0 ~ Uniform(-182.5, 289.4) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HIP20601_SB2_fix_e,HIP20601,SB2,fix_e,K1,flat,,,"K1 ~ Uniform(0, 150.8) km/s",Kmax=2*rango_RV de v1,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v1
+HIP20601_SB2_fix_e,HIP20601,SB2,fix_e,K2,flat,,,"K2 ~ Uniform(0, 198) km/s",Kmax=2*rango_RV de v2,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v2
+HIP20601_SB2_fix_e,HIP20601,SB2,fix_e,e,fijo,,,e fijo = 0.852,e_lit; esquema fix_*,,"Videla et al. 2022 AJ 163:220, Tabla 2 (p.7), caso SB2 (b) MAP",
+HIP20601_SB2_fix_eP,HIP20601,SB2,fix_eP,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HIP20601_SB2_fix_eP,HIP20601,SB2,fix_eP,V0,flat,,,"V0 ~ Uniform(-182.5, 289.4) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HIP20601_SB2_fix_eP,HIP20601,SB2,fix_eP,K1,flat,,,"K1 ~ Uniform(0, 150.8) km/s",Kmax=2*rango_RV de v1,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v1
+HIP20601_SB2_fix_eP,HIP20601,SB2,fix_eP,K2,flat,,,"K2 ~ Uniform(0, 198) km/s",Kmax=2*rango_RV de v2,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v2
+HIP20601_SB2_fix_eP,HIP20601,SB2,fix_eP,P,fijo,,,P fijo = 0.428 yr_B,P_lit convertido a la unidad de trabajo; esquema fix_*,,"Videla et al. 2022 AJ 163:220, Tabla 2 (p.7), caso SB2 (b) MAP",
+HIP20601_SB2_fix_eP,HIP20601,SB2,fix_eP,e,fijo,,,e fijo = 0.852,e_lit; esquema fix_*,,"Videla et al. 2022 AJ 163:220, Tabla 2 (p.7), caso SB2 (b) MAP",
+HIP14157_SB2_free,HIP14157,SB2,free,P,flat,,,"P ~ LogUniform(0.0273791, 0.821373) yr_B","ventana LS 10-300 d; flat en log_P, sin jacobiano +log_P",*/*,default ORBIX,uniforme en ventana LS amplia derivada de los datos/config; no centrado en literatura
+HIP14157_SB2_free,HIP14157,SB2,free,e,flat,,,e uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en rango fisico [0, 0.999)"
+HIP14157_SB2_free,HIP14157,SB2,free,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HIP14157_SB2_free,HIP14157,SB2,free,V0,flat,,,"V0 ~ Uniform(-254.6, 326.2) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HIP14157_SB2_free,HIP14157,SB2,free,K1,flat,,,"K1 ~ Uniform(0, 209.8) km/s",Kmax=2*rango_RV de v1,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v1
+HIP14157_SB2_free,HIP14157,SB2,free,K2,flat,,,"K2 ~ Uniform(0, 233.7) km/s",Kmax=2*rango_RV de v2,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v2
+HIP14157_SB2_fix_P,HIP14157,SB2,fix_P,e,flat,,,e uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en rango fisico [0, 0.999)"
+HIP14157_SB2_fix_P,HIP14157,SB2,fix_P,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HIP14157_SB2_fix_P,HIP14157,SB2,fix_P,V0,flat,,,"V0 ~ Uniform(-254.6, 326.2) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HIP14157_SB2_fix_P,HIP14157,SB2,fix_P,K1,flat,,,"K1 ~ Uniform(0, 209.8) km/s",Kmax=2*rango_RV de v1,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v1
+HIP14157_SB2_fix_P,HIP14157,SB2,fix_P,K2,flat,,,"K2 ~ Uniform(0, 233.7) km/s",Kmax=2*rango_RV de v2,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v2
+HIP14157_SB2_fix_P,HIP14157,SB2,fix_P,P,fijo,,,P fijo = 0.119 yr_B,P_lit convertido a la unidad de trabajo; esquema fix_*,,"Videla et al. 2022 AJ 163:220, Tabla 2 (p.7), caso SB2 (b) MAP",
+HIP14157_SB2_fix_e,HIP14157,SB2,fix_e,P,flat,,,"P ~ LogUniform(0.0273791, 0.821373) yr_B","ventana LS 10-300 d; flat en log_P, sin jacobiano +log_P",*/*,default ORBIX,uniforme en ventana LS amplia derivada de los datos/config; no centrado en literatura
+HIP14157_SB2_fix_e,HIP14157,SB2,fix_e,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HIP14157_SB2_fix_e,HIP14157,SB2,fix_e,V0,flat,,,"V0 ~ Uniform(-254.6, 326.2) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HIP14157_SB2_fix_e,HIP14157,SB2,fix_e,K1,flat,,,"K1 ~ Uniform(0, 209.8) km/s",Kmax=2*rango_RV de v1,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v1
+HIP14157_SB2_fix_e,HIP14157,SB2,fix_e,K2,flat,,,"K2 ~ Uniform(0, 233.7) km/s",Kmax=2*rango_RV de v2,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v2
+HIP14157_SB2_fix_e,HIP14157,SB2,fix_e,e,fijo,,,e fijo = 0.761,e_lit; esquema fix_*,,"Videla et al. 2022 AJ 163:220, Tabla 2 (p.7), caso SB2 (b) MAP",
+HIP14157_SB2_fix_eP,HIP14157,SB2,fix_eP,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HIP14157_SB2_fix_eP,HIP14157,SB2,fix_eP,V0,flat,,,"V0 ~ Uniform(-254.6, 326.2) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HIP14157_SB2_fix_eP,HIP14157,SB2,fix_eP,K1,flat,,,"K1 ~ Uniform(0, 209.8) km/s",Kmax=2*rango_RV de v1,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v1
+HIP14157_SB2_fix_eP,HIP14157,SB2,fix_eP,K2,flat,,,"K2 ~ Uniform(0, 233.7) km/s",Kmax=2*rango_RV de v2,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v2
+HIP14157_SB2_fix_eP,HIP14157,SB2,fix_eP,P,fijo,,,P fijo = 0.119 yr_B,P_lit convertido a la unidad de trabajo; esquema fix_*,,"Videla et al. 2022 AJ 163:220, Tabla 2 (p.7), caso SB2 (b) MAP",
+HIP14157_SB2_fix_eP,HIP14157,SB2,fix_eP,e,fijo,,,e fijo = 0.761,e_lit; esquema fix_*,,"Videla et al. 2022 AJ 163:220, Tabla 2 (p.7), caso SB2 (b) MAP",
+2MASS_J05215658+4359220_SB1_free,2MASS_J05215658+4359220,SB1,free,P,flat,,,"P ~ LogUniform(20, 200) d","ventana LS 20-200 d; flat en log_P, sin jacobiano +log_P",*/*,default ORBIX,uniforme en ventana LS amplia derivada de los datos/config; no centrado en literatura
+2MASS_J05215658+4359220_SB1_free,2MASS_J05215658+4359220,SB1,free,e,flat,,,e uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en rango fisico [0, 0.999)"
+2MASS_J05215658+4359220_SB1_free,2MASS_J05215658+4359220,SB1,free,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+2MASS_J05215658+4359220_SB1_free,2MASS_J05215658+4359220,SB1,free,V0,flat,,,"V0 ~ Uniform(-133.5, 132.4) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+2MASS_J05215658+4359220_SB1_free,2MASS_J05215658+4359220,SB1,free,K,flat,,,"K ~ Uniform(0, 177.3) km/s",Kmax=2*rango_RV de v1,*/SB1,default ORBIX,uniforme positiva con Kmax amplio desde la escala de RV
+2MASS_J05215658+4359220_SB1_fix_P,2MASS_J05215658+4359220,SB1,fix_P,e,flat,,,e uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en rango fisico [0, 0.999)"
+2MASS_J05215658+4359220_SB1_fix_P,2MASS_J05215658+4359220,SB1,fix_P,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+2MASS_J05215658+4359220_SB1_fix_P,2MASS_J05215658+4359220,SB1,fix_P,V0,flat,,,"V0 ~ Uniform(-133.5, 132.4) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+2MASS_J05215658+4359220_SB1_fix_P,2MASS_J05215658+4359220,SB1,fix_P,K,flat,,,"K ~ Uniform(0, 177.3) km/s",Kmax=2*rango_RV de v1,*/SB1,default ORBIX,uniforme positiva con Kmax amplio desde la escala de RV
+2MASS_J05215658+4359220_SB1_fix_P,2MASS_J05215658+4359220,SB1,fix_P,P,fijo,,,P fijo = 83.205 d,P_lit convertido a la unidad de trabajo; esquema fix_*,,"Thompson et al. 2019, Science 366, 637, Tabla 3 (RV TRES, Tabla 2); arXiv:1806.02751",
+2MASS_J05215658+4359220_SB1_fix_e,2MASS_J05215658+4359220,SB1,fix_e,P,flat,,,"P ~ LogUniform(20, 200) d","ventana LS 20-200 d; flat en log_P, sin jacobiano +log_P",*/*,default ORBIX,uniforme en ventana LS amplia derivada de los datos/config; no centrado en literatura
+2MASS_J05215658+4359220_SB1_fix_e,2MASS_J05215658+4359220,SB1,fix_e,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+2MASS_J05215658+4359220_SB1_fix_e,2MASS_J05215658+4359220,SB1,fix_e,V0,flat,,,"V0 ~ Uniform(-133.5, 132.4) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+2MASS_J05215658+4359220_SB1_fix_e,2MASS_J05215658+4359220,SB1,fix_e,K,flat,,,"K ~ Uniform(0, 177.3) km/s",Kmax=2*rango_RV de v1,*/SB1,default ORBIX,uniforme positiva con Kmax amplio desde la escala de RV
+2MASS_J05215658+4359220_SB1_fix_e,2MASS_J05215658+4359220,SB1,fix_e,e,fijo,,,e fijo = 0.00476,e_lit; esquema fix_*,,"Thompson et al. 2019, Science 366, 637, Tabla 3 (RV TRES, Tabla 2); arXiv:1806.02751",
+2MASS_J05215658+4359220_SB1_fix_eP,2MASS_J05215658+4359220,SB1,fix_eP,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+2MASS_J05215658+4359220_SB1_fix_eP,2MASS_J05215658+4359220,SB1,fix_eP,V0,flat,,,"V0 ~ Uniform(-133.5, 132.4) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+2MASS_J05215658+4359220_SB1_fix_eP,2MASS_J05215658+4359220,SB1,fix_eP,K,flat,,,"K ~ Uniform(0, 177.3) km/s",Kmax=2*rango_RV de v1,*/SB1,default ORBIX,uniforme positiva con Kmax amplio desde la escala de RV
+2MASS_J05215658+4359220_SB1_fix_eP,2MASS_J05215658+4359220,SB1,fix_eP,P,fijo,,,P fijo = 83.205 d,P_lit convertido a la unidad de trabajo; esquema fix_*,,"Thompson et al. 2019, Science 366, 637, Tabla 3 (RV TRES, Tabla 2); arXiv:1806.02751",
+2MASS_J05215658+4359220_SB1_fix_eP,2MASS_J05215658+4359220,SB1,fix_eP,e,fijo,,,e fijo = 0.00476,e_lit; esquema fix_*,,"Thompson et al. 2019, Science 366, 637, Tabla 3 (RV TRES, Tabla 2); arXiv:1806.02751",
+HD170582_SB1_free,HD170582,SB1,free,P,flat,,,"P ~ LogUniform(5, 50) d","ventana LS 5-50 d; flat en log_P, sin jacobiano +log_P",*/*,default ORBIX,uniforme en ventana LS amplia derivada de los datos/config; no centrado en literatura
+HD170582_SB1_free,HD170582,SB1,free,e,flat,,,e uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en rango fisico [0, 0.999)"
+HD170582_SB1_free,HD170582,SB1,free,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HD170582_SB1_free,HD170582,SB1,free,V0,flat,,,"V0 ~ Uniform(-418.6, 419.4) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HD170582_SB1_free,HD170582,SB1,free,K,flat,,,"K ~ Uniform(0, 558.7) km/s",Kmax=2*rango_RV de v1,*/SB1,default ORBIX,uniforme positiva con Kmax amplio desde la escala de RV
+HD170582_SB1_fix_P,HD170582,SB1,fix_P,e,flat,,,e uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en rango fisico [0, 0.999)"
+HD170582_SB1_fix_P,HD170582,SB1,fix_P,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HD170582_SB1_fix_P,HD170582,SB1,fix_P,V0,flat,,,"V0 ~ Uniform(-418.6, 419.4) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HD170582_SB1_fix_P,HD170582,SB1,fix_P,K,flat,,,"K ~ Uniform(0, 558.7) km/s",Kmax=2*rango_RV de v1,*/SB1,default ORBIX,uniforme positiva con Kmax amplio desde la escala de RV
+HD170582_SB1_fix_P,HD170582,SB1,fix_P,P,fijo,,,P fijo = 16.8722 d,P_lit convertido a la unidad de trabajo; esquema fix_*,,"Mennickent et al. 2015 MNRAS 448:1137, Tabla 4 (p.8), solucion excentrica PIKAIA",
+HD170582_SB1_fix_e,HD170582,SB1,fix_e,P,flat,,,"P ~ LogUniform(5, 50) d","ventana LS 5-50 d; flat en log_P, sin jacobiano +log_P",*/*,default ORBIX,uniforme en ventana LS amplia derivada de los datos/config; no centrado en literatura
+HD170582_SB1_fix_e,HD170582,SB1,fix_e,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HD170582_SB1_fix_e,HD170582,SB1,fix_e,V0,flat,,,"V0 ~ Uniform(-418.6, 419.4) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HD170582_SB1_fix_e,HD170582,SB1,fix_e,K,flat,,,"K ~ Uniform(0, 558.7) km/s",Kmax=2*rango_RV de v1,*/SB1,default ORBIX,uniforme positiva con Kmax amplio desde la escala de RV
+HD170582_SB1_fix_e,HD170582,SB1,fix_e,e,fijo,,,e fijo = 0.0133,e_lit; esquema fix_*,,"Mennickent et al. 2015 MNRAS 448:1137, Tabla 4 (p.8), solucion excentrica PIKAIA",
+HD170582_SB1_fix_eP,HD170582,SB1,fix_eP,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HD170582_SB1_fix_eP,HD170582,SB1,fix_eP,V0,flat,,,"V0 ~ Uniform(-418.6, 419.4) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HD170582_SB1_fix_eP,HD170582,SB1,fix_eP,K,flat,,,"K ~ Uniform(0, 558.7) km/s",Kmax=2*rango_RV de v1,*/SB1,default ORBIX,uniforme positiva con Kmax amplio desde la escala de RV
+HD170582_SB1_fix_eP,HD170582,SB1,fix_eP,P,fijo,,,P fijo = 16.8722 d,P_lit convertido a la unidad de trabajo; esquema fix_*,,"Mennickent et al. 2015 MNRAS 448:1137, Tabla 4 (p.8), solucion excentrica PIKAIA",
+HD170582_SB1_fix_eP,HD170582,SB1,fix_eP,e,fijo,,,e fijo = 0.0133,e_lit; esquema fix_*,,"Mennickent et al. 2015 MNRAS 448:1137, Tabla 4 (p.8), solucion excentrica PIKAIA",
+HD50526_SB1_free,HD50526,SB1,free,P,flat,,,"P ~ LogUniform(1, 50) d","ventana LS 1-50 d; flat en log_P, sin jacobiano +log_P",*/*,default ORBIX,uniforme en ventana LS amplia derivada de los datos/config; no centrado en literatura
+HD50526_SB1_free,HD50526,SB1,free,e,flat,,,e uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en rango fisico [0, 0.999)"
+HD50526_SB1_free,HD50526,SB1,free,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HD50526_SB1_free,HD50526,SB1,free,V0,flat,,,"V0 ~ Uniform(-481.1, 489.6) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HD50526_SB1_free,HD50526,SB1,free,K,flat,,,"K ~ Uniform(0, 647.2) km/s",Kmax=2*rango_RV de v1,*/SB1,default ORBIX,uniforme positiva con Kmax amplio desde la escala de RV
+HD50526_SB1_fix_P,HD50526,SB1,fix_P,e,flat,,,e uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en rango fisico [0, 0.999)"
+HD50526_SB1_fix_P,HD50526,SB1,fix_P,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HD50526_SB1_fix_P,HD50526,SB1,fix_P,V0,flat,,,"V0 ~ Uniform(-481.1, 489.6) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HD50526_SB1_fix_P,HD50526,SB1,fix_P,K,flat,,,"K ~ Uniform(0, 647.2) km/s",Kmax=2*rango_RV de v1,*/SB1,default ORBIX,uniforme positiva con Kmax amplio desde la escala de RV
+HD50526_SB1_fix_P,HD50526,SB1,fix_P,P,fijo,,,P fijo = 6.7048 d,P_lit convertido a la unidad de trabajo; esquema fix_*,,"Rosales et al. 2021 AJ 162:66, Tabla 5 (p.6), solucion PIKAIA",
+HD50526_SB1_fix_e,HD50526,SB1,fix_e,P,flat,,,"P ~ LogUniform(1, 50) d","ventana LS 1-50 d; flat en log_P, sin jacobiano +log_P",*/*,default ORBIX,uniforme en ventana LS amplia derivada de los datos/config; no centrado en literatura
+HD50526_SB1_fix_e,HD50526,SB1,fix_e,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HD50526_SB1_fix_e,HD50526,SB1,fix_e,V0,flat,,,"V0 ~ Uniform(-481.1, 489.6) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HD50526_SB1_fix_e,HD50526,SB1,fix_e,K,flat,,,"K ~ Uniform(0, 647.2) km/s",Kmax=2*rango_RV de v1,*/SB1,default ORBIX,uniforme positiva con Kmax amplio desde la escala de RV
+HD50526_SB1_fix_e,HD50526,SB1,fix_e,e,fijo,,,e fijo = 0.04974,e_lit; esquema fix_*,,"Rosales et al. 2021 AJ 162:66, Tabla 5 (p.6), solucion PIKAIA",
+HD50526_SB1_fix_eP,HD50526,SB1,fix_eP,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HD50526_SB1_fix_eP,HD50526,SB1,fix_eP,V0,flat,,,"V0 ~ Uniform(-481.1, 489.6) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HD50526_SB1_fix_eP,HD50526,SB1,fix_eP,K,flat,,,"K ~ Uniform(0, 647.2) km/s",Kmax=2*rango_RV de v1,*/SB1,default ORBIX,uniforme positiva con Kmax amplio desde la escala de RV
+HD50526_SB1_fix_eP,HD50526,SB1,fix_eP,P,fijo,,,P fijo = 6.7048 d,P_lit convertido a la unidad de trabajo; esquema fix_*,,"Rosales et al. 2021 AJ 162:66, Tabla 5 (p.6), solucion PIKAIA",
+HD50526_SB1_fix_eP,HD50526,SB1,fix_eP,e,fijo,,,e fijo = 0.04974,e_lit; esquema fix_*,,"Rosales et al. 2021 AJ 162:66, Tabla 5 (p.6), solucion PIKAIA",

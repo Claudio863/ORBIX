@@ -1,0 +1,18 @@
+name: Scientific checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  numerical-regression:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - name: Numerical and circular-summary checks
+        working-directory: .
+        run: python -m unittest discover -s análisis_desempeño/corridas_masivas/tests -v
+      - name: Read-only simulation audit
+        run: python análisis_desempeño/scripts/verificar_repositorio.py

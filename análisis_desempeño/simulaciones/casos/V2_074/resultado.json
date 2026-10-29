@@ -1,0 +1,33 @@
+{
+  "caso": "V2_074",
+  "condicion": "SB2_e85_cubierto",
+  "bloque": "control_factorial",
+  "tipo": "SB2",
+  "estado": "ok",
+  "verdad_en_soporte": true,
+  "segundos_ls": 0.0025541999930283055,
+  "segundos_preproceso_global": 212.44153409999853,
+  "referencia_lp": -39.51410468741132,
+  "referencia_es_optimo_global_certificado": false,
+  "evaluacion_verdad": {
+    "lp_recalculado": -44.409708248303296,
+    "gradiente_inf": 20724.444640263537
+  },
+  "n_cadenas": 4,
+  "n_muestras": 4000,
+  "divergencias": 0,
+  "treedepth_max": 0,
+  "ebfmi_min": 0.9388976850368288,
+  "R_hat_max": 1.0028643703943336,
+  "ESS_bulk_min": 1002.2582612535048,
+  "ESS_tail_min": 1358.7317525560488,
+  "soporte_ok": true,
+  "flag_rhat": false,
+  "flag_divergencias": false,
+  "flag_ebfmi": false,
+  "convergencia_ok": true,
+  "chi2_red": 0.8532065719603968,
+  "diagnosticos_estrictos_ok": true,
+  "segundos_nuts": 44.79203389999748,
+  "segundos_totales": 667.4700697999942
+}

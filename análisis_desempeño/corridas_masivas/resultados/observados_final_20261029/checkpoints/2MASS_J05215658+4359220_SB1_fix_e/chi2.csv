@@ -1,0 +1,2 @@
+componente,N,k,gl,chi2,chi2_red,rms_residuo,media_residuo,max_abs_z,run_id,sistema,tipo,esquema,modelo,epoch_format_in,epoch_format_work,epoch_format_out,P_init_fuente
+v1,11,5,6,28.21273182334574,4.702121970557624,0.16273098749212977,0.06452600647872295,2.701480791424454,2MASS_J05215658+4359220_SB1_fix_e,2MASS_J05215658+4359220,SB1,fix_e,sb1_K_fix_e,TJD,TJD,RJD,lomb-scargle

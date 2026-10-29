@@ -1,0 +1,33 @@
+{
+  "caso": "V2_064",
+  "condicion": "SB2_e25_ausente",
+  "bloque": "control_factorial",
+  "tipo": "SB2",
+  "estado": "ok",
+  "verdad_en_soporte": true,
+  "segundos_ls": 0.004376099997898564,
+  "segundos_preproceso_global": 43.81632610000088,
+  "referencia_lp": -28.763019326127434,
+  "referencia_es_optimo_global_certificado": false,
+  "evaluacion_verdad": {
+    "lp_recalculado": -32.09689139783559,
+    "gradiente_inf": 4764.518836186089
+  },
+  "n_cadenas": 4,
+  "n_muestras": 4000,
+  "divergencias": 0,
+  "treedepth_max": 0,
+  "ebfmi_min": 0.8835930990953735,
+  "R_hat_max": 1.0059480390010183,
+  "ESS_bulk_min": 968.6253335779984,
+  "ESS_tail_min": 896.7751013551197,
+  "soporte_ok": true,
+  "flag_rhat": false,
+  "flag_divergencias": false,
+  "flag_ebfmi": false,
+  "convergencia_ok": true,
+  "chi2_red": 0.6760347619612397,
+  "diagnosticos_estrictos_ok": true,
+  "segundos_nuts": 21.870755999989342,
+  "segundos_totales": 475.4782197000022
+}

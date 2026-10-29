@@ -1,0 +1,17 @@
+{
+  "sistema": "V2_035",
+  "tipo": "SB2",
+  "datos_v1": "C:\\Users\\claud\\OneDrive\\Desktop\\info\\Tesis\\code_tesis\\validacion_orbix\\simulaciones_100_v2_20261028\\casos\\V2_035\\datos_v1.csv",
+  "datos_v2": "C:\\Users\\claud\\OneDrive\\Desktop\\info\\Tesis\\code_tesis\\validacion_orbix\\simulaciones_100_v2_20261028\\casos\\V2_035\\datos_v2.csv",
+  "epoch_format_in": "TJD",
+  "epoch_format_work": "TJD",
+  "epoch_format_out": "TJD",
+  "esquemas": "free",
+  "P_init": "",
+  "P_init_unit": "d",
+  "P_lit": "",
+  "P_lit_unit": "d",
+  "e_lit": "",
+  "ls_Pmin_d": 50.0,
+  "ls_Pmax_d": 1000.0
+}

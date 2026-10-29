@@ -1,0 +1,7 @@
+sistema,tipo,esquema,parametro,familia,p1_config,p2_config,prior_resuelto,regla,fila_origen,fuente,nota
+HIP14157,SB2,fix_e,P,flat,,,"P ~ LogUniform(0.0273791, 0.821373) yr_B","ventana LS 10-300 d; flat en log_P, sin jacobiano +log_P",*/*,default ORBIX,uniforme en ventana LS amplia derivada de los datos/config; no centrado en literatura
+HIP14157,SB2,fix_e,T0,flat,,,T0 uniforme en su soporte,,*/*,Videla et al. 2022,"uniforme en fase [0, 1); reemplaza beta(2,2)"
+HIP14157,SB2,fix_e,V0,flat,,,"V0 ~ Uniform(-254.6, 326.2) km/s",cotas amplias desde min/max RV,*/*,default ORBIX,uniforme en ventana amplia desde la escala de RV
+HIP14157,SB2,fix_e,K1,flat,,,"K1 ~ Uniform(0, 209.8) km/s",Kmax=2*rango_RV de v1,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v1
+HIP14157,SB2,fix_e,K2,flat,,,"K2 ~ Uniform(0, 233.7) km/s",Kmax=2*rango_RV de v2,*/SB2,default ORBIX,uniforme positiva con Kmax amplio desde v2
+HIP14157,SB2,fix_e,e,fijo,,,e fijo = 0.761,e_lit; esquema fix_*,,"Videla et al. 2022 AJ 163:220, Tabla 2 (p.7), caso SB2 (b) MAP",

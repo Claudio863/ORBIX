@@ -1,0 +1,10 @@
+{
+  "corridas": 36,
+  "nuevas": 32,
+  "reutilizadas": 4,
+  "computacional_ok": 36,
+  "diagnosticos_estrictos": 34,
+  "con_divergencias": 1,
+  "chi2_red_mayor_3": 12,
+  "RV_Brent_diferencia_maxima": 7.034373084024992e-11
+}

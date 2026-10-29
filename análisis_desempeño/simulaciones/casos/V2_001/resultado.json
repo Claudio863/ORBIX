@@ -1,0 +1,33 @@
+{
+  "caso": "V2_001",
+  "condicion": "SB1_e25_cubierto",
+  "bloque": "control_factorial",
+  "tipo": "SB1",
+  "estado": "ok",
+  "verdad_en_soporte": true,
+  "segundos_ls": 0.003704599992488511,
+  "segundos_preproceso_global": 127.45104299999366,
+  "referencia_lp": -1.7884341784391073,
+  "referencia_es_optimo_global_certificado": false,
+  "evaluacion_verdad": {
+    "lp_recalculado": -3.0272729262099927,
+    "gradiente_inf": 8169.420002425519
+  },
+  "n_cadenas": 4,
+  "n_muestras": 4000,
+  "divergencias": 0,
+  "treedepth_max": 0,
+  "ebfmi_min": 0.9310644590308768,
+  "R_hat_max": 1.0018753596431493,
+  "ESS_bulk_min": 1414.3435595539793,
+  "ESS_tail_min": 1693.0927191865003,
+  "soporte_ok": true,
+  "flag_rhat": false,
+  "flag_divergencias": false,
+  "flag_ebfmi": false,
+  "convergencia_ok": true,
+  "chi2_red": 0.4959583270836106,
+  "diagnosticos_estrictos_ok": true,
+  "segundos_nuts": 1.8368884999945294,
+  "segundos_totales": 413.0222245000041
+}

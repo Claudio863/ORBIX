@@ -1,0 +1,317 @@
+{
+  "inferencia_ejecutada": false,
+  "corridas": {
+    "2MASS_J05215658+4359220_SB1_fix_e": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_e\\sb1_K_fix_e-20261028201610_1.csv": "523451dcaa2ac44eaa7978535d032723accd191596408bc6abe11d6dc4812b2c",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_e\\sb1_K_fix_e-20261028201610_2.csv": "c09a7d454c23aba1ba869c7ea3310c38e4a57b2b28c11ae905391fe3c837f217",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_e\\sb1_K_fix_e-20261028201610_3.csv": "e5967a6af0c9f613ef275b24e325cb05e77ef0bd9a5cd8f3ebab1479bf8c118f",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_e\\sb1_K_fix_e-20261028201610_4.csv": "e50c7658b546f2460b5fc6e6a2058d0d68df493ce9fc2dc2d7a0656f76a6a19e"
+    },
+    "2MASS_J05215658+4359220_SB1_fix_eP": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_eP\\sb1_K_fix_eP-20261028201714_1.csv": "8b9d06a645b2978e9c06ae6b40629a247b7c8251a24b5e787d853a934cf7d799",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_eP\\sb1_K_fix_eP-20261028201714_2.csv": "f7861e8b1d4e64c61e867099999f361c21c9e18217b935bba62e30abe7a21a7f",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_eP\\sb1_K_fix_eP-20261028201714_3.csv": "32ff3258942fd62b210871cb88ebbd7e6ddc04fd35d021ef5d76c444702eb438",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_eP\\sb1_K_fix_eP-20261028201714_4.csv": "04dfc36204e421bd8422dff48cb06669bd4057d680dce68385b979e270ddb7f0"
+    },
+    "2MASS_J05215658+4359220_SB1_fix_P": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_P\\sb1_K_fix_P-20261027230505_1.csv": "856a66d071a173cb77211a26c13c8fa4283e3af2512f8e6f02d2611f6673404b",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_P\\sb1_K_fix_P-20261027230505_2.csv": "374799054fa60f21124753ebd56572a4e3c0eafa6a0fe27401d2bd11dc568047",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_P\\sb1_K_fix_P-20261027230505_3.csv": "8b676b1f700235833829fb987e9865f3dfb73e152e0b4b9e28a0c11719d4e583",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_P\\sb1_K_fix_P-20261027230505_4.csv": "c0c42f976c7957bae17e1858ef7d247553f158aee059df3caa1957d8360028bb"
+    },
+    "2MASS_J05215658+4359220_SB1_free": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_free\\sb1_K-20261027230416_1.csv": "b4751035c734ffaff0e7d1284c2b249e65f072c1c436cb6ff2f750b7165284ec",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_free\\sb1_K-20261027230416_2.csv": "cb5a7efc34d87f6d573fc32f448920e643d6748063feef85422ae03db2c83964",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_free\\sb1_K-20261027230416_3.csv": "b48b78751bce54cd60e5a789a7ec734575ce51bd1839ab92ba103d0ea2494652",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_free\\sb1_K-20261027230416_4.csv": "7df1f0fb2feece99adfad5dcff2a216f1c64c10950e1c79c18ea67b25006b4bf"
+    },
+    "HD170582_SB1_fix_e": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_e\\sb1_K_fix_e-20261028202327_1.csv": "3f9833ef5353856758d28c4bd3097a02b5247988468ec65693153b779d10a241",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_e\\sb1_K_fix_e-20261028202327_2.csv": "cedd07d7fc358a1cbacebcbf0464a20b697d6e19eccf3a7efe92874a98bac06f",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_e\\sb1_K_fix_e-20261028202327_3.csv": "98db234476e70c3ffdb4e1def871a0c82f6b8f00b336762305dfb37b6909a866",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_e\\sb1_K_fix_e-20261028202327_4.csv": "f30506661ccb74381de33114b18d15cf992765a964d4c5e09bfd08f5d6e8f877"
+    },
+    "HD170582_SB1_fix_eP": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_eP\\sb1_K_fix_eP-20261028202547_1.csv": "e453e63a939be1476c73f06125e4df9a86119e1c2d5674939bdb00f46b57546c",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_eP\\sb1_K_fix_eP-20261028202547_2.csv": "0b0b893e69b325616951da24decb529e7823a78d09810694e968dbb3afa583f7",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_eP\\sb1_K_fix_eP-20261028202547_3.csv": "82e00ecbd6fdf9727eb282cb3bae9a7232a305ef8f07c2f811b88d28aa6ebb49",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_eP\\sb1_K_fix_eP-20261028202547_4.csv": "c693687bb3118584511a944381b0ced20c488fb1ff51f7596a0b38844e189017"
+    },
+    "HD170582_SB1_fix_P": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_P\\sb1_K_fix_P-20261028202222_1.csv": "c81c82b275bdfc2ee6f5d1296986f4ba5e29eb7d6156863801b96bb077e05c3d",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_P\\sb1_K_fix_P-20261028202222_2.csv": "2b0607dfff84a8c2c4bf9d7c7a845c279ca5d989d8d22b770808c85448f45ca7",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_P\\sb1_K_fix_P-20261028202222_3.csv": "86eb019661c33c07dfef2416db41475b65e5f13118c17757b771d9eeee4bba6c",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_P\\sb1_K_fix_P-20261028202222_4.csv": "007366c2f8de97453b364ed3cbba3485d395d48bc71120662b7977114fe08d2e"
+    },
+    "HD170582_SB1_free": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_free\\sb1_K-20261028202008_1.csv": "286016e93256948994c82e86b5d8b0c21b231d2682650818895c56ea24a85d55",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_free\\sb1_K-20261028202008_2.csv": "d05a3095517b9955edf7eceb5873be8933e0e6b6e449a244fef28db734e1399c",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_free\\sb1_K-20261028202008_3.csv": "169ad1357edbf0f201b557f4348d90863ada9fc612b808359b94779a7b597603",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_free\\sb1_K-20261028202008_4.csv": "f71f52770a4d84ef9f72d5a49b760210964d064d679291db4ad6615df336e4e6"
+    },
+    "HD50526_SB1_fix_e": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_e\\sb1_K_fix_e-20261028202633_1.csv": "178cb2ed1f2d99be8809da25ea451ebdf524bb95f5eaf8a7d596219f56723c80",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_e\\sb1_K_fix_e-20261028202633_2.csv": "6511ff53d7b966a3d2b25a37a858c69007dd766238ada2e91b3eb544f1406bdc",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_e\\sb1_K_fix_e-20261028202633_3.csv": "77ff7943e41aa8f75b34c688216490b89b2d119876f5000315d4313aa7665482",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_e\\sb1_K_fix_e-20261028202633_4.csv": "ff830cde16590277fe74f87cd84de1b10badff90d1815a6cf73cfd834788d90a"
+    },
+    "HD50526_SB1_fix_eP": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_eP\\sb1_K_fix_eP-20261028202758_1.csv": "7feeb07da684294a193c8e92b38ac9fe2f008f0185bdc3024331ad9e2f56ce21",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_eP\\sb1_K_fix_eP-20261028202758_2.csv": "5041bafbbb1975ffc015bda2c18644402596c9e7f41bebe756ebca1c760b1949",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_eP\\sb1_K_fix_eP-20261028202758_3.csv": "ed6e122af92ee62349bf37563a7f7d45afc4b5c610c891f3a4f14a78a05388aa",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_eP\\sb1_K_fix_eP-20261028202758_4.csv": "8857c212bc356d495bd12868da9829f2d77e26cfa81f96ddd030c4443286bc34"
+    },
+    "HD50526_SB1_fix_P": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_P\\sb1_K_fix_P-20261028202530_1.csv": "ff628177491476f85d81b2eb3be15c0e9d8d845dd49870436014c62377492ee2",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_P\\sb1_K_fix_P-20261028202530_2.csv": "3f39384a556088709711461a90aea2d434b30a179b5077a499d07e9b7536a263",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_P\\sb1_K_fix_P-20261028202530_3.csv": "82d79fe6891337484b675bc8ffed2db7b3b0486ba9d70c4c16644a628edb177e",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_P\\sb1_K_fix_P-20261028202530_4.csv": "3630cc669f3adccf7a452575a9fa985a2fe4caa45229c563dff96bd3a0b5ea46"
+    },
+    "HD50526_SB1_free": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_free\\sb1_K-20261028202400_1.csv": "be339bde1d7c9a8eb907434c2a9b03a3ada3a46088974bbd1dc74cbf98bf4d3d",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_free\\sb1_K-20261028202400_2.csv": "2f743a2b737d899078b1503ecc64a89ca726c6f5d10b78995c2d17a573b978db",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_free\\sb1_K-20261028202400_3.csv": "b72633003241ebb17c5e8aeec1d843025349d4fb37390c32317525cc2eecc80c",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_free\\sb1_K-20261028202400_4.csv": "f504c11423475ac0b75850d28cf220aabc8bf466529d16ed787f35f3b84d1892"
+    },
+    "HIP109951_SB1_fix_e": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_e\\sb1_K_fix_e-20261028195203_1.csv": "061fb5ff56164f0ac71be4b68025216cfaa6d04a4fd00761b0c081092ad2bf7c",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_e\\sb1_K_fix_e-20261028195203_2.csv": "928dae5da9a05caf4c69c0ae8c544f053c0ce1efb58bd2cce9e47331a3bcefc2",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_e\\sb1_K_fix_e-20261028195203_3.csv": "d6b7fe4e0211ce53728291636ff4f3705f57866c52f721ef39812d965be56bb2",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_e\\sb1_K_fix_e-20261028195203_4.csv": "6d1e7386c15c82f9272cd8967d6677e8e8aab3f112bddd9efbbd405ab28a4195"
+    },
+    "HIP109951_SB1_fix_eP": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_eP\\sb1_K_fix_eP-20261028195308_1.csv": "a04065b81329419688a4ab661971bef253da90fef4caa440109f670f8c10b421",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_eP\\sb1_K_fix_eP-20261028195308_2.csv": "0dfe07696c00aa9858c6bfd26f5c2bdaef2f35c05b50ff51b382de5b67f9d059",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_eP\\sb1_K_fix_eP-20261028195308_3.csv": "1f74e7544a768b4d6b655c7a6c994be3ac0639c29cffd9c4563d16b4878cbe94",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_eP\\sb1_K_fix_eP-20261028195308_4.csv": "b635c08bcf6725f79f6b044676bc36e331bd021aec67e490a50e99d9e4775a57"
+    },
+    "HIP109951_SB1_fix_P": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_P\\sb1_K_fix_P-20261028195101_1.csv": "768bcfe2e423add24878e7df046c3d859a007743368bee91f1bbf0f01be7f0bd",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_P\\sb1_K_fix_P-20261028195101_2.csv": "4ea8f21ab9848456e0af8e148f44fbefb2ce8cfae0146e8b98c441f3febfd483",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_P\\sb1_K_fix_P-20261028195101_3.csv": "7110e0dba9c03d043f5fa10bf42fa3e3d8aea5eebd284989282901f9963082c6",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_P\\sb1_K_fix_P-20261028195101_4.csv": "b188cafaf8d4c6c02305020e4fa0770d089a529ab355a55caac2d6ee1a5fa961"
+    },
+    "HIP109951_SB1_free": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_free\\sb1_K-20261028194947_1.csv": "73a12999cc802e043ef58246ef51ec2863b304555462dbc6c275b6bd52479862",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_free\\sb1_K-20261028194947_2.csv": "a28958cf9bfa8fb2e8d84e45187fdac6b4d6e8dee78451d8abc21a7ed9afa392",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_free\\sb1_K-20261028194947_3.csv": "289db8d603555aeaff94277f6d447c3f358ad7023635d3b1548116dda846f67c",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_free\\sb1_K-20261028194947_4.csv": "132704a90d6531b251370025b794138a71d92c76d4562640b14bc99c0cad7fdf"
+    },
+    "HIP117186_SB2_fix_e": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_e\\sb2_K_fix_e-20261028200052_1.csv": "5b5de11747ec2df2f2631e64d2c3417ecf1db3a3b446c2c30813638aadc6955b",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_e\\sb2_K_fix_e-20261028200052_2.csv": "3f9b3f7e3c68e40fe984fc168d8cb5ad8e7f81fae8b8673109920e239e996f67",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_e\\sb2_K_fix_e-20261028200052_3.csv": "64107a86c166974b98fd58b86ecd6e3eabcba3277773e5b4ec9b5b9d6210ec07",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_e\\sb2_K_fix_e-20261028200052_4.csv": "0c2c83fb4c90820f867b60c30f8dfb7b09d16d735981ca222019e95bb37e8f83"
+    },
+    "HIP117186_SB2_fix_eP": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_eP\\sb2_K_fix_eP-20261028200327_1.csv": "7e703cc8ad331a210b3e4fbb84d9e7c070b6ebe452c00db35fbecd9b0410b5f8",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_eP\\sb2_K_fix_eP-20261028200327_2.csv": "e52f9a784a0a51c34d423ba558f429a49d6e2c5b0ff309e3ef977efa303b0796",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_eP\\sb2_K_fix_eP-20261028200327_3.csv": "3d762b0caf35e90bb0e9d22ccdb7118c39cb6a3095a7977e2a472caade54ab93",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_eP\\sb2_K_fix_eP-20261028200327_4.csv": "e6fbbef6bbd939b212148d38ef497c98ce0b2e0c52625bc4b567bc6768b90e13"
+    },
+    "HIP117186_SB2_fix_P": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_P\\sb2_K_fix_P-20261028195917_1.csv": "72a998fe65577d5c71da7b9990e3a6c6b2eff9b709e7fc615807cc366447fca8",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_P\\sb2_K_fix_P-20261028195917_2.csv": "6fe4513a72283846ce223beb4bab66d4c2b79ab648498fd4810781f2ff0c265b",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_P\\sb2_K_fix_P-20261028195917_3.csv": "1caa76197a6ebbf2432685472ae0476f264991e42340eb6e67dfaff28f298aef",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_P\\sb2_K_fix_P-20261028195917_4.csv": "eaa615828697f18537bde120056f94b593110a392c2258b452cf63bae6d15741"
+    },
+    "HIP117186_SB2_free": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_free\\sb2_K-20261028195645_1.csv": "23ce3da1a93490dbaae39c66c6cfaa667ad71df9d2d10e4e56f0c68cda937d44",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_free\\sb2_K-20261028195645_2.csv": "9e14dd8937ff8d506a7865b1526169fa855fa744f44d9bde666224eb94415705",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_free\\sb2_K-20261028195645_3.csv": "a78af984b42a528aebd300c75c4b59692f9168869f5291bbe5ca8bc34ff6cce2",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_free\\sb2_K-20261028195645_4.csv": "bd1121d6c3595ba7fc080636f3f7cf3a337a8db33bf52d9b0afa6575c1d21f13"
+    },
+    "HIP14157_SB2_fix_e": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_e\\sb2_K_fix_e-20261028201044_1.csv": "90ac6e40603971490e84bc8fe8abb1391b85582e06060a33c02e88eeca2ec8a9",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_e\\sb2_K_fix_e-20261028201044_2.csv": "e1be06c720bc1127fa064bfb21a53540f4a2f80de4f974f03e83e7ac6379c3fa",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_e\\sb2_K_fix_e-20261028201044_3.csv": "1659eb1337911872115308b39d7a5f7f3507c1ff51b8804dfbb9282ab57d5599",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_e\\sb2_K_fix_e-20261028201044_4.csv": "69a96401537d9952caf25f948d18c1823d6f617eddfdce3a55b9ad9d255fc147"
+    },
+    "HIP14157_SB2_fix_eP": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_eP\\sb2_K_fix_eP-20261028202127_1.csv": "27279ecc459db6c5b71debabeddd35952bf89d752c52427b219bddf2efcf4eaa",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_eP\\sb2_K_fix_eP-20261028202127_2.csv": "080c3c5407236341b7437f92c3121b7abbef6b41a14802ce8e3eba7c556fbdfe",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_eP\\sb2_K_fix_eP-20261028202127_3.csv": "e1d799d0fd2a9aaad914465c186539489f068ae73adbb58047da6e3839b04741",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_eP\\sb2_K_fix_eP-20261028202127_4.csv": "a94689907fbe253e0d17b788d3035d04c17b586581709cc5cedc7642120ac70a"
+    },
+    "HIP14157_SB2_fix_P": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_P\\sb2_K_fix_P-20261028200506_1.csv": "3cb239acf7ad1e799121fdc313caafcd66984061a1d0ad5cf834d5a9633c9b14",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_P\\sb2_K_fix_P-20261028200506_2.csv": "05ea5f4752419d3043a4bf2abb5c5a6d8c8f0ee7dd9fea9e6d06c55cdb675661",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_P\\sb2_K_fix_P-20261028200506_3.csv": "5126ae8c722a4d61e0256244c8501939cb11aa2f3d9a97f3cb11d2b2fe5581b5",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_P\\sb2_K_fix_P-20261028200506_4.csv": "2165c0d1497a739b937b2e2ae2af3072f27083c6f8ff96f5a8a7fe15b1b23865"
+    },
+    "HIP14157_SB2_free": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_free\\sb2_K-20261027231306_1.csv": "796e2cda215d225e7df84a4df92700b65f08157a68c84ead053f03e002879350",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_free\\sb2_K-20261027231306_2.csv": "4c45f3cf44294162e0836c4cf0d09be14c3bdf25e9763f65900e82a1a10a0e0d",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_free\\sb2_K-20261027231306_3.csv": "689bc9d629f4e4bf6f5c21639e1c0c36649e6877b8f0f40dcc4db6faebaecbfd",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_free\\sb2_K-20261027231306_4.csv": "e1adad3682cec7e7c6fe6f909abb834f8777d5a8035e565214d359e94f1f7a2d"
+    },
+    "HIP20601_SB2_fix_e": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_e\\sb2_K_fix_e-20261028200748_1.csv": "eb7a1d4dcfe8af2e08cb73e3899fce06b3d3c932e7ca3b524b6ae42dd6f345b7",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_e\\sb2_K_fix_e-20261028200748_2.csv": "2c50541fbec84a27f7101a1eb0d5a9b154ca9935bfa299995d297ebe387aa84e",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_e\\sb2_K_fix_e-20261028200748_3.csv": "a7d8a06dc5e027a05024d0a411717828510725a00fa51d8ddde9dd0db920e21f",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_e\\sb2_K_fix_e-20261028200748_4.csv": "8b31d2cbe451830b89da70411d6f78b4b39ad894ce75858a1a92d67598ba72da"
+    },
+    "HIP20601_SB2_fix_eP": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_eP\\sb2_K_fix_eP-20261028201149_1.csv": "1d279c0f99f9cec065ddacf60cc6b44a36c739e8d9cce757962868c21f220106",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_eP\\sb2_K_fix_eP-20261028201149_2.csv": "7deca0a15c2da4715910302cfb625df7a752fe9610871a5d2d3ccacdf063f083",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_eP\\sb2_K_fix_eP-20261028201149_3.csv": "f0f3a2e890a016650436bbb5420cc3887b9ecec9aff03552ea98eb167a3d0185",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_eP\\sb2_K_fix_eP-20261028201149_4.csv": "a42f37076295a1264823340a2f1a6a28a06a0b8bdfe2dac53106f4df90ce3485"
+    },
+    "HIP20601_SB2_fix_P": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_P\\sb2_K_fix_P-20261028200248_1.csv": "08336646a95d669a3b4d33c1f314ab5679839597e725a843edd8f12df1546e15",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_P\\sb2_K_fix_P-20261028200248_2.csv": "8b80a8150cdd5eb45e46c81c41931f8b0004766f0bab5c413bcddef969c21f7a",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_P\\sb2_K_fix_P-20261028200248_3.csv": "fa83556e43b37c03b146de138c91258e80be5e60ca73c43801a78a2ac1a1cec9",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_P\\sb2_K_fix_P-20261028200248_4.csv": "4d4c4c2c6b91617bf8d9623da0e73f36256717edde54f4e519d95334a0859cbb"
+    },
+    "HIP20601_SB2_free": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_free\\sb2_K-20261027230654_1.csv": "915dc236074909d4e393bcd101fdd5b06f931344eaf28a129d53240e63ce6005",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_free\\sb2_K-20261027230654_2.csv": "88add1793b025242cf1c2c8426ceb9bcac4456abb071be85d8ce80383796da18",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_free\\sb2_K-20261027230654_3.csv": "f81502ceb9520cf2e5919293a0afc49eaa0d374979a19f72989159867c53ea52",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_free\\sb2_K-20261027230654_4.csv": "d2c72604a5571038e4d6b5bc74552173c9ecf781831306178ff927909bbb77b3"
+    },
+    "HIP89000_SB1_fix_e": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_e\\sb1_K_fix_e-20261028195200_1.csv": "8c865a2804fb4d40b94d0f13d3997555611e3b691d743f7ac9189c1706711e84",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_e\\sb1_K_fix_e-20261028195200_2.csv": "9686836998502481afbbb07dfbf4c1148e2c85a511875b551239194cabb611d2",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_e\\sb1_K_fix_e-20261028195200_3.csv": "4ae923a2a3a8f0452e1b0e7cc68df1762ab1f97dbaa4f29db3ae570cd1a48fb2",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_e\\sb1_K_fix_e-20261028195200_4.csv": "a419ae1d19167f75f011c43acd89342a80a88a8f37a2ad77b948fa8ca1b928cf"
+    },
+    "HIP89000_SB1_fix_eP": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_eP\\sb1_K_fix_eP-20261028195305_1.csv": "9252ee1ed0f3a50e4cb9a932f8863e4e07e48c2c17f085a136c3fd2aa554a6c9",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_eP\\sb1_K_fix_eP-20261028195305_2.csv": "ad61c1cd7d0775d10e6f29352af26e955be417a718a2edb8127e30e2cd70ceff",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_eP\\sb1_K_fix_eP-20261028195305_3.csv": "67718fe6f2bbd904541ed7a057037bcca5f1931d797589817a3511d98ce343c9",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_eP\\sb1_K_fix_eP-20261028195305_4.csv": "8a70f01b0dc7d2064693b91589df485e87d884d3d0e0d14412479736fc58a504"
+    },
+    "HIP89000_SB1_fix_P": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_P\\sb1_K_fix_P-20261028195100_1.csv": "990b7eed92fdc0bc780cf647430704eea307378b3c84414d69e616d152c695a1",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_P\\sb1_K_fix_P-20261028195100_2.csv": "10f272f47a777aea96a6694d8e1dfca50722711038ca81f9c9fa16073449c16a",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_P\\sb1_K_fix_P-20261028195100_3.csv": "6e4d52d513c36faa4e028ae7962a2ea654a45282e81f240d88313121bd374eb6",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_P\\sb1_K_fix_P-20261028195100_4.csv": "abc3d8ae8f3c6858931296e04d05cf6ad6913611aa9933459f89d6cdfaa195b7"
+    },
+    "HIP89000_SB1_free": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_free\\sb1_K-20261028194951_1.csv": "4f71538183c8be787403bf529b65ba83254dac7ef29e0f9d85ab909373916a60",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_free\\sb1_K-20261028194951_2.csv": "1e8cc416361262236aa199ffc0ed63cb9e96c226e5ab1e0cabc3cb3b6c807a26",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_free\\sb1_K-20261028194951_3.csv": "a8fc6013a7db218df7bba14725bb5c99a039dbe4571283ea07672b01425609b5",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_free\\sb1_K-20261028194951_4.csv": "7eb36f49584fecd40db4b5b9410e19f978eae40b4a2f50eafbe51176fb942a5f"
+    },
+    "HIP89000_SB2_fix_e": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_e\\sb2_K_fix_e-20261028195926_1.csv": "f9f330f27af12e8213618509b4dc89006d69cc3af8da983fd2b9aedb780b582e",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_e\\sb2_K_fix_e-20261028195926_2.csv": "d71f0a3dbd04f7f811040d0b852eb4d216541260f59fbcb17532567c1ea3e773",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_e\\sb2_K_fix_e-20261028195926_3.csv": "aee66c7c66d0803eb63721c60f9738a1e2469722c499e4f4665d9e4b66ec01cb",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_e\\sb2_K_fix_e-20261028195926_4.csv": "b47f78daec2407bb67a150d278f241c0d277b504df9ec3ec9c306fcf34cd7d70"
+    },
+    "HIP89000_SB2_fix_eP": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_eP\\sb2_K_fix_eP-20261028200110_1.csv": "5ec69e54b932c07bf62e6a9477e39145a4e509243d738bc651db859566eaecb1",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_eP\\sb2_K_fix_eP-20261028200110_2.csv": "c52b248b76bc8af56af7083176f826ca40f9cc49968fcd4c50136eea81232de2",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_eP\\sb2_K_fix_eP-20261028200110_3.csv": "e09ab881de5dcd7281bd8663e62a4555f1a02e4daa5f71bd9da9df3206ebb5e8",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_eP\\sb2_K_fix_eP-20261028200110_4.csv": "0c3e1ff5615daa478d769cb9be99e68bcc06df333651145f9f69d251ed961f1a"
+    },
+    "HIP89000_SB2_fix_P": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_P\\sb2_K_fix_P-20261028195751_1.csv": "c52e85736235dd620a22826a96af75c136f24cb2d50c6c6b9ce6277d0b5831cb",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_P\\sb2_K_fix_P-20261028195751_2.csv": "e67b77260d76e72fa53cb1115361d68e44de199ba1eab700d7d7b7ca172d17db",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_P\\sb2_K_fix_P-20261028195751_3.csv": "668df7e2580e351fef1956a87c223aebbfbd05ed16f6ea1fc1722e3db03e81de",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_P\\sb2_K_fix_P-20261028195751_4.csv": "ff54597678d8bcb76eaa351bf656f1de91f7b80287937df188a113c87598c9e3"
+    },
+    "HIP89000_SB2_free": {
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_free\\sb2_K-20261028195605_1.csv": "c4455234e87570d1bd049b269ca79f3acc3c5381d74d33236ea1c207292797d0",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_free\\sb2_K-20261028195605_2.csv": "f257940c21904c05769560f5aa8078cf56493761760a76b861f8870f0db54440",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_free\\sb2_K-20261028195605_3.csv": "01671dd50a1d50fc52ddaaba3d602b15daae396b0341fce4e192112369b5fe7d",
+      "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_free\\sb2_K-20261028195605_4.csv": "32a6110c238b7827a672b56ad090d6e64f1f211b63f1a3cde7771d08e219e9a9"
+    }
+  },
+  "figuras": {
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\2MASS_J05215658+4359220_SB1_fix_e_consolidado.pdf": "956b26e65887c134e7f55fdbd8cf053b485e7e55e9f5ad4ef30fb00d241aed95",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\2MASS_J05215658+4359220_SB1_fix_e_consolidado.png": "15ea20d1374989d282f726c457d7d4a888d7dcbcb66efb12e47779de5c349d2a",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\2MASS_J05215658+4359220_SB1_fix_eP_consolidado.pdf": "18b9c9cfc148783bfd4cf8ac9c2da933c66aa44ad716f4a6be8af6b50e49b8ef",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\2MASS_J05215658+4359220_SB1_fix_eP_consolidado.png": "49f9b46b7c5b9644efd0e2c30820c919ec392ddaaf30b3d95e80d7ace1bed4ef",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\2MASS_J05215658+4359220_SB1_fix_P_consolidado.pdf": "124281767b0a1cf79881b0af486d926f4965c5df78d8a8fc98b86d1ced35bd44",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\2MASS_J05215658+4359220_SB1_fix_P_consolidado.png": "fec3719086d607c291ee04a107357dcdc7bfba2b36f7237657bda140d186af5a",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\2MASS_J05215658+4359220_SB1_free_consolidado.pdf": "a22ce2794f88e7d81d571b002f963cf4b7fbb8563f7664d5a173df96b7fe9503",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\2MASS_J05215658+4359220_SB1_free_consolidado.png": "b40e8f3198665eabd95053bc26a455886d0136dc9b197aa241c4c9ccd550d2dc",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\2MASS_J05215658+4359220_SB1_free_pares.pdf": "eadef98ac07ae6e135f44a41a657ac09b1dc604513526e61e381ea056fd6acee",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\2MASS_J05215658+4359220_SB1_free_pares.png": "72963713cd59c72ad3be91de40f5dac9ba62487d01bf64a5e3f045d21e7fa323",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HD170582_SB1_fix_e_consolidado.pdf": "7d30549545c15f48dd538e409500e93aad4dfca4d116bd742b9d9d83170fcec9",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HD170582_SB1_fix_e_consolidado.png": "776061754e562c68031ee2d106b2d171599b4eb01258d8234bf5b893a7773baa",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HD170582_SB1_fix_eP_consolidado.pdf": "88d9a460f0c5d6caa11a94c3ba00ed0f808f74641022fa4a3ca0ae2ab3150593",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HD170582_SB1_fix_eP_consolidado.png": "02d9ce95ccd992143592d54e3a69bf48a298545e778150bf9007c7c8a8ed6ab4",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HD170582_SB1_fix_P_consolidado.pdf": "17b8c712b2584a85abaa45221eeb93667f6bf0e8644b1a69c94efd2e366b25f9",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HD170582_SB1_fix_P_consolidado.png": "69ff28f1774967e7bd62284ccab7c585e56548148b9ec9f0149e5511c277c878",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HD170582_SB1_free_consolidado.pdf": "c6f94cbb5a3db87f6030010034040b951c16fcaa6900249e692e4f672bf46ca8",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HD170582_SB1_free_consolidado.png": "ab28c1eb7702c42bdbd0e589d6e056f7bb906db03e9ab0c64278a01afb7a063a",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HD170582_SB1_free_pares.pdf": "0cff6b0d41ddcc8860cbb630658433d2b424b2df7da8f8e95770b701fd106580",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HD170582_SB1_free_pares.png": "93a75a4cbe106d15490d3c0ad549106f476659b7e57270e39021dc8770ec6882",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HD50526_SB1_fix_e_consolidado.pdf": "787ad8451ed46b9b2cbc703cbd329fb7a7da0d5fbf5c996f090ad282d820332e",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HD50526_SB1_fix_e_consolidado.png": "e5e5d8fe412842f7e55cea1e9df8eb00ee02fed91a702312e9dfe8ad7421a784",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HD50526_SB1_fix_eP_consolidado.pdf": "cd98c5abc6270709324799f96488b4fa6451cb14eb49b58ed5b8858d787622ca",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HD50526_SB1_fix_eP_consolidado.png": "88e2f3ccf2648cc6366a3aa4d920351f84171b8ad2b95a127a905087cf3862d2",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HD50526_SB1_fix_P_consolidado.pdf": "6ae5d9c6075219a8703ffe5451cf259c9de434177401063f5376009a3cd87969",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HD50526_SB1_fix_P_consolidado.png": "37c95d786823ec31430b55ab6a56fe9c7f587ad10954d61c4defcd6f8b692629",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HD50526_SB1_free_consolidado.pdf": "ae768fe2be280b57417287c2cd41930be25da5a4d2a9b6bffaf4c5e2fc63a825",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HD50526_SB1_free_consolidado.png": "ce6d7712b654f2a19f334eac0b5078baac848a903031420b70ac1f9e7559ecef",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HD50526_SB1_free_pares.pdf": "7c3877278c3a6a1d89ad68872733d6904a50360ff6070693e8cd78fe6ee29c9c",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HD50526_SB1_free_pares.png": "b90285e243869321739ac4eb8d95274231cfe4e1cba6654ba30b1c378c678b70",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP109951_SB1_fix_e_consolidado.pdf": "24ecd07cd2445bdb4cf7b2797a7d9b99b39fdecd7c71f01aa9e21a17e8954b86",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP109951_SB1_fix_e_consolidado.png": "29d98cb868d926f2f613664b90a2249f9dfedb644663c1ca84d0d0fdda01a3e9",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP109951_SB1_fix_e_trazas.pdf": "8cdc7e19d1b00e17fe328df07b6b88007b96144aa34c7500721236461089648a",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP109951_SB1_fix_e_trazas.png": "01169e3877e8947a12a38cb2110a479ef4de1f870f674e691696930766cc2ed7",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP109951_SB1_fix_eP_consolidado.pdf": "4c82cfc9b4d2f94b58ecee8b02fdc8fa0518b172f70aaae98630743028fca95a",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP109951_SB1_fix_eP_consolidado.png": "c91330e9b5ecbf9cfc60ffd7219362bc6365446b37ffe3dd0229a71cbe2c1043",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP109951_SB1_fix_P_consolidado.pdf": "cb50d75f0e331c93038eb91e5bab53ebdb0e1763c702794e992ef5dc81f2d226",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP109951_SB1_fix_P_consolidado.png": "322ec12687845f95fe0faab163ca92b393e0fcfb4a1a01aa97c7bb150cbafe04",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP109951_SB1_free_consolidado.pdf": "17df4bb1190b80bc536c6cdc34b878ff6a2380e1f33f439ffc44cfe2d92a3c5c",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP109951_SB1_free_consolidado.png": "859da46b9ef9b4dd33c9ff7b19aedd6132cad4a5e1e27b3e9a45a428eaabcb2c",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP109951_SB1_free_pares.pdf": "9331ecfe9ca80a047d46d1783b3d8895957ede5a9c5bb4449d96901a54ade86a",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP109951_SB1_free_pares.png": "eecfea08df3663825d9598ee939b8d0a31d454bcda5f672a50d357dfafa07d26",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP109951_SB1_free_trazas.pdf": "ee5f3e2c0f3433bc898924848f68dc3feb5bd401d8ec5e16c6f50ff31bb4ea52",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP109951_SB1_free_trazas.png": "76b9e3f00e8f57e95fada11a0a5cca427e90e73589a232990f7706b738910ff3",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP117186_SB2_fix_e_consolidado.pdf": "9ec125f0cf5516a7beb0b51019d97e978b10b7a905a8c388c0168008579cfd3f",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP117186_SB2_fix_e_consolidado.png": "a6d81005bdedadbcc653a0276085dc74fb2598fd6caa711928c0a3b5909f12b8",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP117186_SB2_fix_eP_consolidado.pdf": "db1a2f06117508230cd66b53b45bd58585e4353ca8eb67051a7ab69c14c295f6",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP117186_SB2_fix_eP_consolidado.png": "90a3fd86c15ea091409bfeffcf77164f565556d5bc13c6da8ad967b958e2b4c8",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP117186_SB2_fix_P_consolidado.pdf": "086be0f954feb8fe3546858d4bb11a37cc89325088ab18740abd2a98f9f8464b",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP117186_SB2_fix_P_consolidado.png": "5c4b623dccd3d0dfca8f6dbd076b3de6af393ee2a11c7f07ed5c461aacfd573c",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP117186_SB2_free_consolidado.pdf": "d9f7a8f53b70d2c9a115e995f0d96d0ae7e10ad9dfb6cc5d9d0938df6c76c881",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP117186_SB2_free_consolidado.png": "9e90d699cd741c608fd264e75f4b2c505b05b88e27c8b199d4c417b715cad582",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP117186_SB2_free_pares.pdf": "1b070037d073813dbbac90627883968ad73c69d66c591bbad6c2696515cbc627",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP117186_SB2_free_pares.png": "50e4d352c34f43d8ad75cb9ac30a2dea02af7041403a42a0328f0d2f218b07ee",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP14157_SB2_fix_e_consolidado.pdf": "a7358896abaa44378b906f9a174a5fb6fdea0de46fe8ab51a29c854d758dc5ea",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP14157_SB2_fix_e_consolidado.png": "a0a8f1803fac1fff94fa25227f467173fd12110bf64241ee5672f7f62af04422",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP14157_SB2_fix_eP_consolidado.pdf": "53d4d78bdd6fae9953719727e5b219fe36338c717c4a3ce253e2b6c2c317db19",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP14157_SB2_fix_eP_consolidado.png": "a69e67e47c05caa1da5de05c16840a6acfef20034dd00c635ec942ba54585576",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP14157_SB2_fix_P_consolidado.pdf": "466f8367340837f578e5b4541681e2fc97d1d7988230f6089777aff298eb9904",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP14157_SB2_fix_P_consolidado.png": "b5cf536e7801798319a43c088ee29614159b7704e3a0a6abaacfc4d1ddb101cf",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP14157_SB2_free_consolidado.pdf": "7ca48d109e7b1d9e09e4ab650a76254bf2bc7e659fa16cdd6b53a006a96056f2",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP14157_SB2_free_consolidado.png": "7ebc5c103431c69438528458d616b207fa30e0d70b963daa41dc18802a14765d",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP14157_SB2_free_pares.pdf": "22bf523073253b136401a5ff93fe05b532883e08f3cea5e08d41e644245a2aa9",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP14157_SB2_free_pares.png": "ecaa239f2fc160c0c0d0ef49c4eee1ef7fa3179cf9687f681de2e1d604dcf9c9",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP20601_SB2_fix_e_consolidado.pdf": "39b61e6089c2451ae0e55d273e173cec05abd4194d77d105d4711c2fb7aec23f",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP20601_SB2_fix_e_consolidado.png": "0b5d80b32ce9dfdb65e5a0ad58ca04028721140d47ddbd3d087c443415b86b88",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP20601_SB2_fix_eP_consolidado.pdf": "4e4c48abb92b31222af48f289982c3cfe2a8fd8f52d1ef64a8d9059fe7c91cd2",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP20601_SB2_fix_eP_consolidado.png": "da7696098cb520ae0e7a090bf8838996ec17b8c034379064581eefabf86ff4cf",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP20601_SB2_fix_P_consolidado.pdf": "bea5d5239d0afc836514da1c277ace80ae182029a40c8cd4139bb2ef85f97d8e",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP20601_SB2_fix_P_consolidado.png": "fb6c0e86de0d85b6ff1defe4415b8c7981b02b79fe79d39ac0ab164963164e29",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP20601_SB2_free_consolidado.pdf": "41294fca7efe5ac5554a57abdd9a3615cd27b62116c5ec9ba39fb23b4a3bf761",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP20601_SB2_free_consolidado.png": "71340a315bd06e5d33f025ba76e38ff7ca373d83c959d35b6107101637043882",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP20601_SB2_free_pares.pdf": "03970f99af15381fd4db4b0bfc6ad76ec19dcdd3212e037d98d67c369267337e",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP20601_SB2_free_pares.png": "1cffba74bb7af4e135914dc62e710c2c6916b39256e9535a3b2f7d9a22952ea2",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP89000_SB1_fix_e_consolidado.pdf": "0b85b3f6920f4b2787d384263ad6264646dd20876848fbeef22d5d691b9561ae",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP89000_SB1_fix_e_consolidado.png": "8fccd527ef2efb5a2592019fac6fb5a78b5efa24c58e02d1924fda7e3e6bb741",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP89000_SB1_fix_eP_consolidado.pdf": "3e8de8c9744741f47f8953fa2f3bd6aeeb2804d3c1ed38538d9e1c8de0f81e64",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP89000_SB1_fix_eP_consolidado.png": "c8160668fa405d9e7ce1ec8ff53b8c7eff783f354d8893ac31a1195b7d7a92e0",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP89000_SB1_fix_P_consolidado.pdf": "d5704f664fe96b08e4addc5dd82e9aa6b0fceea23723b25b22e01090c763d199",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP89000_SB1_fix_P_consolidado.png": "cf29a519d7dd375032e567a27cc9e729afbcd5a4d406dcc5200026fb7140a399",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP89000_SB1_free_consolidado.pdf": "1ae90e599696a3cce97d73caa381101e3cfa6648afd522f17395b5d3a39bb72d",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP89000_SB1_free_consolidado.png": "ee5379dcf01163d1c63a49ca29f0557bb4fb808879ca7a9be9e6d7b8ef237010",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP89000_SB1_free_pares.pdf": "9b2a943a6f59729828ba0e510466db0f309f3370f133485ef99087b3b7956ef2",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP89000_SB1_free_pares.png": "ab151be09741830cac55991e0840950944a900d0ef8188f30a5ab8c2c0a8b43a",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP89000_SB2_fix_e_consolidado.pdf": "c62ff7f833a8fb6be45a9e70ad42b709cc804f358bcb5dafd69bc258ed2401f8",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP89000_SB2_fix_e_consolidado.png": "bc22bfe38e3690e762b625cbb72f16b90feefe252a864a8d24cffdd597fb547d",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP89000_SB2_fix_eP_consolidado.pdf": "6e7353f927f1c5409140424f84fedc698d1e7d4f060a2ce96643ab2e834fd59f",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP89000_SB2_fix_eP_consolidado.png": "7d1fef3175f7a260336d29a79db50cbb71a1e946166b3e168d3fe52f25e16916",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP89000_SB2_fix_P_consolidado.pdf": "f8c9819e74d45a464ee30d56c77093319ac4b8268661efc1f2fd61ea1323ae70",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP89000_SB2_fix_P_consolidado.png": "698abcbd95fa0daf7eded3a24caea65494ecd46d178db9202f3bf08a2f078148",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP89000_SB2_free_consolidado.pdf": "a8c85e5fc3cab188f9f1b71f73079636c914b078d7029000a558393d4a56a192",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP89000_SB2_free_consolidado.png": "a97bd5dcdce1ca86decdbba571f01352faceda59305f1fd238835675f4f04b07",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP89000_SB2_free_pares.pdf": "20e67cfa979fda4a6bf62ec08685642a236be96bf60bd83c9921d24d02b06a8a",
+    "análisis_desempeño\\corridas_masivas\\figuras\\observados_detallados\\HIP89000_SB2_free_pares.png": "0017d68a724fe9a1731db9bd2a09ca2a426b57f763c1e7086841326b71fa8305"
+  }
+}

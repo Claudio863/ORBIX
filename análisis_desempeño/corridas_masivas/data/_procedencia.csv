@@ -1,0 +1,13 @@
+sistema,componente,archivo,origen,N,epoch_min,epoch_max,md5
+HIP109951,1,data/HIP109951/component_1.csv,Data prueba\Coordinación_becnchmark\Bayesian_inference_VIDELA\HIP109951_component_1.csv,46,1987.5270001294905,2017.6379999994545,514b290c7d
+HIP89000,1,data/HIP89000/component_1.csv,Data prueba\Coordinación_becnchmark\Bayesian_inference_VIDELA\HIP89000_component_1.csv,54,1990.635,1997.698,4392d231e4
+HIP89000,2,data/HIP89000/component_2.csv,Data prueba\Coordinación_becnchmark\Bayesian_inference_VIDELA\HIP89000_component_2.csv,53,1990.635,1997.698,fed89469f3
+HIP117186,1,data/HIP117186/component_1.csv,Data prueba\Coordinación_becnchmark\Bayesian_inference_VIDELA\HIP117186_component_1.csv,26,1987.83576264482,2014.7953777519012,b75ba7032f
+HIP117186,2,data/HIP117186/component_2.csv,Data prueba\Coordinación_becnchmark\Bayesian_inference_VIDELA\HIP117186_component_2.csv,26,1987.83576264482,2014.7953777519012,6d30f9de28
+HIP20601,1,data/HIP20601/component_1.csv,Data prueba\Coordinación_becnchmark\Bayesian_inference_VIDELA\HIP20601_component_1.csv,75,1971.9391621989296,2014.9623795392183,458188cdbc
+HIP20601,2,data/HIP20601/component_2.csv,Data prueba\Coordinación_becnchmark\Bayesian_inference_VIDELA\HIP20601_component_2.csv,16,1981.82103595844,2014.9623795392183,45639c0ba2
+HIP14157,1,data/HIP14157/component_1.csv,Data prueba\Coordinación_becnchmark\Bayesian_inference_VIDELA\HIP14157_component_1.csv,31,1993.7175832755408,2015.5901950018488,ec9b255007
+HIP14157,2,data/HIP14157/component_2.csv,Data prueba\Coordinación_becnchmark\Bayesian_inference_VIDELA\HIP14157_component_2.csv,31,1993.7175832755408,2015.5901950018488,7d87f3b0a0
+2MASS_J05215658+4359220,1,data/2MASS_J05215658+4359220/component_1.csv,Data prueba\Coordinación_becnchmark\Joker\2MASS_J05215658+4359220.csv (solo TRES; ver NOTA_INSTRUMENTO.md),11,8006.97517,8143.78352,76fb8858bd
+HD170582,1,data/HD170582/component_1.csv,Data prueba\Coordinación_becnchmark\PIKAIA\HD170582.csv,111,6016.81732300017,6525.644520000089,0a51686b4a
+HD50526,1,data/HD50526/component_1.csv,Data prueba\Coordinación_becnchmark\PIKAIA\HD50526(HJD).csv,37,2454562.3196412,2454968.46481481,62bc57f6c1

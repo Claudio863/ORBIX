@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite the specific ORBIX release used in your research."
+type: software
+title: "ORBIX: Keplerian radial-velocity inference for spectroscopic binaries"
+version: 0.4.0
+date-released: 2026-10-29
+authors:
+  - family-names: "Gómez Mayorga"
+    given-names: "Claudio Ignacio"
+license: BSD-3-Clause
+keywords:
+  - spectroscopic binaries
+  - radial velocities
+  - Bayesian inference
+  - Stan
+  - numerical optimization
+abstract: >-
+  Research pipeline for SB1/SB2 Keplerian radial-velocity inference, with
+  multistart initialization, posterior diagnostics, simulation recovery
+  experiments and explicit methodological limitations.

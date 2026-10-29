@@ -1,0 +1,4 @@
+componente,N,k,gl,chi2,chi2_red,rms_residuo,media_residuo,max_abs_z,run_id,sistema,tipo,esquema,modelo,epoch_format_in,epoch_format_work,epoch_format_out,P_init_fuente
+v1,54,4,50,51.41439532730863,1.0282879065461727,0.5038591946428066,0.03884066618701567,1.8653102832767963,HIP89000_SB2_fix_eP,HIP89000,SB2,fix_eP,sb2_K_fix_eP,year_besselian,year_besselian,year_besselian,lomb-scargle
+v2,53,4,49,78.11698635892549,1.5942242114066425,0.4798885337797024,0.03799535086909402,3.227734082699847,HIP89000_SB2_fix_eP,HIP89000,SB2,fix_eP,sb2_K_fix_eP,year_besselian,year_besselian,year_besselian,lomb-scargle
+total,107,5,102,129.5313816862341,1.2699155067277854,0.49213183032304303,0.038421958599633925,3.227734082699847,HIP89000_SB2_fix_eP,HIP89000,SB2,fix_eP,sb2_K_fix_eP,year_besselian,year_besselian,year_besselian,lomb-scargle

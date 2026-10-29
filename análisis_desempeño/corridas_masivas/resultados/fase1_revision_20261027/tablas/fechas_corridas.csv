@@ -1,0 +1,5 @@
+run_id,sistema,tipo,esquema,epoch_format_in,epoch_format_work,epoch_format_out,escala_tiempo,anio_min,anio_max,fechas_plausibles
+2MASS_J05215658+4359220_SB1_free,2MASS_J05215658+4359220,SB1,free,TJD,TJD,RJD,sin especificar,2017.6919238056123,2018.0664846543464,True
+2MASS_J05215658+4359220_SB1_fix_P,2MASS_J05215658+4359220,SB1,fix_P,TJD,TJD,RJD,sin especificar,2017.6919238056123,2018.0664846543464,True
+HIP20601_SB2_free,HIP20601,SB2,free,year_besselian,year_besselian,year_besselian,sin especificar,1971.938484052019,2014.9607824777545,True
+HIP14157_SB2_free,HIP14157,SB2,free,year_besselian,year_besselian,year_besselian,sin especificar,1993.7164399726207,2015.588584531142,True

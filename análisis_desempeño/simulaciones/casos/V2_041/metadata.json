@@ -1,0 +1,41 @@
+{
+  "condicion": "SB1_e85_cubierto",
+  "tipo": "SB1",
+  "ancla": "2MASS_J05215658+4359220",
+  "e": 0.85,
+  "cobertura": "cubierto",
+  "bloque": "control_factorial",
+  "repeticion": 4,
+  "caso": "V2_041",
+  "numero": 41,
+  "carpeta": "C:\\Users\\claud\\OneDrive\\Desktop\\info\\Tesis\\code_tesis\\validacion_orbix\\simulaciones_100_v2_20261028\\casos\\V2_041",
+  "archivos": {
+    "v1": "C:\\Users\\claud\\OneDrive\\Desktop\\info\\Tesis\\code_tesis\\validacion_orbix\\simulaciones_100_v2_20261028\\casos\\V2_041\\datos_v1.csv"
+  },
+  "semilla_ruido": [
+    2026102802,
+    1,
+    41
+  ],
+  "semillas_busqueda": [
+    2026103213,
+    2026103214
+  ],
+  "semilla_nuts": 2026112843,
+  "auditoria": [
+    {
+      "componente": "v1",
+      "N": 11,
+      "base_sobre_P": 4.999999999999996,
+      "mediana_sigma": 0.087,
+      "K_sobre_sigma": 512.816091954023,
+      "puntos_periastro_45": 2
+    }
+  ],
+  "fuente_verdad": "Escalas P/e/omega/V0/K de config vigente. HIP109951 K=(maxRV-minRV)/2, escala ilustrativa; no medición publicada.",
+  "fuente_tiempos": "data/2MASS_J05215658+4359220/component_1.csv",
+  "fuente_errores": "Errores individuales originales; en controles se preservan N y errores y se modifican las fechas.",
+  "hashes_datos": {
+    "v1": "67fa0f242c35ab957db78734c899f1d2dab7eced3167de26d952e08cac160c43"
+  }
+}

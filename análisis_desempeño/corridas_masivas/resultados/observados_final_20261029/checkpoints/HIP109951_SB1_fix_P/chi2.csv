@@ -1,0 +1,2 @@
+componente,N,k,gl,chi2,chi2_red,rms_residuo,media_residuo,max_abs_z,run_id,sistema,tipo,esquema,modelo,epoch_format_in,epoch_format_work,epoch_format_out,P_init_fuente
+v1,46,5,41,71.11904474713509,1.7346108474910997,0.8055737963878521,0.010979450406370949,2.647718563127653,HIP109951_SB1_fix_P,HIP109951,SB1,fix_P,sb1_K_fix_P,year_besselian,year_besselian,year_besselian,lomb-scargle
