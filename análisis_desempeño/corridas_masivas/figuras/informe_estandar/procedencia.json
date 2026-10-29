@@ -1,0 +1,977 @@
+{
+  "corridas": [
+    {
+      "run_id": "2MASS_J05215658+4359220_SB1_fix_e",
+      "version": "vigente",
+      "esquema": "fix_e",
+      "origen_T": 8028.0,
+      "parametros": [
+        "P",
+        "T",
+        "w_deg",
+        "V0",
+        "K"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_e\\datos_v1.csv": "6867b723151987b49b031f360a8b198c05463908b232c697cd1a54e0c7eba0cd",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_e\\inicios_lbfgs.csv": "9d4e2f94fd65f89119c878cfeee1f8c0eab3e08a73b15cf586887527404e87b2",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_e\\periodograma.csv": "06a2c426cbdb817e135aa3928b88191728e73f6e8d4d100625adb511e433e9f1",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_e\\picos_periodo.csv": "a7e3fa112c28e931e7954d022aff2a4acb2394dbb840160dd992fb97d27fff63",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_e\\refinamiento_picos.csv": "3d07d52d7e4b3c23480cbf8833f351b8e6977392b3c24d0414963a1ff72fa9c8",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_e\\sb1_K_fix_e-20261028201610_1.csv": "523451dcaa2ac44eaa7978535d032723accd191596408bc6abe11d6dc4812b2c",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_e\\sb1_K_fix_e-20261028201610_2.csv": "c09a7d454c23aba1ba869c7ea3310c38e4a57b2b28c11ae905391fe3c837f217",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_e\\sb1_K_fix_e-20261028201610_3.csv": "e5967a6af0c9f613ef275b24e325cb05e77ef0bd9a5cd8f3ebab1479bf8c118f",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_e\\sb1_K_fix_e-20261028201610_4.csv": "e50c7658b546f2460b5fc6e6a2058d0d68df493ce9fc2dc2d7a0656f76a6a19e"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "2MASS_J05215658+4359220_SB1_fix_eP",
+      "version": "vigente",
+      "esquema": "fix_eP",
+      "origen_T": 8028.0,
+      "parametros": [
+        "T",
+        "w_deg",
+        "V0",
+        "K"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_eP\\datos_v1.csv": "6867b723151987b49b031f360a8b198c05463908b232c697cd1a54e0c7eba0cd",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_eP\\inicios_lbfgs.csv": "d33196fc915454a99e813ad989a7be153e9bec7d916403674978dfdbfdfc33cc",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_eP\\sb1_K_fix_eP-20261028201714_1.csv": "8b9d06a645b2978e9c06ae6b40629a247b7c8251a24b5e787d853a934cf7d799",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_eP\\sb1_K_fix_eP-20261028201714_2.csv": "f7861e8b1d4e64c61e867099999f361c21c9e18217b935bba62e30abe7a21a7f",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_eP\\sb1_K_fix_eP-20261028201714_3.csv": "32ff3258942fd62b210871cb88ebbd7e6ddc04fd35d021ef5d76c444702eb438",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_eP\\sb1_K_fix_eP-20261028201714_4.csv": "04dfc36204e421bd8422dff48cb06669bd4057d680dce68385b979e270ddb7f0"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "2MASS_J05215658+4359220_SB1_fix_P",
+      "version": "vigente",
+      "esquema": "fix_P",
+      "origen_T": 8027.0,
+      "parametros": [
+        "T",
+        "e",
+        "w_deg",
+        "V0",
+        "K"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_P\\datos_v1.csv": "6867b723151987b49b031f360a8b198c05463908b232c697cd1a54e0c7eba0cd",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_P\\inicios_lbfgs.csv": "dc4779704805979fdf5a14f300988add932e750d9c8577a565e6e24cb352fd5a",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_P\\sb1_K_fix_P-20261027230505_1.csv": "856a66d071a173cb77211a26c13c8fa4283e3af2512f8e6f02d2611f6673404b",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_P\\sb1_K_fix_P-20261027230505_2.csv": "374799054fa60f21124753ebd56572a4e3c0eafa6a0fe27401d2bd11dc568047",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_P\\sb1_K_fix_P-20261027230505_3.csv": "8b676b1f700235833829fb987e9865f3dfb73e152e0b4b9e28a0c11719d4e583",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_fix_P\\sb1_K_fix_P-20261027230505_4.csv": "c0c42f976c7957bae17e1858ef7d247553f158aee059df3caa1957d8360028bb"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "2MASS_J05215658+4359220_SB1_free",
+      "version": "vigente",
+      "esquema": "free",
+      "origen_T": 8027.0,
+      "parametros": [
+        "P",
+        "T",
+        "e",
+        "w_deg",
+        "V0",
+        "K"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_free\\datos_v1.csv": "6867b723151987b49b031f360a8b198c05463908b232c697cd1a54e0c7eba0cd",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_free\\inicios_lbfgs.csv": "0b05854eb69e008c1be55d3e0799154bb6fdf02e580d5617065c9797e8bfda89",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_free\\periodograma.csv": "06a2c426cbdb817e135aa3928b88191728e73f6e8d4d100625adb511e433e9f1",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_free\\picos_periodo.csv": "a7e3fa112c28e931e7954d022aff2a4acb2394dbb840160dd992fb97d27fff63",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_free\\refinamiento_picos.csv": "3d07d52d7e4b3c23480cbf8833f351b8e6977392b3c24d0414963a1ff72fa9c8",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_free\\sb1_K-20261027230416_1.csv": "b4751035c734ffaff0e7d1284c2b249e65f072c1c436cb6ff2f750b7165284ec",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_free\\sb1_K-20261027230416_2.csv": "cb5a7efc34d87f6d573fc32f448920e643d6748063feef85422ae03db2c83964",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_free\\sb1_K-20261027230416_3.csv": "b48b78751bce54cd60e5a789a7ec734575ce51bd1839ab92ba103d0ea2494652",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\2MASS_J05215658+4359220_SB1_free\\sb1_K-20261027230416_4.csv": "7df1f0fb2feece99adfad5dcff2a216f1c64c10950e1c79c18ea67b25006b4bf"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HD170582_SB1_fix_e",
+      "version": "vigente",
+      "esquema": "fix_e",
+      "origen_T": 6029.0,
+      "parametros": [
+        "P",
+        "T",
+        "w_deg",
+        "V0",
+        "K"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_e\\datos_v1.csv": "1e158b959fde441e6642e7368d85998078012d6851a847e49e005f2739fdfaec",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_e\\inicios_lbfgs.csv": "999775f9242f53101fb0e2bea7f930d51395ddbea121526277118b79317462fb",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_e\\periodograma.csv": "91dbed99b5cdbafc04651a2f8645e9e1bf9c25f1eade5f033339110990465d8e",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_e\\picos_periodo.csv": "51a6217c9ad317581496511578861cbf3f4d6fd1d0cc99b2d0f40167594d0ff1",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_e\\refinamiento_picos.csv": "2359aa3db1398ae743b2f011fcb7ee0cf29261e3c923445cf35dfab69250d5d5",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_e\\sb1_K_fix_e-20261028202327_1.csv": "3f9833ef5353856758d28c4bd3097a02b5247988468ec65693153b779d10a241",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_e\\sb1_K_fix_e-20261028202327_2.csv": "cedd07d7fc358a1cbacebcbf0464a20b697d6e19eccf3a7efe92874a98bac06f",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_e\\sb1_K_fix_e-20261028202327_3.csv": "98db234476e70c3ffdb4e1def871a0c82f6b8f00b336762305dfb37b6909a866",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_e\\sb1_K_fix_e-20261028202327_4.csv": "f30506661ccb74381de33114b18d15cf992765a964d4c5e09bfd08f5d6e8f877"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HD170582_SB1_fix_eP",
+      "version": "vigente",
+      "esquema": "fix_eP",
+      "origen_T": 6029.0,
+      "parametros": [
+        "T",
+        "w_deg",
+        "V0",
+        "K"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_eP\\datos_v1.csv": "1e158b959fde441e6642e7368d85998078012d6851a847e49e005f2739fdfaec",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_eP\\inicios_lbfgs.csv": "07fcae20e42403fcbe4e9a617c05e7ff4aeb515e1e281ec0cc59e2e9b039135c",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_eP\\sb1_K_fix_eP-20261028202547_1.csv": "e453e63a939be1476c73f06125e4df9a86119e1c2d5674939bdb00f46b57546c",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_eP\\sb1_K_fix_eP-20261028202547_2.csv": "0b0b893e69b325616951da24decb529e7823a78d09810694e968dbb3afa583f7",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_eP\\sb1_K_fix_eP-20261028202547_3.csv": "82e00ecbd6fdf9727eb282cb3bae9a7232a305ef8f07c2f811b88d28aa6ebb49",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_eP\\sb1_K_fix_eP-20261028202547_4.csv": "c693687bb3118584511a944381b0ced20c488fb1ff51f7596a0b38844e189017"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HD170582_SB1_fix_P",
+      "version": "vigente",
+      "esquema": "fix_P",
+      "origen_T": 6029.0,
+      "parametros": [
+        "T",
+        "e",
+        "w_deg",
+        "V0",
+        "K"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_P\\datos_v1.csv": "1e158b959fde441e6642e7368d85998078012d6851a847e49e005f2739fdfaec",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_P\\inicios_lbfgs.csv": "d8aa7187293fd34998d7a106ea86b498494545c92601389b2d5934a702a6612a",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_P\\sb1_K_fix_P-20261028202222_1.csv": "c81c82b275bdfc2ee6f5d1296986f4ba5e29eb7d6156863801b96bb077e05c3d",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_P\\sb1_K_fix_P-20261028202222_2.csv": "2b0607dfff84a8c2c4bf9d7c7a845c279ca5d989d8d22b770808c85448f45ca7",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_P\\sb1_K_fix_P-20261028202222_3.csv": "86eb019661c33c07dfef2416db41475b65e5f13118c17757b771d9eeee4bba6c",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_fix_P\\sb1_K_fix_P-20261028202222_4.csv": "007366c2f8de97453b364ed3cbba3485d395d48bc71120662b7977114fe08d2e"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HD170582_SB1_free",
+      "version": "vigente",
+      "esquema": "free",
+      "origen_T": 6029.0,
+      "parametros": [
+        "P",
+        "T",
+        "e",
+        "w_deg",
+        "V0",
+        "K"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_free\\datos_v1.csv": "1e158b959fde441e6642e7368d85998078012d6851a847e49e005f2739fdfaec",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_free\\inicios_lbfgs.csv": "9277033d001174ee236bc5341f73013e579f9cb38f86b0ef30f2dc0865cd1a85",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_free\\periodograma.csv": "91dbed99b5cdbafc04651a2f8645e9e1bf9c25f1eade5f033339110990465d8e",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_free\\picos_periodo.csv": "51a6217c9ad317581496511578861cbf3f4d6fd1d0cc99b2d0f40167594d0ff1",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_free\\refinamiento_picos.csv": "2359aa3db1398ae743b2f011fcb7ee0cf29261e3c923445cf35dfab69250d5d5",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_free\\sb1_K-20261028202008_1.csv": "286016e93256948994c82e86b5d8b0c21b231d2682650818895c56ea24a85d55",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_free\\sb1_K-20261028202008_2.csv": "d05a3095517b9955edf7eceb5873be8933e0e6b6e449a244fef28db734e1399c",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_free\\sb1_K-20261028202008_3.csv": "169ad1357edbf0f201b557f4348d90863ada9fc612b808359b94779a7b597603",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD170582_SB1_free\\sb1_K-20261028202008_4.csv": "f71f52770a4d84ef9f72d5a49b760210964d064d679291db4ad6615df336e4e6"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HD50526_SB1_fix_e",
+      "version": "vigente",
+      "esquema": "fix_e",
+      "origen_T": 54566.0,
+      "parametros": [
+        "P",
+        "T",
+        "w_deg",
+        "V0",
+        "K"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_e\\datos_v1.csv": "359867b74c22b6b6a4544ebca940cd8d3d5ab4028359ac301a9fe4d388248f50",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_e\\inicios_lbfgs.csv": "14241f59e2c37026140f56ca1ec7041e11066be84a8e629c4d01138e5202b210",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_e\\periodograma.csv": "dd571c5a426e22292ecfd2b07e5760a6a3416a0aefa998abc22cf4a9dd63d146",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_e\\picos_periodo.csv": "d650ab9efbcbba41c0093d85631ef30226f4469860dc43075cad0f53b6f6e5db",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_e\\refinamiento_picos.csv": "91ab67360526b0ec4ef10a44eb14d3bac71c46b6b82024e20c6a2d196703bb84",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_e\\sb1_K_fix_e-20261028202633_1.csv": "178cb2ed1f2d99be8809da25ea451ebdf524bb95f5eaf8a7d596219f56723c80",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_e\\sb1_K_fix_e-20261028202633_2.csv": "6511ff53d7b966a3d2b25a37a858c69007dd766238ada2e91b3eb544f1406bdc",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_e\\sb1_K_fix_e-20261028202633_3.csv": "77ff7943e41aa8f75b34c688216490b89b2d119876f5000315d4313aa7665482",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_e\\sb1_K_fix_e-20261028202633_4.csv": "ff830cde16590277fe74f87cd84de1b10badff90d1815a6cf73cfd834788d90a"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HD50526_SB1_fix_eP",
+      "version": "vigente",
+      "esquema": "fix_eP",
+      "origen_T": 54566.0,
+      "parametros": [
+        "T",
+        "w_deg",
+        "V0",
+        "K"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_eP\\datos_v1.csv": "359867b74c22b6b6a4544ebca940cd8d3d5ab4028359ac301a9fe4d388248f50",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_eP\\inicios_lbfgs.csv": "27f2b5cd970fd255b94573085c8986947c262391ad7c64bd55c8f6c771a9e992",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_eP\\sb1_K_fix_eP-20261028202758_1.csv": "7feeb07da684294a193c8e92b38ac9fe2f008f0185bdc3024331ad9e2f56ce21",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_eP\\sb1_K_fix_eP-20261028202758_2.csv": "5041bafbbb1975ffc015bda2c18644402596c9e7f41bebe756ebca1c760b1949",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_eP\\sb1_K_fix_eP-20261028202758_3.csv": "ed6e122af92ee62349bf37563a7f7d45afc4b5c610c891f3a4f14a78a05388aa",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_eP\\sb1_K_fix_eP-20261028202758_4.csv": "8857c212bc356d495bd12868da9829f2d77e26cfa81f96ddd030c4443286bc34"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HD50526_SB1_fix_P",
+      "version": "vigente",
+      "esquema": "fix_P",
+      "origen_T": 54566.0,
+      "parametros": [
+        "T",
+        "e",
+        "w_deg",
+        "V0",
+        "K"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_P\\datos_v1.csv": "359867b74c22b6b6a4544ebca940cd8d3d5ab4028359ac301a9fe4d388248f50",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_P\\inicios_lbfgs.csv": "06b20fc170560daffdd76be2714b90d631b87992a7a160e23de3a116966a48ac",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_P\\sb1_K_fix_P-20261028202530_1.csv": "ff628177491476f85d81b2eb3be15c0e9d8d845dd49870436014c62377492ee2",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_P\\sb1_K_fix_P-20261028202530_2.csv": "3f39384a556088709711461a90aea2d434b30a179b5077a499d07e9b7536a263",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_P\\sb1_K_fix_P-20261028202530_3.csv": "82d79fe6891337484b675bc8ffed2db7b3b0486ba9d70c4c16644a628edb177e",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_fix_P\\sb1_K_fix_P-20261028202530_4.csv": "3630cc669f3adccf7a452575a9fa985a2fe4caa45229c563dff96bd3a0b5ea46"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HD50526_SB1_free",
+      "version": "vigente",
+      "esquema": "free",
+      "origen_T": 54566.0,
+      "parametros": [
+        "P",
+        "T",
+        "e",
+        "w_deg",
+        "V0",
+        "K"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_free\\datos_v1.csv": "359867b74c22b6b6a4544ebca940cd8d3d5ab4028359ac301a9fe4d388248f50",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_free\\inicios_lbfgs.csv": "5368c53043aee860930b3ad57612e32910b010733cc7332eb4614524f882384a",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_free\\periodograma.csv": "dd571c5a426e22292ecfd2b07e5760a6a3416a0aefa998abc22cf4a9dd63d146",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_free\\picos_periodo.csv": "d650ab9efbcbba41c0093d85631ef30226f4469860dc43075cad0f53b6f6e5db",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_free\\refinamiento_picos.csv": "91ab67360526b0ec4ef10a44eb14d3bac71c46b6b82024e20c6a2d196703bb84",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_free\\sb1_K-20261028202400_1.csv": "be339bde1d7c9a8eb907434c2a9b03a3ada3a46088974bbd1dc74cbf98bf4d3d",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_free\\sb1_K-20261028202400_2.csv": "2f743a2b737d899078b1503ecc64a89ca726c6f5d10b78995c2d17a573b978db",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_free\\sb1_K-20261028202400_3.csv": "b72633003241ebb17c5e8aeec1d843025349d4fb37390c32317525cc2eecc80c",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HD50526_SB1_free\\sb1_K-20261028202400_4.csv": "f504c11423475ac0b75850d28cf220aabc8bf466529d16ed787f35f3b84d1892"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HIP109951_SB1_fix_e",
+      "version": "vigente",
+      "esquema": "fix_e",
+      "origen_T": 2045.0,
+      "parametros": [
+        "P",
+        "T",
+        "w_deg",
+        "V0",
+        "K"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_e\\datos_v1.csv": "4c9eaccd54cdf5fa2f4541e49e308f60bcdb455be40cf823c23652cde21257d8",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_e\\inicios_lbfgs.csv": "1620d5a54bc1693bcec3a6fe066f87a5b93c9033196739eaf070b4df09a7516b",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_e\\periodograma.csv": "2caf3e497e00ffb4b9e466cea6f2dcc815f4d9f5e9ca231a833f76047a6a098c",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_e\\picos_periodo.csv": "b1445662bab16a449886694c0248daf66bd18cbd88234f19b180cd69c8285c1f",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_e\\refinamiento_picos.csv": "9b8776016fe73ff307e3c61d995682213748e50595f0fc5d401d12ef59df41ad",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_e\\sb1_K_fix_e-20261028195203_1.csv": "061fb5ff56164f0ac71be4b68025216cfaa6d04a4fd00761b0c081092ad2bf7c",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_e\\sb1_K_fix_e-20261028195203_2.csv": "928dae5da9a05caf4c69c0ae8c544f053c0ce1efb58bd2cce9e47331a3bcefc2",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_e\\sb1_K_fix_e-20261028195203_3.csv": "d6b7fe4e0211ce53728291636ff4f3705f57866c52f721ef39812d965be56bb2",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_e\\sb1_K_fix_e-20261028195203_4.csv": "6d1e7386c15c82f9272cd8967d6677e8e8aab3f112bddd9efbbd405ab28a4195"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HIP109951_SB1_fix_eP",
+      "version": "vigente",
+      "esquema": "fix_eP",
+      "origen_T": 2039.0,
+      "parametros": [
+        "T",
+        "w_deg",
+        "V0",
+        "K"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_eP\\datos_v1.csv": "4c9eaccd54cdf5fa2f4541e49e308f60bcdb455be40cf823c23652cde21257d8",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_eP\\inicios_lbfgs.csv": "24a8a46f2d68f602c606525ce8651fce1019a75ada62ef5a303805d42eaf569c",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_eP\\sb1_K_fix_eP-20261028195308_1.csv": "a04065b81329419688a4ab661971bef253da90fef4caa440109f670f8c10b421",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_eP\\sb1_K_fix_eP-20261028195308_2.csv": "0dfe07696c00aa9858c6bfd26f5c2bdaef2f35c05b50ff51b382de5b67f9d059",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_eP\\sb1_K_fix_eP-20261028195308_3.csv": "1f74e7544a768b4d6b655c7a6c994be3ac0639c29cffd9c4563d16b4878cbe94",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_eP\\sb1_K_fix_eP-20261028195308_4.csv": "b635c08bcf6725f79f6b044676bc36e331bd021aec67e490a50e99d9e4775a57"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HIP109951_SB1_fix_P",
+      "version": "vigente",
+      "esquema": "fix_P",
+      "origen_T": 2039.0,
+      "parametros": [
+        "T",
+        "e",
+        "w_deg",
+        "V0",
+        "K"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_P\\datos_v1.csv": "4c9eaccd54cdf5fa2f4541e49e308f60bcdb455be40cf823c23652cde21257d8",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_P\\inicios_lbfgs.csv": "e7ecb73abbbf964a46c79c61d727a0d841b6e77eb3c14ff1ea41ec842a4df4d4",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_P\\sb1_K_fix_P-20261028195101_1.csv": "768bcfe2e423add24878e7df046c3d859a007743368bee91f1bbf0f01be7f0bd",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_P\\sb1_K_fix_P-20261028195101_2.csv": "4ea8f21ab9848456e0af8e148f44fbefb2ce8cfae0146e8b98c441f3febfd483",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_P\\sb1_K_fix_P-20261028195101_3.csv": "7110e0dba9c03d043f5fa10bf42fa3e3d8aea5eebd284989282901f9963082c6",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_fix_P\\sb1_K_fix_P-20261028195101_4.csv": "b188cafaf8d4c6c02305020e4fa0770d089a529ab355a55caac2d6ee1a5fa961"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HIP109951_SB1_free",
+      "version": "vigente",
+      "esquema": "free",
+      "origen_T": 2043.0,
+      "parametros": [
+        "P",
+        "T",
+        "e",
+        "w_deg",
+        "V0",
+        "K"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_free\\datos_v1.csv": "4c9eaccd54cdf5fa2f4541e49e308f60bcdb455be40cf823c23652cde21257d8",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_free\\inicios_lbfgs.csv": "bbf7696e770b2cc38235cbfa0e0a4cc99a3125a637ee76b92daf87c886e667b5",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_free\\periodograma.csv": "2caf3e497e00ffb4b9e466cea6f2dcc815f4d9f5e9ca231a833f76047a6a098c",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_free\\picos_periodo.csv": "b1445662bab16a449886694c0248daf66bd18cbd88234f19b180cd69c8285c1f",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_free\\refinamiento_picos.csv": "9b8776016fe73ff307e3c61d995682213748e50595f0fc5d401d12ef59df41ad",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_free\\sb1_K-20261028194947_1.csv": "73a12999cc802e043ef58246ef51ec2863b304555462dbc6c275b6bd52479862",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_free\\sb1_K-20261028194947_2.csv": "a28958cf9bfa8fb2e8d84e45187fdac6b4d6e8dee78451d8abc21a7ed9afa392",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_free\\sb1_K-20261028194947_3.csv": "289db8d603555aeaff94277f6d447c3f358ad7023635d3b1548116dda846f67c",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP109951_SB1_free\\sb1_K-20261028194947_4.csv": "132704a90d6531b251370025b794138a71d92c76d4562640b14bc99c0cad7fdf"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HIP117186_SB2_fix_e",
+      "version": "vigente",
+      "esquema": "fix_e",
+      "origen_T": 1987.0,
+      "parametros": [
+        "P",
+        "T",
+        "w_deg",
+        "V0",
+        "K1",
+        "K2",
+        "q"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_e\\datos_v1.csv": "d847e02a149fc93c6f69bdfb4c02ddec657934c2387a3840b921eab8409aebbe",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_e\\datos_v2.csv": "cd77577061c7e37675dd2aaeeb6339acb85fe5f2d4a57abc60d758fd05ea6322",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_e\\inicios_lbfgs.csv": "56d64c7eff7a31d9dd562e58f422a6c4fbeab93c269ba00b96074aa16e4d8ca0",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_e\\periodograma.csv": "4e3baf8c526106d5b61cc63ce8f97696b1697164abeefdac9f7a8afa9cb0a956",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_e\\picos_periodo.csv": "6f33f70629a036ca0303c8af44047868a58be06c643c6c03015c31a42164dc0f",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_e\\refinamiento_picos.csv": "f875fc5a023bf716ffc5b33d6dc64ca4a804e670a3cc1711ea35e8e471d31f73",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_e\\sb2_K_fix_e-20261028200052_1.csv": "5b5de11747ec2df2f2631e64d2c3417ecf1db3a3b446c2c30813638aadc6955b",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_e\\sb2_K_fix_e-20261028200052_2.csv": "3f9b3f7e3c68e40fe984fc168d8cb5ad8e7f81fae8b8673109920e239e996f67",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_e\\sb2_K_fix_e-20261028200052_3.csv": "64107a86c166974b98fd58b86ecd6e3eabcba3277773e5b4ec9b5b9d6210ec07",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_e\\sb2_K_fix_e-20261028200052_4.csv": "0c2c83fb4c90820f867b60c30f8dfb7b09d16d735981ca222019e95bb37e8f83"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HIP117186_SB2_fix_eP",
+      "version": "vigente",
+      "esquema": "fix_eP",
+      "origen_T": 1987.0,
+      "parametros": [
+        "T",
+        "w_deg",
+        "V0",
+        "K1",
+        "K2",
+        "q"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_eP\\datos_v1.csv": "d847e02a149fc93c6f69bdfb4c02ddec657934c2387a3840b921eab8409aebbe",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_eP\\datos_v2.csv": "cd77577061c7e37675dd2aaeeb6339acb85fe5f2d4a57abc60d758fd05ea6322",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_eP\\inicios_lbfgs.csv": "bd4eddd5ba9d9178e76da19020279a51636186c0f93f6a8587be883d2b5eff41",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_eP\\sb2_K_fix_eP-20261028200327_1.csv": "7e703cc8ad331a210b3e4fbb84d9e7c070b6ebe452c00db35fbecd9b0410b5f8",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_eP\\sb2_K_fix_eP-20261028200327_2.csv": "e52f9a784a0a51c34d423ba558f429a49d6e2c5b0ff309e3ef977efa303b0796",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_eP\\sb2_K_fix_eP-20261028200327_3.csv": "3d762b0caf35e90bb0e9d22ccdb7118c39cb6a3095a7977e2a472caade54ab93",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_eP\\sb2_K_fix_eP-20261028200327_4.csv": "e6fbbef6bbd939b212148d38ef497c98ce0b2e0c52625bc4b567bc6768b90e13"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HIP117186_SB2_fix_P",
+      "version": "vigente",
+      "esquema": "fix_P",
+      "origen_T": 1987.0,
+      "parametros": [
+        "T",
+        "e",
+        "w_deg",
+        "V0",
+        "K1",
+        "K2",
+        "q"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_P\\datos_v1.csv": "d847e02a149fc93c6f69bdfb4c02ddec657934c2387a3840b921eab8409aebbe",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_P\\datos_v2.csv": "cd77577061c7e37675dd2aaeeb6339acb85fe5f2d4a57abc60d758fd05ea6322",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_P\\inicios_lbfgs.csv": "b3a2efa6246baa780cd86bca9f75af19a37e396bc13de1fa1f710662a5cb00bc",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_P\\sb2_K_fix_P-20261028195917_1.csv": "72a998fe65577d5c71da7b9990e3a6c6b2eff9b709e7fc615807cc366447fca8",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_P\\sb2_K_fix_P-20261028195917_2.csv": "6fe4513a72283846ce223beb4bab66d4c2b79ab648498fd4810781f2ff0c265b",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_P\\sb2_K_fix_P-20261028195917_3.csv": "1caa76197a6ebbf2432685472ae0476f264991e42340eb6e67dfaff28f298aef",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_fix_P\\sb2_K_fix_P-20261028195917_4.csv": "eaa615828697f18537bde120056f94b593110a392c2258b452cf63bae6d15741"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HIP117186_SB2_free",
+      "version": "vigente",
+      "esquema": "free",
+      "origen_T": 1987.0,
+      "parametros": [
+        "P",
+        "T",
+        "e",
+        "w_deg",
+        "V0",
+        "K1",
+        "K2",
+        "q"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_free\\datos_v1.csv": "d847e02a149fc93c6f69bdfb4c02ddec657934c2387a3840b921eab8409aebbe",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_free\\datos_v2.csv": "cd77577061c7e37675dd2aaeeb6339acb85fe5f2d4a57abc60d758fd05ea6322",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_free\\inicios_lbfgs.csv": "597e16f68be08cdf0f276fce85d3eac586203de14a835450b3fac6646a12f117",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_free\\periodograma.csv": "4e3baf8c526106d5b61cc63ce8f97696b1697164abeefdac9f7a8afa9cb0a956",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_free\\picos_periodo.csv": "6f33f70629a036ca0303c8af44047868a58be06c643c6c03015c31a42164dc0f",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_free\\refinamiento_picos.csv": "f875fc5a023bf716ffc5b33d6dc64ca4a804e670a3cc1711ea35e8e471d31f73",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_free\\sb2_K-20261028195645_1.csv": "23ce3da1a93490dbaae39c66c6cfaa667ad71df9d2d10e4e56f0c68cda937d44",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_free\\sb2_K-20261028195645_2.csv": "9e14dd8937ff8d506a7865b1526169fa855fa744f44d9bde666224eb94415705",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_free\\sb2_K-20261028195645_3.csv": "a78af984b42a528aebd300c75c4b59692f9168869f5291bbe5ca8bc34ff6cce2",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP117186_SB2_free\\sb2_K-20261028195645_4.csv": "bd1121d6c3595ba7fc080636f3f7cf3a337a8db33bf52d9b0afa6575c1d21f13"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HIP14157_SB2_fix_e",
+      "version": "vigente",
+      "esquema": "fix_e",
+      "origen_T": 1993.0,
+      "parametros": [
+        "P",
+        "T",
+        "w_deg",
+        "V0",
+        "K1",
+        "K2",
+        "q"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_e\\datos_v1.csv": "542e457d647e72dc8c608d8fc8a05567d9ef04e810370744885e2a2bcbe2bc0f",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_e\\datos_v2.csv": "4ac0a8648394ad3fea790907ace9286627f855c735843be61efb8f08b1e1ea48",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_e\\inicios_lbfgs.csv": "266becda26519d182cdcde25ae0b48c5e056012f5ef48ea7469d2cce2d8b7252",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_e\\periodograma.csv": "6a72d8d0ff336d0895ceb245638fd0cffda6b3c137b4834b5e0e1ab30e12508f",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_e\\picos_periodo.csv": "53434ba7bde685412618d0eff69546895eb99bed0e2acf8bf7cb6bf7f7117cff",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_e\\refinamiento_picos.csv": "ec8f7d7f2ed898cd325af44d5e38e169946de51fb9f022df2ce878a6793b3eb8",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_e\\sb2_K_fix_e-20261028201044_1.csv": "90ac6e40603971490e84bc8fe8abb1391b85582e06060a33c02e88eeca2ec8a9",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_e\\sb2_K_fix_e-20261028201044_2.csv": "e1be06c720bc1127fa064bfb21a53540f4a2f80de4f974f03e83e7ac6379c3fa",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_e\\sb2_K_fix_e-20261028201044_3.csv": "1659eb1337911872115308b39d7a5f7f3507c1ff51b8804dfbb9282ab57d5599",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_e\\sb2_K_fix_e-20261028201044_4.csv": "69a96401537d9952caf25f948d18c1823d6f617eddfdce3a55b9ad9d255fc147"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HIP14157_SB2_fix_eP",
+      "version": "vigente",
+      "esquema": "fix_eP",
+      "origen_T": 1993.0,
+      "parametros": [
+        "T",
+        "w_deg",
+        "V0",
+        "K1",
+        "K2",
+        "q"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_eP\\datos_v1.csv": "542e457d647e72dc8c608d8fc8a05567d9ef04e810370744885e2a2bcbe2bc0f",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_eP\\datos_v2.csv": "4ac0a8648394ad3fea790907ace9286627f855c735843be61efb8f08b1e1ea48",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_eP\\inicios_lbfgs.csv": "3c71ca765ad4e090675066796cec125514bfb231c7aab2247474d95a88b021ef",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_eP\\sb2_K_fix_eP-20261028202127_1.csv": "27279ecc459db6c5b71debabeddd35952bf89d752c52427b219bddf2efcf4eaa",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_eP\\sb2_K_fix_eP-20261028202127_2.csv": "080c3c5407236341b7437f92c3121b7abbef6b41a14802ce8e3eba7c556fbdfe",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_eP\\sb2_K_fix_eP-20261028202127_3.csv": "e1d799d0fd2a9aaad914465c186539489f068ae73adbb58047da6e3839b04741",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_eP\\sb2_K_fix_eP-20261028202127_4.csv": "a94689907fbe253e0d17b788d3035d04c17b586581709cc5cedc7642120ac70a"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HIP14157_SB2_fix_P",
+      "version": "vigente",
+      "esquema": "fix_P",
+      "origen_T": 1993.0,
+      "parametros": [
+        "T",
+        "e",
+        "w_deg",
+        "V0",
+        "K1",
+        "K2",
+        "q"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_P\\datos_v1.csv": "542e457d647e72dc8c608d8fc8a05567d9ef04e810370744885e2a2bcbe2bc0f",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_P\\datos_v2.csv": "4ac0a8648394ad3fea790907ace9286627f855c735843be61efb8f08b1e1ea48",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_P\\inicios_lbfgs.csv": "6e27832fca3f1bceb3378e9ee0ea72bf3b4a0bbd0365cb16c6943c74105324a3",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_P\\sb2_K_fix_P-20261028200506_1.csv": "3cb239acf7ad1e799121fdc313caafcd66984061a1d0ad5cf834d5a9633c9b14",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_P\\sb2_K_fix_P-20261028200506_2.csv": "05ea5f4752419d3043a4bf2abb5c5a6d8c8f0ee7dd9fea9e6d06c55cdb675661",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_P\\sb2_K_fix_P-20261028200506_3.csv": "5126ae8c722a4d61e0256244c8501939cb11aa2f3d9a97f3cb11d2b2fe5581b5",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_fix_P\\sb2_K_fix_P-20261028200506_4.csv": "2165c0d1497a739b937b2e2ae2af3072f27083c6f8ff96f5a8a7fe15b1b23865"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HIP14157_SB2_free",
+      "version": "vigente",
+      "esquema": "free",
+      "origen_T": 1993.0,
+      "parametros": [
+        "P",
+        "T",
+        "e",
+        "w_deg",
+        "V0",
+        "K1",
+        "K2",
+        "q"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_free\\datos_v1.csv": "542e457d647e72dc8c608d8fc8a05567d9ef04e810370744885e2a2bcbe2bc0f",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_free\\datos_v2.csv": "4ac0a8648394ad3fea790907ace9286627f855c735843be61efb8f08b1e1ea48",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_free\\inicios_lbfgs.csv": "1bfb6fd6775fec90008e6779d2f25d0c68306ddc1fbaf540e7e721bd26254b5e",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_free\\periodograma.csv": "6a72d8d0ff336d0895ceb245638fd0cffda6b3c137b4834b5e0e1ab30e12508f",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_free\\picos_periodo.csv": "53434ba7bde685412618d0eff69546895eb99bed0e2acf8bf7cb6bf7f7117cff",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_free\\refinamiento_picos.csv": "ec8f7d7f2ed898cd325af44d5e38e169946de51fb9f022df2ce878a6793b3eb8",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_free\\sb2_K-20261027231306_1.csv": "796e2cda215d225e7df84a4df92700b65f08157a68c84ead053f03e002879350",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_free\\sb2_K-20261027231306_2.csv": "4c45f3cf44294162e0836c4cf0d09be14c3bdf25e9763f65900e82a1a10a0e0d",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_free\\sb2_K-20261027231306_3.csv": "689bc9d629f4e4bf6f5c21639e1c0c36649e6877b8f0f40dcc4db6faebaecbfd",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP14157_SB2_free\\sb2_K-20261027231306_4.csv": "e1adad3682cec7e7c6fe6f909abb834f8777d5a8035e565214d359e94f1f7a2d"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HIP20601_SB2_fix_e",
+      "version": "vigente",
+      "esquema": "fix_e",
+      "origen_T": 1971.0,
+      "parametros": [
+        "P",
+        "T",
+        "w_deg",
+        "V0",
+        "K1",
+        "K2",
+        "q"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_e\\datos_v1.csv": "470e46bcbe2f2f16580f5a8ce32165741f0622301950f465444d3388e389939f",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_e\\datos_v2.csv": "51841d0e80b4eb701467990564a579c6c02b2bb3b89a6462625651920a81e4cb",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_e\\inicios_lbfgs.csv": "1ec42b57f3cd0815df150fcad40dfc0812530680aa12c68603348f6e767358ff",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_e\\periodograma.csv": "7e3800dc98af4a4d3a5f4a699e5fcb0ef778716129be5f4368503ad71b2e899a",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_e\\picos_periodo.csv": "c346e33077eac5ddd22f311335e4af880d2df2737dd367aa1ed55e55bbf43eae",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_e\\refinamiento_picos.csv": "485b6d036b7175fce8d0c1df086fffd2136ec4a5f081d25fc54ac020519e2d31",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_e\\sb2_K_fix_e-20261028200748_1.csv": "eb7a1d4dcfe8af2e08cb73e3899fce06b3d3c932e7ca3b524b6ae42dd6f345b7",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_e\\sb2_K_fix_e-20261028200748_2.csv": "2c50541fbec84a27f7101a1eb0d5a9b154ca9935bfa299995d297ebe387aa84e",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_e\\sb2_K_fix_e-20261028200748_3.csv": "a7d8a06dc5e027a05024d0a411717828510725a00fa51d8ddde9dd0db920e21f",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_e\\sb2_K_fix_e-20261028200748_4.csv": "8b31d2cbe451830b89da70411d6f78b4b39ad894ce75858a1a92d67598ba72da"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HIP20601_SB2_fix_eP",
+      "version": "vigente",
+      "esquema": "fix_eP",
+      "origen_T": 1971.0,
+      "parametros": [
+        "T",
+        "w_deg",
+        "V0",
+        "K1",
+        "K2",
+        "q"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_eP\\datos_v1.csv": "470e46bcbe2f2f16580f5a8ce32165741f0622301950f465444d3388e389939f",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_eP\\datos_v2.csv": "51841d0e80b4eb701467990564a579c6c02b2bb3b89a6462625651920a81e4cb",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_eP\\inicios_lbfgs.csv": "196dcf219b6b16288fc314f0fe9e1b076ee257067d2b2bf005cf00208190b1c3",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_eP\\sb2_K_fix_eP-20261028201149_1.csv": "1d279c0f99f9cec065ddacf60cc6b44a36c739e8d9cce757962868c21f220106",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_eP\\sb2_K_fix_eP-20261028201149_2.csv": "7deca0a15c2da4715910302cfb625df7a752fe9610871a5d2d3ccacdf063f083",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_eP\\sb2_K_fix_eP-20261028201149_3.csv": "f0f3a2e890a016650436bbb5420cc3887b9ecec9aff03552ea98eb167a3d0185",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_eP\\sb2_K_fix_eP-20261028201149_4.csv": "a42f37076295a1264823340a2f1a6a28a06a0b8bdfe2dac53106f4df90ce3485"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HIP20601_SB2_fix_P",
+      "version": "vigente",
+      "esquema": "fix_P",
+      "origen_T": 1971.0,
+      "parametros": [
+        "T",
+        "e",
+        "w_deg",
+        "V0",
+        "K1",
+        "K2",
+        "q"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_P\\datos_v1.csv": "470e46bcbe2f2f16580f5a8ce32165741f0622301950f465444d3388e389939f",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_P\\datos_v2.csv": "51841d0e80b4eb701467990564a579c6c02b2bb3b89a6462625651920a81e4cb",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_P\\inicios_lbfgs.csv": "0ccbd40efb2fbdfcfd08d0147bc23e83c659b6490f1aef68edc74638573ca958",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_P\\sb2_K_fix_P-20261028200248_1.csv": "08336646a95d669a3b4d33c1f314ab5679839597e725a843edd8f12df1546e15",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_P\\sb2_K_fix_P-20261028200248_2.csv": "8b80a8150cdd5eb45e46c81c41931f8b0004766f0bab5c413bcddef969c21f7a",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_P\\sb2_K_fix_P-20261028200248_3.csv": "fa83556e43b37c03b146de138c91258e80be5e60ca73c43801a78a2ac1a1cec9",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_fix_P\\sb2_K_fix_P-20261028200248_4.csv": "4d4c4c2c6b91617bf8d9623da0e73f36256717edde54f4e519d95334a0859cbb"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HIP20601_SB2_free",
+      "version": "vigente",
+      "esquema": "free",
+      "origen_T": 1971.0,
+      "parametros": [
+        "P",
+        "T",
+        "e",
+        "w_deg",
+        "V0",
+        "K1",
+        "K2",
+        "q"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_free\\datos_v1.csv": "470e46bcbe2f2f16580f5a8ce32165741f0622301950f465444d3388e389939f",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_free\\datos_v2.csv": "51841d0e80b4eb701467990564a579c6c02b2bb3b89a6462625651920a81e4cb",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_free\\inicios_lbfgs.csv": "ba7f81c2a210c6fae50f7eedfbe98d2f0f1625be9402c41d06f78fd33251e6fa",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_free\\periodograma.csv": "7e3800dc98af4a4d3a5f4a699e5fcb0ef778716129be5f4368503ad71b2e899a",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_free\\picos_periodo.csv": "c346e33077eac5ddd22f311335e4af880d2df2737dd367aa1ed55e55bbf43eae",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_free\\refinamiento_picos.csv": "485b6d036b7175fce8d0c1df086fffd2136ec4a5f081d25fc54ac020519e2d31",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_free\\sb2_K-20261027230654_1.csv": "915dc236074909d4e393bcd101fdd5b06f931344eaf28a129d53240e63ce6005",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_free\\sb2_K-20261027230654_2.csv": "88add1793b025242cf1c2c8426ceb9bcac4456abb071be85d8ce80383796da18",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_free\\sb2_K-20261027230654_3.csv": "f81502ceb9520cf2e5919293a0afc49eaa0d374979a19f72989159867c53ea52",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP20601_SB2_free\\sb2_K-20261027230654_4.csv": "d2c72604a5571038e4d6b5bc74552173c9ecf781831306178ff927909bbb77b3"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HIP89000_SB1_fix_e",
+      "version": "vigente",
+      "esquema": "fix_e",
+      "origen_T": 1990.0,
+      "parametros": [
+        "P",
+        "T",
+        "w_deg",
+        "V0",
+        "K"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_e\\datos_v1.csv": "b5c7807fbd11ebb0e4e46126516ba240c165823bbb95312a54c58ce59675b248",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_e\\inicios_lbfgs.csv": "e0610844c048bdd1c485d17497d38af0d06cc164bf60a7f4e7083b50b6f69a72",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_e\\periodograma.csv": "0dd3fac7a515e251db5645d0cf3a6ab8fba01f8a3d6f9bb011e0fd6a08a90a72",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_e\\picos_periodo.csv": "9e1432566d2e9febf10c62fae47a51a5582e24b772b46142d6cc0478a2774657",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_e\\refinamiento_picos.csv": "82b2e9e798a19c0c1afdcec5382ad39af7725b3d1ca379b83596699ff1331233",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_e\\sb1_K_fix_e-20261028195200_1.csv": "8c865a2804fb4d40b94d0f13d3997555611e3b691d743f7ac9189c1706711e84",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_e\\sb1_K_fix_e-20261028195200_2.csv": "9686836998502481afbbb07dfbf4c1148e2c85a511875b551239194cabb611d2",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_e\\sb1_K_fix_e-20261028195200_3.csv": "4ae923a2a3a8f0452e1b0e7cc68df1762ab1f97dbaa4f29db3ae570cd1a48fb2",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_e\\sb1_K_fix_e-20261028195200_4.csv": "a419ae1d19167f75f011c43acd89342a80a88a8f37a2ad77b948fa8ca1b928cf"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HIP89000_SB1_fix_eP",
+      "version": "vigente",
+      "esquema": "fix_eP",
+      "origen_T": 1990.0,
+      "parametros": [
+        "T",
+        "w_deg",
+        "V0",
+        "K"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_eP\\datos_v1.csv": "b5c7807fbd11ebb0e4e46126516ba240c165823bbb95312a54c58ce59675b248",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_eP\\inicios_lbfgs.csv": "c2d3059185b5c755e41dccc6461817cec294f4c799c8ba294462e45b1e3be8c1",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_eP\\sb1_K_fix_eP-20261028195305_1.csv": "9252ee1ed0f3a50e4cb9a932f8863e4e07e48c2c17f085a136c3fd2aa554a6c9",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_eP\\sb1_K_fix_eP-20261028195305_2.csv": "ad61c1cd7d0775d10e6f29352af26e955be417a718a2edb8127e30e2cd70ceff",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_eP\\sb1_K_fix_eP-20261028195305_3.csv": "67718fe6f2bbd904541ed7a057037bcca5f1931d797589817a3511d98ce343c9",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_eP\\sb1_K_fix_eP-20261028195305_4.csv": "8a70f01b0dc7d2064693b91589df485e87d884d3d0e0d14412479736fc58a504"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HIP89000_SB1_fix_P",
+      "version": "vigente",
+      "esquema": "fix_P",
+      "origen_T": 1990.0,
+      "parametros": [
+        "T",
+        "e",
+        "w_deg",
+        "V0",
+        "K"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_P\\datos_v1.csv": "b5c7807fbd11ebb0e4e46126516ba240c165823bbb95312a54c58ce59675b248",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_P\\inicios_lbfgs.csv": "6e667e51ab118411eb7a25753f476c1159772d86f9897f1c3ad3654dc9e9aca8",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_P\\sb1_K_fix_P-20261028195100_1.csv": "990b7eed92fdc0bc780cf647430704eea307378b3c84414d69e616d152c695a1",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_P\\sb1_K_fix_P-20261028195100_2.csv": "10f272f47a777aea96a6694d8e1dfca50722711038ca81f9c9fa16073449c16a",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_P\\sb1_K_fix_P-20261028195100_3.csv": "6e4d52d513c36faa4e028ae7962a2ea654a45282e81f240d88313121bd374eb6",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_fix_P\\sb1_K_fix_P-20261028195100_4.csv": "abc3d8ae8f3c6858931296e04d05cf6ad6913611aa9933459f89d6cdfaa195b7"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HIP89000_SB1_free",
+      "version": "vigente",
+      "esquema": "free",
+      "origen_T": 1990.0,
+      "parametros": [
+        "P",
+        "T",
+        "e",
+        "w_deg",
+        "V0",
+        "K"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_free\\datos_v1.csv": "b5c7807fbd11ebb0e4e46126516ba240c165823bbb95312a54c58ce59675b248",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_free\\inicios_lbfgs.csv": "c21624af60e61a65d1516a689bb87f0bc44734aabadbc79fd70fae06f657adee",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_free\\periodograma.csv": "0dd3fac7a515e251db5645d0cf3a6ab8fba01f8a3d6f9bb011e0fd6a08a90a72",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_free\\picos_periodo.csv": "9e1432566d2e9febf10c62fae47a51a5582e24b772b46142d6cc0478a2774657",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_free\\refinamiento_picos.csv": "82b2e9e798a19c0c1afdcec5382ad39af7725b3d1ca379b83596699ff1331233",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_free\\sb1_K-20261028194951_1.csv": "4f71538183c8be787403bf529b65ba83254dac7ef29e0f9d85ab909373916a60",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_free\\sb1_K-20261028194951_2.csv": "1e8cc416361262236aa199ffc0ed63cb9e96c226e5ab1e0cabc3cb3b6c807a26",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_free\\sb1_K-20261028194951_3.csv": "a8fc6013a7db218df7bba14725bb5c99a039dbe4571283ea07672b01425609b5",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB1_free\\sb1_K-20261028194951_4.csv": "7eb36f49584fecd40db4b5b9410e19f978eae40b4a2f50eafbe51176fb942a5f"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HIP89000_SB2_fix_e",
+      "version": "vigente",
+      "esquema": "fix_e",
+      "origen_T": 1990.0,
+      "parametros": [
+        "P",
+        "T",
+        "w_deg",
+        "V0",
+        "K1",
+        "K2",
+        "q"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_e\\datos_v1.csv": "b5c7807fbd11ebb0e4e46126516ba240c165823bbb95312a54c58ce59675b248",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_e\\datos_v2.csv": "9659d18bcd18ea4864e386097ac14d2970f3b668f987ab511959824ff216c4cf",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_e\\inicios_lbfgs.csv": "d888128e30a35879fba3ee76d90205505e24291d3e30f3efb0bc3b5ae4bfeab9",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_e\\periodograma.csv": "1c4bf081cc5c43b896ab1b706a64bc588bc8fa32eb5f1b184520bdeaca082a75",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_e\\picos_periodo.csv": "28a0ab0ac1a4dce5cad2769849f94b98098399a6c93fe6a7bc9a2deee41171c9",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_e\\refinamiento_picos.csv": "69e3044132931578a9c3bc46ae8c5450b1a7604f3117f9db239151e7abb69494",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_e\\sb2_K_fix_e-20261028195926_1.csv": "f9f330f27af12e8213618509b4dc89006d69cc3af8da983fd2b9aedb780b582e",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_e\\sb2_K_fix_e-20261028195926_2.csv": "d71f0a3dbd04f7f811040d0b852eb4d216541260f59fbcb17532567c1ea3e773",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_e\\sb2_K_fix_e-20261028195926_3.csv": "aee66c7c66d0803eb63721c60f9738a1e2469722c499e4f4665d9e4b66ec01cb",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_e\\sb2_K_fix_e-20261028195926_4.csv": "b47f78daec2407bb67a150d278f241c0d277b504df9ec3ec9c306fcf34cd7d70"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HIP89000_SB2_fix_eP",
+      "version": "vigente",
+      "esquema": "fix_eP",
+      "origen_T": 1990.0,
+      "parametros": [
+        "T",
+        "w_deg",
+        "V0",
+        "K1",
+        "K2",
+        "q"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_eP\\datos_v1.csv": "b5c7807fbd11ebb0e4e46126516ba240c165823bbb95312a54c58ce59675b248",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_eP\\datos_v2.csv": "9659d18bcd18ea4864e386097ac14d2970f3b668f987ab511959824ff216c4cf",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_eP\\inicios_lbfgs.csv": "77679344f0628c3f50597911683ddad76207101d8fde1ad0ecc02fa8f43a73c6",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_eP\\sb2_K_fix_eP-20261028200110_1.csv": "5ec69e54b932c07bf62e6a9477e39145a4e509243d738bc651db859566eaecb1",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_eP\\sb2_K_fix_eP-20261028200110_2.csv": "c52b248b76bc8af56af7083176f826ca40f9cc49968fcd4c50136eea81232de2",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_eP\\sb2_K_fix_eP-20261028200110_3.csv": "e09ab881de5dcd7281bd8663e62a4555f1a02e4daa5f71bd9da9df3206ebb5e8",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_eP\\sb2_K_fix_eP-20261028200110_4.csv": "0c3e1ff5615daa478d769cb9be99e68bcc06df333651145f9f69d251ed961f1a"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HIP89000_SB2_fix_P",
+      "version": "vigente",
+      "esquema": "fix_P",
+      "origen_T": 1990.0,
+      "parametros": [
+        "T",
+        "e",
+        "w_deg",
+        "V0",
+        "K1",
+        "K2",
+        "q"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_P\\datos_v1.csv": "b5c7807fbd11ebb0e4e46126516ba240c165823bbb95312a54c58ce59675b248",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_P\\datos_v2.csv": "9659d18bcd18ea4864e386097ac14d2970f3b668f987ab511959824ff216c4cf",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_P\\inicios_lbfgs.csv": "b890e763958269852148ba155f0421670c189ea12ef6016cfd81e2cdaf8fe15f",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_P\\sb2_K_fix_P-20261028195751_1.csv": "c52e85736235dd620a22826a96af75c136f24cb2d50c6c6b9ce6277d0b5831cb",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_P\\sb2_K_fix_P-20261028195751_2.csv": "e67b77260d76e72fa53cb1115361d68e44de199ba1eab700d7d7b7ca172d17db",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_P\\sb2_K_fix_P-20261028195751_3.csv": "668df7e2580e351fef1956a87c223aebbfbd05ed16f6ea1fc1722e3db03e81de",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_fix_P\\sb2_K_fix_P-20261028195751_4.csv": "ff54597678d8bcb76eaa351bf656f1de91f7b80287937df188a113c87598c9e3"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    },
+    {
+      "run_id": "HIP89000_SB2_free",
+      "version": "vigente",
+      "esquema": "free",
+      "origen_T": 1990.0,
+      "parametros": [
+        "P",
+        "T",
+        "e",
+        "w_deg",
+        "V0",
+        "K1",
+        "K2",
+        "q"
+      ],
+      "archivos_fuente": {
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_free\\datos_v1.csv": "b5c7807fbd11ebb0e4e46126516ba240c165823bbb95312a54c58ce59675b248",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_free\\datos_v2.csv": "9659d18bcd18ea4864e386097ac14d2970f3b668f987ab511959824ff216c4cf",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_free\\inicios_lbfgs.csv": "4554e52e9866f3ec1226d7ac0c9cc017fac3a1fac91be4474700e98183c4c5bf",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_free\\periodograma.csv": "1c4bf081cc5c43b896ab1b706a64bc588bc8fa32eb5f1b184520bdeaca082a75",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_free\\picos_periodo.csv": "28a0ab0ac1a4dce5cad2769849f94b98098399a6c93fe6a7bc9a2deee41171c9",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_free\\refinamiento_picos.csv": "69e3044132931578a9c3bc46ae8c5450b1a7604f3117f9db239151e7abb69494",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_free\\sb2_K-20261028195605_1.csv": "c4455234e87570d1bd049b269ca79f3acc3c5381d74d33236ea1c207292797d0",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_free\\sb2_K-20261028195605_2.csv": "f257940c21904c05769560f5aa8078cf56493761760a76b861f8870f0db54440",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_free\\sb2_K-20261028195605_3.csv": "01671dd50a1d50fc52ddaaba3d602b15daae396b0341fce4e192112369b5fe7d",
+        "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_free\\sb2_K-20261028195605_4.csv": "32a6110c238b7827a672b56ad090d6e64f1f211b63f1a3cde7771d08e219e9a9"
+      },
+      "estimador_curva": "Muestra conjunta de mayor lp__ retenido; no máximo continuo certificado",
+      "intervalo": "HPDI marginal 95%",
+      "inferencia_ejecutada": false
+    }
+  ],
+  "inferencia_ejecutada": false,
+  "formato": "Marginales y correlaciones de la aplicación; RV en fase y tiempo",
+  "implementacion": {
+    "orbix\\informe_estandar.py": "4028b4ff75297a841bac6ac7f7075845d6d559950642aefc4a48bd1a86ec2df0",
+    "app\\src\\stan_analysis.py": "2ce98be4fb53ea76394c016011cc7be4882ce04a55a6d7afa74e91df56b37777",
+    "orbix\\rv.py": "a4da370e2aceed3bb4d220a658a07417bffad42a757ae2804969880ce57c4432"
+  }
+}

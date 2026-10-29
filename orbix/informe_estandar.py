@@ -42,15 +42,7 @@ def corrida(cat,rid):
             ax.tick_params(labelsize=12)
         for ax in list(axs.flat)[len(names):]:ax.set_visible(False)
         guardar(fig,Path(str(prefix)+'_marginales'))
-        pair_data=shown[[labels[n] for n in names if n!='q']].copy()
-        pair_data.columns=[SYMBOL[n] if n!='T' else "T′" for n in names if n!='q']
-        pair=sns.pairplot(pair_data,kind='hist',corner=True,height=1.8,diag_kws={'color':'tab:blue'},plot_kws={'color':'tab:blue','bins':24})
-        for ax in pair.axes.flat:
-            if ax is None:continue
-            ax.tick_params(labelsize=26);ax.xaxis.label.set_size(26);ax.yaxis.label.set_size(26)
-            ax.xaxis.set_major_locator(plt.MaxNLocator(2));ax.yaxis.set_major_locator(plt.MaxNLocator(2))
-            for coll in ax.collections:coll.set_rasterized(True)
-        guardar(pair.fig,Path(str(prefix)+'_pares'))
+        pares(d,table,names,prefix)
         phase=np.linspace(0,1,1500)
         alltime=np.concatenate([x.epoch.values for x in data.values()])
         tmin,tmax=alltime.min(),alltime.max()
@@ -83,3 +75,61 @@ def generar(cat):
     result=dict(corridas=records,inferencia_ejecutada=False,formato='Marginales y correlaciones de la aplicación; RV en fase y tiempo',implementacion={str(p.relative_to(b.ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in sources})
     (OUT/'procedencia.json').write_text(json.dumps(result,indent=2,ensure_ascii=False),encoding='utf-8')
     return result
+
+
+def generar_residuos_desde_tablas():
+    """Nine current free-fit RV/residual panels, from archived summary points."""
+    dest=b.RAIZ/'figuras/observados_libres';dest.mkdir(parents=True,exist_ok=True)
+    table=pd.read_csv(b.SALIDA/'parametros_reprocesados_todas_versiones.csv')
+    meta=pd.read_csv(b.RAIZ/'resultados/observados_final_20261029/tablas/corridas.csv')
+    for r in meta[meta.esquema.eq('free')].itertuples():
+        p=table[table.run_id.eq(r.run_id+'__vigente')].set_index('parametro').MAP.to_dict()
+        folder=b.RAIZ/'resultados/observados_final_20261029/draws'/r.run_id
+        data={c:pd.read_csv(folder/f'datos_{c}.csv') for c in ['v1','v2'] if (folder/f'datos_{c}.csv').exists()}
+        phase=np.linspace(0,1,1500)
+        with plt.rc_context({'font.size':11,'pdf.fonttype':42,'axes.spines.top':False,'axes.spines.right':False}):
+            fig,ax=plt.subplots(2,1,figsize=(8.6,5.8),sharex=True,layout='constrained',gridspec_kw={'height_ratios':[2,1]})
+            for c,color in [('v1','#0072B2'),('v2','#D55E00')]:
+                if c not in data:continue
+                d=data[c];f=rv.fase(d.epoch.values,p['P'],p['T'])
+                pred=rv.curvas(p,d.epoch.values,r.tipo)[c]
+                ax[0].errorbar(f,d.RV,yerr=d.err,fmt='o',ms=3,c=color,lw=.7,label=c)
+                ax[0].plot(phase,rv.curvas(p,p['T']+phase*p['P'],r.tipo)[c],c=color,lw=1)
+                ax[1].scatter(f,(d.RV-pred)/d.err,s=12,c=color)
+            ax[0].legend();ax[1].axhline(0,c='0.4',lw=.8);ax[1].axhspan(-3,3,color='0.5',alpha=.1)
+            ax[0].set_ylabel('RV (km/s)');ax[1].set_ylabel('Residuo / error');ax[1].set_xlabel('Fase orbital')
+            guardar(fig,dest/r.run_id)
+    return dest
+
+
+def pares(d,table,names,prefix):
+    """Affine rescaling preserves pair dependence and keeps short readable ticks."""
+    from matplotlib.ticker import FuncFormatter
+    cols=[n for n in names if n!='q']
+    shown=pd.DataFrame({SYMBOL[n]:(d[n].values-float(table.loc[n,'mediana']))/float(table.loc[n,'hpdi_sup']-table.loc[n,'hpdi_inf']) for n in cols})
+    pair=sns.pairplot(shown,kind='hist',corner=True,height=1.8,diag_kws={'color':'tab:blue'},plot_kws={'color':'tab:blue','bins':24})
+    for ax in pair.axes.flat:
+        if ax is None:continue
+        ax.tick_params(labelsize=23);ax.xaxis.label.set_size(26);ax.yaxis.label.set_size(26)
+        ax.xaxis.set_major_locator(plt.MaxNLocator(2));ax.yaxis.set_major_locator(plt.MaxNLocator(2))
+        ax.xaxis.set_major_formatter(FuncFormatter(lambda x,pos:f'{x:.1g}'))
+        ax.yaxis.set_major_formatter(FuncFormatter(lambda x,pos:f'{x:.1g}'))
+        for coll in ax.collections:coll.set_rasterized(True)
+    guardar(pair.fig,Path(str(prefix)+'_pares'))
+
+def actualizar_pares_archivados():
+    from . import resumen
+    table=pd.read_csv(b.SALIDA/'parametros_reprocesados_todas_versiones.csv')
+    meta=pd.read_csv(b.RAIZ/'resultados/observados_final_20261029/tablas/corridas.csv')
+    for r in meta.itertuples():
+        folder=b.RAIZ/'resultados/observados_final_20261029/draws'/r.run_id
+        data=[pd.read_csv(p) for p in folder.glob('datos_v*.csv')]
+        origin=min(x.epoch.min() for x in data)
+        d=resumen.recentrar_circulares(resumen.leer_draws(folder),origin)
+        t=table[table.run_id.eq(r.run_id+'__vigente')].set_index('parametro')
+        names=[n for n in b.ORDEN if n in t.index and not bool(t.loc[n,'fijo'])]
+        pares(d,t,names,OUT/r.run_id)
+    path=OUT/'procedencia.json';m=json.loads(path.read_text(encoding='utf-8'))
+    m['ejes_pares']='(theta - mediana) / ancho HPDI 95%; transformación afín, q derivado omitido del diagrama de pares'
+    m['implementacion']['orbix/informe_estandar.py']=hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
+    path.write_text(json.dumps(m,indent=2,ensure_ascii=False),encoding='utf-8')

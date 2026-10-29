@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Please cite the specific ORBIX release used in your research."
 type: software
 title: "ORBIX: Keplerian radial-velocity inference for spectroscopic binaries"
-version: 0.4.0
+version: 0.4.1
 date-released: 2026-10-29
 authors:
   - family-names: "Gómez Mayorga"

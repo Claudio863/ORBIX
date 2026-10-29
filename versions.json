@@ -13,6 +13,6 @@
   "nbconvert": "7.17.2",
   "ipykernel": "7.4.0",
   "cmdstan": "2.40.0",
-  "orbix": "0.4.0",
+  "orbix": "0.4.1",
   "revision_organizacion": "2026-10-29"
 }

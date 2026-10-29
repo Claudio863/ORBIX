@@ -1,7 +1,7 @@
 ORBIX
 =====
 
-Keplerian radial-velocity inference for spectroscopic binaries. Release 0.4.0
+Keplerian radial-velocity inference for spectroscopic binaries. Release 0.4.1
 includes a Streamlit interface, an independent performance study, all observed
 and simulated numerical results, and executed notebooks.
 
@@ -80,7 +80,7 @@ writes scientific plots and numerical tables only within the analysis area.
 Attribution and citation
 ------------------------
 
-CITATION.cff identifies version 0.4.0. The BSD-3-Clause software license retains
+CITATION.cff identifies version 0.4.1. The BSD-3-Clause software license retains
 Miguel Videla's attribution and Claudio Ignacio Gómez Mayorga's contributions.
 Articles, published observations and third-party illustrations retain their
 original rights; the software license does not relicense those materials.

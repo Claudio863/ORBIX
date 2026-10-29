@@ -12,7 +12,7 @@ from plot_utils import plot_initial_data, plot_sb2_combined_data
 from stan_analysis import analisis_stan_, analisis_stan_sb2
 
 # -----------------------------------------------------------------
-st.set_page_config(page_title='BinaryStar Optimizer', layout='wide')
+st.set_page_config(page_title='ORBIX', layout='wide')
 
 # --------- CSS para cuerpos grandes -------------------------------------------------
 st.markdown("""
@@ -28,7 +28,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title('BinaryStar Optimizer')
+st.title('ORBIX')
 
 st.markdown("""
 <details style='border: 0.5px solid #ccc; border-radius: 5px;
