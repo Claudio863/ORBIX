@@ -970,8 +970,9 @@
   "inferencia_ejecutada": false,
   "formato": "Marginales y correlaciones de la aplicación; RV en fase y tiempo",
   "implementacion": {
-    "orbix\\informe_estandar.py": "4028b4ff75297a841bac6ac7f7075845d6d559950642aefc4a48bd1a86ec2df0",
-    "app\\src\\stan_analysis.py": "2ce98be4fb53ea76394c016011cc7be4882ce04a55a6d7afa74e91df56b37777",
-    "orbix\\rv.py": "a4da370e2aceed3bb4d220a658a07417bffad42a757ae2804969880ce57c4432"
-  }
+    "orbix/informe_estandar.py": "8983aef16a95475aff983606e8cc4a1a0b80ea992b588cedcfc300ab4e6f3be6",
+    "app/src/stan_analysis.py": "2ce98be4fb53ea76394c016011cc7be4882ce04a55a6d7afa74e91df56b37777",
+    "orbix/rv.py": "a4da370e2aceed3bb4d220a658a07417bffad42a757ae2804969880ce57c4432"
+  },
+  "ejes_pares": "(theta - mediana) / ancho HPDI 95%; transformación afín, q derivado omitido del diagrama de pares"
 }

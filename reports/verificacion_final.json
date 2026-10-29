@@ -1,14 +1,17 @@
 {
-  "archivos_sha256_verificados": 3991,
+  "archivos_sha256_verificados": 4299,
   "observados": 36,
   "cadenas_observadas": 144,
   "simulaciones": 100,
   "cadenas_simuladas": 400,
   "referencias_numericas": 62,
   "notebooks": 3,
-  "celdas_ejecutadas": 25,
+  "celdas_ejecutadas": 28,
   "pruebas_numericas_aprobadas": 8,
   "inferencia_ejecutada": false,
   "dependencia_de_datos_externos": false,
-  "CI_remoto_ejecutado": false
+  "CI_remoto_ejecutado": false,
+  "version": "0.4.1",
+  "informes_estandar": 36,
+  "figuras_RV_residuos_libres": 9
 }

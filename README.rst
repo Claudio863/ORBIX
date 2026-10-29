@@ -49,7 +49,9 @@ Notebooks
   experiment entry; RUN_INFERENCE=False by default; archived runs are protected.
 * análisis_desempeño/corridas_masivas/02_graficos_tablas.ipynb: observed tables,
   literature, uncertainty, diagnostics, all 36 detailed figures, correlations,
-  and traces, with executed outputs retained.
+  and traces, with executed outputs retained. Standard reports retain the
+  application layout: marginal distributions, pair dependence, RV versus phase
+  and RV versus time. Their affine pair-axis scaling is documented explicitly.
 * análisis_desempeño/03_simulaciones_resultados.ipynb: all simulated results,
   seven experimental figures and support/sampling investigations.
 

@@ -72,7 +72,7 @@ def generar(cat):
         print('Formato estándar:',m.run_id_original,flush=True)
         records.append(corrida(cat,m.run_id))
     sources=[Path(__file__),b.ROOT/'app/src/stan_analysis.py',b.ROOT/'orbix/rv.py']
-    result=dict(corridas=records,inferencia_ejecutada=False,formato='Marginales y correlaciones de la aplicación; RV en fase y tiempo',implementacion={str(p.relative_to(b.ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in sources})
+    result=dict(corridas=records,ejes_pares='(theta - mediana) / ancho HPDI 95%; transformación afín',inferencia_ejecutada=False,formato='Marginales y correlaciones de la aplicación; RV en fase y tiempo',implementacion={str(p.relative_to(b.ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in sources})
     (OUT/'procedencia.json').write_text(json.dumps(result,indent=2,ensure_ascii=False),encoding='utf-8')
     return result
 
@@ -110,11 +110,12 @@ def pares(d,table,names,prefix):
     pair=sns.pairplot(shown,kind='hist',corner=True,height=1.8,diag_kws={'color':'tab:blue'},plot_kws={'color':'tab:blue','bins':24})
     for ax in pair.axes.flat:
         if ax is None:continue
-        ax.tick_params(labelsize=23);ax.xaxis.label.set_size(26);ax.yaxis.label.set_size(26)
+        ax.tick_params(labelsize=20);ax.tick_params(axis="x",labelrotation=40);ax.xaxis.label.set_size(24);ax.yaxis.label.set_size(24)
         ax.xaxis.set_major_locator(plt.MaxNLocator(2));ax.yaxis.set_major_locator(plt.MaxNLocator(2))
         ax.xaxis.set_major_formatter(FuncFormatter(lambda x,pos:f'{x:.1g}'))
         ax.yaxis.set_major_formatter(FuncFormatter(lambda x,pos:f'{x:.1g}'))
         for coll in ax.collections:coll.set_rasterized(True)
+    pair.fig.subplots_adjust(wspace=.25,hspace=.25)
     guardar(pair.fig,Path(str(prefix)+'_pares'))
 
 def actualizar_pares_archivados():
@@ -130,6 +131,7 @@ def actualizar_pares_archivados():
         names=[n for n in b.ORDEN if n in t.index and not bool(t.loc[n,'fijo'])]
         pares(d,t,names,OUT/r.run_id)
     path=OUT/'procedencia.json';m=json.loads(path.read_text(encoding='utf-8'))
+    m['implementacion']={k.replace('\\','/'):v for k,v in m['implementacion'].items()}
     m['ejes_pares']='(theta - mediana) / ancho HPDI 95%; transformación afín, q derivado omitido del diagrama de pares'
     m['implementacion']['orbix/informe_estandar.py']=hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
     path.write_text(json.dumps(m,indent=2,ensure_ascii=False),encoding='utf-8')
