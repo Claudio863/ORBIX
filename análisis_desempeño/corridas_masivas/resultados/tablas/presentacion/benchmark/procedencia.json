@@ -7,7 +7,7 @@
     "vigente": 36,
     "fase1": 4
   },
-  "segundos_reproceso": 10.587339499994414,
+  "segundos_reproceso": 6.566916199983098,
   "fuentes": {
     "análisis_desempeño\\corridas_masivas\\config\\referencias_comparacion.csv": "791cb75fbbe51c5c2e79dcef592e9f05e6aa6d43e70f17bbf8cc5a01970bc292",
     "análisis_desempeño\\corridas_masivas\\resultados\\draws\\2MASS_J05215658+4359220_SB1_fix_e\\datos_v1.csv": "a4626799a44f623891892c3a701884ba3a09dd1c3b207ee7a6a4fee2fe0d4789",
@@ -530,7 +530,7 @@
     "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\draws\\HIP89000_SB2_free\\sb2_K-20261028195605_4.csv": "32a6110c238b7827a672b56ad090d6e64f1f211b63f1a3cde7771d08e219e9a9",
     "análisis_desempeño\\corridas_masivas\\resultados\\observados_final_20261029\\tablas\\corridas.csv": "9f397e081c3e0564a68682d625528878934b105af68c086c51e85f347b4c91c0",
     "análisis_desempeño\\corridas_masivas\\resultados\\tablas\\corridas.csv": "6ed06a0384becf76e849404559effb9dd7d0f69b4c3a7b3a3e529e9820c72b7f",
-    "orbix\\benchmark.py": "6c2874e24b208816c3152699e98fc9c0551893dd7a4a3addfa98cdc6864ee76f"
+    "orbix\\benchmark.py": "eb32627dd59ddfe11cdcca38ac62f0d568f7367c67bf87b18aa5af01ee446d6e"
   },
   "regla": "Selección última versión por sistema/tipo/esquema; comparación de anchuras dentro de versión y datos.",
   "inferencia_ejecutada": false
