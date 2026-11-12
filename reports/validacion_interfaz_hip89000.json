@@ -1,0 +1,41 @@
+{
+  "sistema": "HIP89000",
+  "esquema": "free",
+  "corridas_desde_interfaz": [
+    {
+      "run_id": "HIP89000_SB1_free",
+      "modelo": "sb1_K",
+      "estado": "ok",
+      "N_v1": 54,
+      "semilla": 20261005,
+      "n_inicios": 200,
+      "n_inicios_ok": 200,
+      "n_muestras": 4000,
+      "chi2_red": 0.9743341875258139,
+      "R_hat_max": 1.0054767331235221,
+      "divergencias": 0,
+      "ESS_bulk_min": 2125.113335505463,
+      "ESS_tail_min": 2065.984049742814,
+      "ebfmi_min": 0.9396753691215849,
+      "treedepth_max": 0
+    },
+    {
+      "run_id": "HIP89000_SB2_free",
+      "modelo": "sb2_K",
+      "estado": "ok",
+      "N_v1": 54,
+      "N_v2": 53,
+      "semilla": 20261005,
+      "n_inicios": 300,
+      "n_inicios_ok": 300,
+      "n_muestras": 4000,
+      "chi2_red": 0.9807504071432274,
+      "R_hat_max": 1.002263671642288,
+      "divergencias": 0,
+      "ESS_bulk_min": 1645.3072562233544,
+      "ESS_tail_min": 2156.2156163092213,
+      "ebfmi_min": 1.0078559350412108,
+      "treedepth_max": 0
+    }
+  ]
+}

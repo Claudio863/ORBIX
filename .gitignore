@@ -28,3 +28,6 @@ bibliografia/
 revision_bibliografica/
 *.tex
 *.bib
+
+# Interactive user runs are local and isolated from archived experiments.
+app/resultados/

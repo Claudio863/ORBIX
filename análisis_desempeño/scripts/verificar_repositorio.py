@@ -38,7 +38,8 @@ def main():
     inference=nbformat.read(ROOT/'análisis_desempeño/corridas_masivas/01_corrida_masiva.ipynb',as_version=4)
     assert 'RUN_INFERENCE = False' in '\n'.join(c.source for c in inference.cells)
     for path in ROOT.rglob('*'):
-        if '.git' in path.parts or '__pycache__' in path.parts: continue
+        if '.git' in path.parts or '__pycache__' in path.parts or '.build' in path.parts: continue
+        if path.is_relative_to(ROOT/'app/resultados'): continue
         if path.is_file():
             assert path.suffix.lower() not in ['.tex','.bib','.exe','.dll','.pyc','.log'],str(path.relative_to(ROOT))
             assert path.stat().st_size<100*1024**2,str(path.relative_to(ROOT))

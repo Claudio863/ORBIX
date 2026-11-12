@@ -1,0 +1,63 @@
+sistema,tipo,parametro,fuente,intervalo_lit,redondeo_intervalo,solapamiento_descriptivo
+2MASS_J05215658+4359220,SB1,P,Thompson2019,error ± publicado,False,True
+2MASS_J05215658+4359220,SB1,T,Thompson2019,error ± publicado,False,True
+2MASS_J05215658+4359220,SB1,e,Thompson2019,error ± publicado,False,True
+2MASS_J05215658+4359220,SB1,w_deg,Thompson2019,error ± publicado,False,True
+2MASS_J05215658+4359220,SB1,V0,Thompson2019,error ± publicado,False,True
+2MASS_J05215658+4359220,SB1,K,Thompson2019,error ± publicado,False,True
+HD170582,SB1,P,Mennickent2015,isofota 1 sigma,False,True
+HD170582,SB1,T,Mennickent2015,isofota 1 sigma,False,True
+HD170582,SB1,e,Mennickent2015,isofota 1 sigma,False,True
+HD170582,SB1,w_deg,Mennickent2015,isofota 1 sigma,False,True
+HD170582,SB1,V0,Mennickent2015,isofota 1 sigma,False,True
+HD170582,SB1,K,Mennickent2015,isofota 1 sigma,False,True
+HD50526,SB1,P,Rosales2021,isofota 1 sigma,False,True
+HD50526,SB1,T,Rosales2021,isofota 1 sigma,False,True
+HD50526,SB1,e,Rosales2021,isofota 1 sigma,False,True
+HD50526,SB1,w_deg,Rosales2021,isofota 1 sigma,False,True
+HD50526,SB1,V0,Rosales2021,isofota 1 sigma,False,True
+HD50526,SB1,K,Rosales2021,isofota 1 sigma,False,True
+HIP109951,SB1,P,Videla2022,HPDI 95%,False,True
+HIP109951,SB1,T,Videla2022,HPDI 95%,False,True
+HIP109951,SB1,e,Videla2022,HPDI 95%,False,True
+HIP109951,SB1,w_deg,Videla2022,HPDI 95%,False,True
+HIP109951,SB1,V0,Videla2022,HPDI 95%,False,True
+HIP109951,SB1,K,Tokovinin2018,error formal 1 sigma,False,True
+HIP117186,SB2,P,Videla2022,HPDI 95%,True,
+HIP117186,SB2,T,Videla2022,HPDI 95%,False,True
+HIP117186,SB2,e,Videla2022,HPDI 95%,False,True
+HIP117186,SB2,w_deg,Videla2022,HPDI 95%,False,False
+HIP117186,SB2,V0,Videla2022,HPDI 95%,False,False
+HIP117186,SB2,K1,Halbwachs2016,error formal 1 sigma,False,True
+HIP117186,SB2,K2,Halbwachs2016,error formal 1 sigma,False,True
+HIP117186,SB2,q,Videla2022,HPDI 95%,False,True
+HIP14157,SB2,P,Videla2022,HPDI 95%,True,
+HIP14157,SB2,T,Videla2022,HPDI 95%,False,True
+HIP14157,SB2,e,Videla2022,HPDI 95%,False,True
+HIP14157,SB2,w_deg,Videla2022,HPDI 95%,False,True
+HIP14157,SB2,V0,Videla2022,HPDI 95%,False,True
+HIP14157,SB2,K1,Halbwachs2016,error formal 1 sigma,False,True
+HIP14157,SB2,K2,Halbwachs2016,error formal 1 sigma,False,True
+HIP14157,SB2,q,Videla2022,HPDI 95%,False,True
+HIP20601,SB2,P,Videla2022,HPDI 95%,True,
+HIP20601,SB2,T,Videla2022,HPDI 95%,True,
+HIP20601,SB2,e,Videla2022,HPDI 95%,False,True
+HIP20601,SB2,w_deg,Videla2022,HPDI 95%,False,True
+HIP20601,SB2,V0,Videla2022,HPDI 95%,False,False
+HIP20601,SB2,K1,Halbwachs2016,error formal 1 sigma,False,True
+HIP20601,SB2,K2,Halbwachs2016,error formal 1 sigma,False,True
+HIP20601,SB2,q,Videla2022,HPDI 95%,False,False
+HIP89000,SB1,P,Videla2022,HPDI 95%,False,True
+HIP89000,SB1,T,Videla2022,HPDI 95%,False,True
+HIP89000,SB1,e,Videla2022,HPDI 95%,False,True
+HIP89000,SB1,w_deg,Videla2022,HPDI 95%,False,True
+HIP89000,SB1,V0,Videla2022,HPDI 95%,False,True
+HIP89000,SB1,K,Mendez2017,error ± publicado,False,True
+HIP89000,SB2,P,Videla2022,HPDI 95%,False,True
+HIP89000,SB2,T,Videla2022,HPDI 95%,False,True
+HIP89000,SB2,e,Videla2022,HPDI 95%,False,True
+HIP89000,SB2,w_deg,Videla2022,HPDI 95%,False,True
+HIP89000,SB2,V0,Videla2022,HPDI 95%,False,True
+HIP89000,SB2,K1,Mendez2017,error ± publicado,False,True
+HIP89000,SB2,K2,Mendez2017,error ± publicado,False,True
+HIP89000,SB2,q,Videla2022,HPDI 95%,False,True

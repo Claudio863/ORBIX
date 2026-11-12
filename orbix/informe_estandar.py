@@ -19,7 +19,7 @@ def guardar(fig,path):
     for ext in ['pdf','png']:fig.savefig(path.with_suffix('.'+ext),bbox_inches='tight',dpi=180)
     plt.close(fig)
 
-def corrida(cat,rid):
+def corrida(cat,rid,solo_marginales=False):
     m=cat.meta(rid);table=cat.parametros[cat.parametros.run_id.eq(rid)].set_index('parametro')
     d=cat.draws_de(rid);data=cat.datos_de(rid)
     point=table.MAP.to_dict()
@@ -35,13 +35,25 @@ def corrida(cat,rid):
         for ax,n in zip(axs.flat,names):
             x=shown[labels[n]].values;q=table.loc[n];shift=origin if n=='T' else 0
             sns.histplot(x=x,stat='density',kde=True,color='tab:blue',alpha=.4,edgecolor=None,ax=ax)
-            ax.axvline(q.MAP-shift,c='red',lw=1)
+            value=float(q.MAP-shift)
+            ax.axvline(value,c='red',lw=1)
+            # Keep the label in a fixed clear corner; the arrow ties it to the
+            # joint-sample coordinate, never a separately computed median.
+            lo,hi=ax.get_xlim()
+            value_text=np.format_float_positional(value, precision=8, unique=False, fractional=False, trim='-')
+            right=value <= (lo+hi)/2
+            ax.annotate(value_text,xy=(value,.76),xycoords=('data','axes fraction'),
+                        xytext=(.97 if right else .03,.96),textcoords='axes fraction',
+                        ha='right' if right else 'left',va='top',fontsize=17,color='darkred',
+                        bbox=dict(facecolor='white',edgecolor='none',alpha=.88,pad=1.2),
+                        arrowprops=dict(arrowstyle='-',color='darkred',lw=.65))
             ymax=ax.get_ylim()[1];ax.hlines(.07*ymax,q.hpdi_inf-shift,q.hpdi_sup-shift,color='black',lw=3)
             ax.set_xlabel(labels[n]);ax.set_ylabel('');ax.set_yticks([])
             ax.ticklabel_format(style='plain',useOffset=False,axis='x');ax.xaxis.set_major_locator(plt.MaxNLocator(3))
             ax.tick_params(labelsize=12)
         for ax in list(axs.flat)[len(names):]:ax.set_visible(False)
         guardar(fig,Path(str(prefix)+'_marginales'))
+        if solo_marginales:return
         pares(d,table,names,prefix)
         phase=np.linspace(0,1,1500)
         alltime=np.concatenate([x.epoch.values for x in data.values()])
@@ -57,7 +69,7 @@ def corrida(cat,rid):
                 xx=rv.fase(x.epoch.values,point['P'],point['T']) if mode=='fase' else x.epoch.values
                 tt=point['T']+phase*point['P'] if mode=='fase' else grid
                 gx=phase if mode=='fase' else grid
-                ax.errorbar(xx,x.RV,yerr=x.err,fmt=marker,ms=4,c='black' if m.tipo=='SB1' else color,lw=.8,label='Observaciones' if m.tipo=='SB1' else comp)
+                ax.errorbar(xx,x.RV,yerr=x.err,fmt=marker,ms=4,c='black' if m.tipo=='SB1' else color,lw=.8,label='Observaciones' if m.tipo=='SB1' else {'v1':'Primaria','v2':'Secundaria'}[comp])
                 ax.plot(gx,rv.curvas(point,tt,m.tipo)[comp],c=color,lw=1.2)
             ax.set_xlabel('Fase orbital' if mode=='fase' else 'Época ['+str(m.epoch_format_work)+']')
             ax.set_ylabel('Velocidad radial (km/s)');ax.legend(fontsize=11);ax.tick_params(labelsize=13)
@@ -72,7 +84,7 @@ def generar(cat):
         print('Formato estándar:',m.run_id_original,flush=True)
         records.append(corrida(cat,m.run_id))
     sources=[Path(__file__),b.ROOT/'app/src/stan_analysis.py',b.ROOT/'orbix/rv.py']
-    result=dict(corridas=records,ejes_pares='(theta - mediana) / ancho HPDI 95%; transformación afín',inferencia_ejecutada=False,formato='Marginales y correlaciones de la aplicación; RV en fase y tiempo',implementacion={str(p.relative_to(b.ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in sources})
+    result=dict(rotulos_marginales='Coordenada de la muestra conjunta de mayor lp__ retenido; T menos el origen declarado; 8 cifras significativas',corridas=records,ejes_pares='(theta - mediana) / ancho HPDI 95%; transformación afín',inferencia_ejecutada=False,formato='Marginales y correlaciones de la aplicación; RV en fase y tiempo',implementacion={str(p.relative_to(b.ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in sources})
     (OUT/'procedencia.json').write_text(json.dumps(result,indent=2,ensure_ascii=False),encoding='utf-8')
     return result
 
@@ -93,7 +105,7 @@ def generar_residuos_desde_tablas():
                 if c not in data:continue
                 d=data[c];f=rv.fase(d.epoch.values,p['P'],p['T'])
                 pred=rv.curvas(p,d.epoch.values,r.tipo)[c]
-                ax[0].errorbar(f,d.RV,yerr=d.err,fmt='o',ms=3,c=color,lw=.7,label=c)
+                ax[0].errorbar(f,d.RV,yerr=d.err,fmt='o',ms=3,c=color,lw=.7,label='Observaciones' if r.tipo=='SB1' else {'v1':'Primaria','v2':'Secundaria'}[c])
                 ax[0].plot(phase,rv.curvas(p,p['T']+phase*p['P'],r.tipo)[c],c=color,lw=1)
                 ax[1].scatter(f,(d.RV-pred)/d.err,s=12,c=color)
             ax[0].legend();ax[1].axhline(0,c='0.4',lw=.8);ax[1].axhspan(-3,3,color='0.5',alpha=.1)
@@ -135,3 +147,60 @@ def actualizar_pares_archivados():
     m['ejes_pares']='(theta - mediana) / ancho HPDI 95%; transformación afín, q derivado omitido del diagrama de pares'
     m['implementacion']['orbix/informe_estandar.py']=hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
     path.write_text(json.dumps(m,indent=2,ensure_ascii=False),encoding='utf-8')
+
+
+def actualizar_paneles_archivados():
+    """Refresh current marginals and RV labels without inference or pair plots."""
+    from . import resumen
+    from types import SimpleNamespace
+    table=pd.read_csv(b.SALIDA/'parametros_reprocesados_todas_versiones.csv')
+    meta=pd.read_csv(b.RAIZ/'resultados/observados_final_20261029/tablas/corridas.csv')
+    for row in meta.itertuples():
+        folder=b.RAIZ/'resultados/observados_final_20261029/draws'/row.run_id
+        data={c:pd.read_csv(folder/f'datos_{c}.csv') for c in ['v1','v2'] if (folder/f'datos_{c}.csv').exists()}
+        origin=min(x.epoch.min() for x in data.values())
+        draws=resumen.recentrar_circulares(resumen.leer_draws(folder),origin)
+        t=table[table.run_id.eq(row.run_id+'__vigente')].copy()
+        m=SimpleNamespace(**row._asdict(),run_id_original=row.run_id)
+        cat=SimpleNamespace(meta=lambda rid:m,parametros=t,draws_de=lambda rid:draws,datos_de=lambda rid:data)
+        corrida(cat,row.run_id+'__vigente',solo_marginales=True)
+        # Regenerate RV panels with the same archived joint coordinates.
+        point=t.set_index('parametro').MAP.to_dict()
+        phase=np.linspace(0,1,1500)
+        alltime=np.concatenate([x.epoch.values for x in data.values()])
+        grid=np.unique(np.r_[np.linspace(alltime.min(),alltime.max(),min(100000,max(2000,int(np.ptp(alltime)/point['P']*150)))),alltime])
+        for mode in ['fase','tiempo']:
+            fig,ax=plt.subplots(figsize=(10,4.8),layout='constrained')
+            for comp,color,marker in [('v1','tab:blue','o'),('v2','tab:red','^')]:
+                if comp not in data:continue
+                x=data[comp]
+                xx=rv.fase(x.epoch.values,point['P'],point['T']) if mode=='fase' else x.epoch.values
+                tt=point['T']+phase*point['P'] if mode=='fase' else grid
+                ax.errorbar(xx,x.RV,yerr=x.err,fmt=marker,ms=4,c='black' if row.tipo=='SB1' else color,lw=.8,label='Observaciones' if row.tipo=='SB1' else {'v1':'Primaria','v2':'Secundaria'}[comp])
+                ax.plot(phase if mode=='fase' else grid,rv.curvas(point,tt,row.tipo)[comp],c=color,lw=1.2)
+            ax.set_xlabel('Fase orbital' if mode=='fase' else 'Época ['+str(row.epoch_format_work)+']')
+            ax.set_ylabel('Velocidad radial (km/s)');ax.legend(fontsize=11);ax.tick_params(labelsize=13)
+            guardar(fig,Path(str(OUT/row.run_id)+'_'+mode))
+        print(row.run_id,flush=True)
+    path=OUT/'procedencia.json';m=json.loads(path.read_text(encoding='utf-8'))
+    m['rotulos_marginales']='Coordenada de la muestra conjunta de mayor lp__ retenido; T muestra T menos el origen declarado; 8 cifras significativas'
+    m['implementacion']['orbix/informe_estandar.py']=hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
+    path.write_text(json.dumps(m,indent=2,ensure_ascii=False),encoding='utf-8')
+    generar_residuos_desde_tablas()
+
+
+def generar_exploratorias():
+    """Input RV series from the same current observed data; no fit curves."""
+    dest=b.RAIZ/'figuras/exploracion_vigente';dest.mkdir(parents=True,exist_ok=True)
+    for kind in ['SB1','SB2']:
+        folder=b.RAIZ/f'resultados/observados_final_20261029/draws/HIP89000_{kind}_free'
+        with plt.rc_context({'font.size':13,'pdf.fonttype':42}):
+            fig,ax=plt.subplots(figsize=(10,5),layout='constrained')
+            for comp,color,marker in [('v1','#0072B2','o'),('v2','#D55E00','^')]:
+                path=folder/f'datos_{comp}.csv'
+                if not path.exists():continue
+                x=pd.read_csv(path)
+                ax.errorbar(x.epoch,x.RV,yerr=x.err,fmt=marker,ms=4,lw=.8,color=color,label={'v1':'Primaria','v2':'Secundaria'}[comp])
+            ax.set_xlabel('Época (año besseliano)');ax.set_ylabel('Velocidad radial (km/s)');ax.legend()
+            guardar(fig,dest/f'HIP89000_{kind}_datos')
+    return dest

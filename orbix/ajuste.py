@@ -253,7 +253,7 @@ def _optimizar(model, **kwargs):
 
 
 def correr(cfg: pd.Series, esquema: str, priors: pd.DataFrame, rutas: Rutas, aj: Ajustes,
-           log=print) -> dict:
+           log=print, *, etapa="completa", progreso=None) -> dict:
     """Corre un (sistema, tipo, esquema) completo y persiste resultados. Nunca lanza excepción:
     devuelve un registro con 'estado' = 'ok' | 'fallo' y 'motivo'."""
     rid = run_id(cfg.sistema, cfg.tipo, esquema)
@@ -291,6 +291,8 @@ def correr(cfg: pd.Series, esquema: str, priors: pd.DataFrame, rutas: Rutas, aj:
         reg["priors"] = " | ".join(p["prior_resuelto"] for p in reg_priors)
 
         # 4) modelo
+        if progreso is not None:
+            progreso("Preparando el modelo Stan", 0, 0)
         model = modelos.compilar(cfg.tipo, esquema, rutas.stan, rutas.build)
 
         # 5) L-BFGS multi-arranque (mejor solución por lp__)
@@ -301,70 +303,103 @@ def correr(cfg: pd.Series, esquema: str, priors: pd.DataFrame, rutas: Rutas, aj:
         n_ini = aj.n_inicios_SB1 if cfg.tipo == "SB1" else aj.n_inicios_SB2
         fix_P, fix_e = modelos.fijos(esquema)
         out = rutas.draws / rid
-        if out.exists():
-            shutil.rmtree(out)
-        out.mkdir(parents=True)
-        # Persistir entradas antes de ejecutar: también quedan disponibles si falla NUTS.
-        for c, d in comps.items():
-            d.to_csv(out / f"datos_{c}.csv", index=False)
-        (out / 'datos_stan.json').write_text(json.dumps({k:(v.tolist() if hasattr(v,'tolist') else v)
-            for k,v in data.items()},indent=1),encoding='utf-8')
-        plan = sols = None
-        global_ = aj.siembra_P == "global" and not fix_P
-        reg["siembra_P"] = aj.siembra_P if not fix_P else "P_fijo"
-        if global_:
-            bg = busqueda_global(cfg, comps, pinfo, aj)
-            plan = periodo.plan_semillas(n_ini, bg["picos"], bg["Pmin_d"], bg["Pmax_d"], bg["base_d"], aj.frac_picos)
-            sols = bg["soluciones"]
-            bg["tabla"].to_csv(out / "periodograma.csv", index=False)
-            pk = bg["picos"].assign(**{f"sol_{k}": [sols[f"pico_{j + 1}"][k] for j in range(len(bg["picos"]))]
-                                       for k in sols["pico_1"]})
-            pk.to_csv(out / "picos_periodo.csv", index=False)
-            if not bg["refinamiento"].empty:
-                bg["refinamiento"].to_csv(out / "refinamiento_picos.csv", index=False)
-            reg.update(P_pico1_d=float(bg["picos"].P_d.iloc[0]),
-                       picos_P_d=" ".join(f"{x:.6g}" for x in bg["picos"].P_d))
-        u_work = fechas.unidad_periodo(cfg.epoch_format_work)
-        gen = _generador_inicios(rng, cfg.tipo, esquema, comps, geo, P_ini, e_lit, data, plan=plan, soluciones=sols,
-                                 dias_a_work=lambda x: float(fechas.convertir_duracion(x, "d", u_work)))
-        best, ok = None, 0
-        ultimo_error = ""
-        bitacora = []
-        for i in range(n_ini):
-            ini, info = gen(i)
-            info["semilla_cmdstan"] = int(rng.integers(1, 2**31 - 1))
-            try:
-                d = _optimizar(model, data=data, inits=ini, algorithm=aj.algoritmo, iter=aj.iter_opt,
-                                   tol_obj=aj.tol_obj, tol_grad=aj.tol_grad, tol_param=aj.tol_param,
-                                   history_size=aj.history_size, require_converged=False, show_console=False,
-                                   seed=info["semilla_cmdstan"], sig_figs=aj.sig_figs,
-                                   timeout=aj.extra.get('timeout_opt'))
-            except Exception as exc:
-                ultimo_error = f"{type(exc).__name__}: {exc}"
-                bitacora.append(dict(info, ok=False, error=ultimo_error[:200]))
-                continue
-            finito = bool(np.all(np.isfinite(list(d.values()))))
-            bitacora.append(dict(info, ok=finito, lp=d.get("lp__"), P_final=d.get("P"), e_final=d.get("e")))
-            if not finito:
-                continue
-            ok += 1
-            if best is None or d["lp__"] > best["lp__"]:
-                best = d
-        bita = pd.DataFrame(bitacora)
-        bita["P_unidad"] = u_work
-        bita.to_csv(out / "inicios_lbfgs.csv", index=False)
-        reg.update(n_inicios=n_ini, n_inicios_ok=ok)
-        if best is None:
-            raise RuntimeError("ninguna optimización L-BFGS terminó con valores finitos"
-                               + (f"; ultimo error: {ultimo_error}" if ultimo_error else ""))
-        reg.update(lp_lbfgs=float(best["lp__"]),
-                   **{f"lbfgs_{k}": float(best[k]) for k in resumen.PARAMS_SALIDA[cfg.tipo] if k in best})
-        k_libres = 4 + (not fix_P) + (not fix_e) + (cfg.tipo == "SB2")
-        reg["chi2_red_lbfgs"] = _chi2_red(best, comps, cfg.tipo, k_libres)
-        (out/'mejor_lbfgs.json').write_text(json.dumps(best,indent=2),encoding='utf-8')
-        if bitacora and "lp" in bita:
-            i_best = int(bita.lp.astype(float).idxmax())
-            reg["origen_mejor_inicio"] = bita.origen[i_best]
+        if etapa == "muestreo":
+            previo = json.loads((out/"preliminar.json").read_text(encoding="utf-8"))
+            reg.update(previo["registro"], estado="fallo")
+            best = previo["candidatos"][0]["parametros"]
+            rng.bit_generator.state = previo["rng"]
+            data = json.loads((out/"datos_stan.json").read_text(encoding="utf-8"))
+        else:
+            if out.exists():
+                shutil.rmtree(out)
+            out.mkdir(parents=True)
+            # Persistir entradas antes de ejecutar: también quedan disponibles si falla NUTS.
+            for c, d in comps.items():
+                d.to_csv(out / f"datos_{c}.csv", index=False)
+            (out / 'datos_stan.json').write_text(json.dumps({k:(v.tolist() if hasattr(v,'tolist') else v)
+                for k,v in data.items()},indent=1),encoding='utf-8')
+            plan = sols = None
+            global_ = aj.siembra_P == "global" and not fix_P
+            reg["siembra_P"] = aj.siembra_P if not fix_P else "P_fijo"
+            if global_:
+                if progreso is not None:
+                    progreso("Buscando y refinando períodos candidatos", 0, 0)
+                bg = busqueda_global(cfg, comps, pinfo, aj)
+                plan = periodo.plan_semillas(n_ini, bg["picos"], bg["Pmin_d"], bg["Pmax_d"], bg["base_d"], aj.frac_picos)
+                sols = bg["soluciones"]
+                bg["tabla"].to_csv(out / "periodograma.csv", index=False)
+                pk = bg["picos"].assign(**{f"sol_{k}": [sols[f"pico_{j + 1}"][k] for j in range(len(bg["picos"]))]
+                                           for k in sols["pico_1"]})
+                pk.to_csv(out / "picos_periodo.csv", index=False)
+                if not bg["refinamiento"].empty:
+                    bg["refinamiento"].to_csv(out / "refinamiento_picos.csv", index=False)
+                reg.update(P_pico1_d=float(bg["picos"].P_d.iloc[0]),
+                           picos_P_d=" ".join(f"{x:.6g}" for x in bg["picos"].P_d))
+            u_work = fechas.unidad_periodo(cfg.epoch_format_work)
+            gen = _generador_inicios(rng, cfg.tipo, esquema, comps, geo, P_ini, e_lit, data, plan=plan, soluciones=sols,
+                                     dias_a_work=lambda x: float(fechas.convertir_duracion(x, "d", u_work)))
+            best, ok = None, 0
+            ultimo_error = ""
+            bitacora = []
+            candidatos = []
+            for i in range(n_ini):
+                if progreso is not None:
+                    progreso("Optimización L-BFGS", i, n_ini)
+                ini, info = gen(i)
+                info["semilla_cmdstan"] = int(rng.integers(1, 2**31 - 1))
+                try:
+                    d = _optimizar(model, data=data, inits=ini, algorithm=aj.algoritmo, iter=aj.iter_opt,
+                                       tol_obj=aj.tol_obj, tol_grad=aj.tol_grad, tol_param=aj.tol_param,
+                                       history_size=aj.history_size, require_converged=False, show_console=False,
+                                       seed=info["semilla_cmdstan"], sig_figs=aj.sig_figs,
+                                       timeout=aj.extra.get('timeout_opt'))
+                except Exception as exc:
+                    ultimo_error = f"{type(exc).__name__}: {exc}"
+                    bitacora.append(dict(info, ok=False, error=ultimo_error[:200]))
+                    if '[WinError 4551]' in ultimo_error:
+                        pd.DataFrame(bitacora).to_csv(out / 'inicios_lbfgs.csv', index=False)
+                        reg.update(n_inicios=n_ini, n_inicios_intentados=i+1,
+                                   n_inicios_ok=ok, fallo_entorno=True)
+                        raise RuntimeError('Windows bloqueó el ejecutable de Stan '
+                                           '(Control de aplicaciones, WinError 4551). '
+                                           'No se pudo evaluar el modelo; no es un fallo de convergencia.') from exc
+                    continue
+                finito = bool(np.all(np.isfinite(list(d.values()))))
+                bitacora.append(dict(info, ok=finito, lp=d.get("lp__"), P_final=d.get("P"), e_final=d.get("e")))
+                if not finito:
+                    continue
+                if etapa == "preliminar":
+                    candidatos.append(dict(arranque=i+1, origen=info["origen"], parametros=d))
+                ok += 1
+                if best is None or d["lp__"] > best["lp__"]:
+                    best = d
+            if progreso is not None:
+                progreso("Preparando resultados", n_ini, n_ini)
+            bita = pd.DataFrame(bitacora)
+            bita["P_unidad"] = u_work
+            bita.to_csv(out / "inicios_lbfgs.csv", index=False)
+            reg.update(n_inicios=n_ini, n_inicios_ok=ok)
+            if best is None:
+                raise RuntimeError("ninguna optimización L-BFGS terminó con valores finitos"
+                                   + (f"; ultimo error: {ultimo_error}" if ultimo_error else ""))
+            reg.update(lp_lbfgs=float(best["lp__"]),
+                       **{f"lbfgs_{k}": float(best[k]) for k in resumen.PARAMS_SALIDA[cfg.tipo] if k in best})
+            k_libres = 4 + (not fix_P) + (not fix_e) + (cfg.tipo == "SB2")
+            reg["chi2_red_lbfgs"] = _chi2_red(best, comps, cfg.tipo, k_libres)
+            (out/'mejor_lbfgs.json').write_text(json.dumps(best,indent=2),encoding='utf-8')
+            if bitacora and "lp" in bita:
+                i_best = int(bita.lp.astype(float).idxmax())
+                reg["origen_mejor_inicio"] = bita.origen[i_best]
+
+            if etapa == "preliminar":
+                for candidato in candidatos:
+                    candidato["chi2_red"] = _chi2_red(candidato["parametros"], comps, cfg.tipo, k_libres)
+                candidatos.sort(key=lambda c: c["parametros"]["lp__"], reverse=True)
+                reg.update(estado="preliminar", motivo="")
+                (out/"preliminar.json").write_text(json.dumps(
+                    dict(candidatos=candidatos, rng=rng.bit_generator.state, registro=reg),
+                    default=lambda x: x.item()), encoding="utf-8")
+                return dict(registro=reg, resumen=None, chi2=None, priors=reg_priors)
 
         # 6) NUTS, guardando las cadenas
         fit = model.sample(data=data, chains=aj.cadenas, parallel_chains=aj.cadenas,

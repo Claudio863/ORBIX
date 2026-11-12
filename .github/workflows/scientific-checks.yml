@@ -14,5 +14,7 @@ jobs:
       - name: Numerical and circular-summary checks
         working-directory: .
         run: python -m unittest discover -s análisis_desempeño/corridas_masivas/tests -v
+      - name: Interactive workflow tests
+        run: python -m unittest discover -s app/tests -v
       - name: Read-only simulation audit
         run: python análisis_desempeño/scripts/verificar_repositorio.py

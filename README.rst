@@ -1,9 +1,9 @@
 ORBIX
 =====
 
-Keplerian radial-velocity inference for spectroscopic binaries. Release 0.4.1
-includes a Streamlit interface, an independent performance study, all observed
-and simulated numerical results, and executed notebooks.
+Keplerian radial-velocity inference for spectroscopic binaries. This repository
+includes a Streamlit interface, a performance study, archived numerical results
+and executed notebooks. Tag v0.4.1 identifies the archived study release.
 
 Repository layout
 -----------------
@@ -22,11 +22,43 @@ Repository layout
         docs/                     Scientific documentation
         reports/                  Verification reports and manifests
 
-Both areas import the root orbix package and use modelos. The inherited
-interface retains its historical statistical parameterization; relocation does
-not establish equivalence to the validated thesis pipeline (sb1_K/sb2_K).
+Both areas import the root orbix package and use modelos. The current Streamlit
+app calls ``orbix.ajuste.correr`` through ``app/servicio.py`` and uses
+the same sb1_K/sb2_K models as the performance notebooks. SB2 estimates K1
+and K2 directly and derives q = K1/K2 for every joint posterior sample.
 The shared C++ template remains immutable: model-specific headers are prepared
-in build directories. Mathematical changes are not part of this reorganization.
+in build directories. Interactive fits compile private copies of the model
+and save their configuration, inputs, chains, diagnostics and provenance in
+``app/resultados/`` (local, ignored by Git). The archived experiments are separate.
+
+Interactive workflow
+--------------------
+
+Upload CSV files with ``epoch,RV,err`` columns, with velocities and uncertainties
+in km/s. Declare the epoch format, choose SB1 or SB2, then choose free P/e,
+fixed P, fixed e, or both fixed. Period search bounds and fixed periods are
+entered in days. Priors for the remaining parameters are configurable; the
+effective priors and data-derived amplitude bounds are shown before execution.
+K is free for SB1; K1/K2 are free for SB2. There is no independent prior for q.
+
+The default run uses global period initialization, 200 SB1 or 300 SB2 L-BFGS
+starts, and four NUTS chains with 1000 warmup and 1000 retained iterations each.
+Results include 95% HPDI intervals, orbital curves, normalized residuals and
+sampling diagnostics, with a downloadable ZIP. Successful execution and
+adequate residuals are distinct from satisfactory sampling diagnostics.
+
+In the app, configure the scheme, priors and execution in the sidebar.
+Select “Ejecutar optimización del sistema” to rank candidates and inspect
+curves and residuals. The optimization ZIP contains the observations, settings,
+L-BFGS records, candidates and run provenance. Continue with NUTS using the best saved candidate and its saved
+settings. Run a new preliminary fit to apply changes to the sidebar controls.
+Batch analysis is available in the performance notebooks.
+
+For the interactive example, use ``component_1.csv`` from
+``análisis_desempeño/corridas_masivas/data/HIP89000/`` for SB1. For SB2, add
+``component_2.csv``. Select Besselian years, free P and e, and a search window
+of 30–1000 days. The verified interface runs are summarized in
+``reports/validacion_interfaz_hip89000.json``.
 
 Installation
 ------------
@@ -61,6 +93,7 @@ Verification
 From the repository root::
 
     python -m unittest discover -s análisis_desempeño/corridas_masivas/tests -v
+    python -m unittest discover -s app/tests -v
     python análisis_desempeño/scripts/verificar_repositorio.py
 
 Scientific scope
@@ -87,5 +120,5 @@ Miguel Videla's attribution and Claudio Ignacio Gómez Mayorga's contributions.
 Articles, published observations and third-party illustrations retain their
 original rights; the software license does not relicense those materials.
 See docs/attribution.rst and the source identifiers in the numerical reference
-CSV. No public GitHub URL
-or archival DOI has been assigned by preparing this local repository.
+CSV. The public repository is https://github.com/Claudio863/ORBIX .
+No archival DOI is assigned here; local updates are not published automatically.
